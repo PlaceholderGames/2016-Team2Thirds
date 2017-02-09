@@ -1,0 +1,894 @@
+﻿Log file open, 12/01/16 13:09:39
+LogInit:Display: Running engine for game: thirdpersonmovement
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-411293117) SRandInit(-411293117).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.094341
+LogPluginManager: Loaded Plugin Paper2D, From Q:/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From Q:/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From Q:/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From Q:/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From Q:/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From Q:/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From Q:/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From Q:/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From Q:/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From Q:/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From Q:/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From Q:/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From Q:/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From Q:/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From Q:/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From Q:/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From Q:/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From Q:/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From Q:/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From Q:/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From Q:/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From Q:/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From Q:/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From Q:/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From Q:/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From Q:/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From Q:/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From Q:/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From Q:/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From Q:/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From Q:/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From Q:/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From Q:/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From Q:/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From Q:/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From Q:/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From Q:/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From Q:/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From Q:/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From Q:/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From Q:/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From Q:/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From Q:/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From Q:/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: Q:/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.01-13.09.39:511][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.01-13.09.39:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.01-13.09.39:533][  0]LogInit: Computer: DESKTOP-DSTVNAK
+[2016.12.01-13.09.39:533][  0]LogInit: User: Leon
+[2016.12.01-13.09.39:533][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.01-13.09.39:533][  0]LogInit: High frequency timer resolution =3.429605 MHz
+[2016.12.01-13.09.39:533][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.12.01-13.09.39:533][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.01-13.09.39:533][  0]LogMemory: Process Physical Memory: 256.18 MB used, 256.18 MB peak
+[2016.12.01-13.09.39:533][  0]LogMemory: Process Virtual Memory: 259.82 MB used, 259.82 MB peak
+[2016.12.01-13.09.39:533][  0]LogMemory: Physical Memory: 3795.98 MB used, 8094.93 MB total
+[2016.12.01-13.09.39:533][  0]LogMemory: Virtual Memory: 622.95 MB used, 134217728.00 MB total
+[2016.12.01-13.09.39:572][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.12.01-13.09.40:559][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.01-13.09.41:117][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.12.01-13.09.41:117][  0]LogD3D11RHI:       2016/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.01-13.09.41:121][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.01-13.09.41:121][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.01-13.09.41:121][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.01-13.09.41:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.01-13.09.41:127][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.01-13.09.41:127][  0]LogWindows: EnumDisplayDevices:
+[2016.12.01-13.09.41:128][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2016.12.01-13.09.41:128][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.12.01-13.09.41:128][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.12.01-13.09.41:129][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.12.01-13.09.41:129][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.01-13.09.41:129][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.12.01-13.09.41:129][  0]LogD3D11RHI:   Driver Version: 375.86 (internal:21.21.13.7586, unified:375.86)
+[2016.12.01-13.09.41:129][  0]LogD3D11RHI:      Driver Date: 11-10-2016
+[2016.12.01-13.09.41:129][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.01-13.09.41:639][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.01-13.09.41:690][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.12.01-13.09.41:691][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Intermediate/Shaders/WorkingDirectory/7048/).
+[2016.12.01-13.09.41:691][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leon/AppData/Local/Temp/UnrealShaderWorkingDir/FD451C5345AD8A8D8AC3DC973486F5C5/'.
+[2016.12.01-13.09.41:691][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.01-13.09.43:291][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.01-13.09.43:303][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.01-13.09.43:316][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.01-13.09.43:328][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.01-13.09.43:339][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.01-13.09.43:349][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.01-13.09.43:359][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.01-13.09.43:369][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.01-13.09.43:378][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.01-13.09.43:388][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.01-13.09.43:398][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.01-13.09.43:418][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.01-13.09.43:418][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.01-13.09.43:419][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.01-13.09.43:444][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.01-13.09.43:453][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.01-13.09.43:463][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.01-13.09.43:472][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.01-13.09.43:482][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.01-13.09.43:492][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.01-13.09.43:492][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.01-13.09.43:610][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.01-13.09.43:719][  0]LogDerivedDataCache: Loaded boot cache 0.11s 62MB C:/Users/Leon/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.01-13.09.43:720][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Leon/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.01-13.09.43:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.01-13.09.43:720][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.01-13.09.43:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.01-13.09.43:720][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.01-13.09.43:746][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.01-13.09.43:758][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.01-13.09.44:102][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.01-13.09.44:104][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.01-13.09.44:230][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.01-13.09.44:230][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.01-13.09.44:230][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.01-13.09.44:335][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.01-13.09.44:786][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: thirdpersonmovement, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 612843165
+[2016.12.01-13.09.44:830][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2016.12.01-13.09.44:923][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.088156 seconds
+[2016.12.01-13.09.44:928][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.01-13.09.44:928][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.12.01-13.09.44:928][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.01-13.09.44:937][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.01-13.09.45:216][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.01-13.09.45:216][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.01-13.09.46:600][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.01-13.09.46:626][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.01-13.09.46:961][  0]SourceControl: Info Source control is disabled
+[2016.12.01-13.09.46:964][  0]SourceControl: Info Source control is disabled
+[2016.12.01-13.09.46:981][  0]SourceControl: Info Source control is disabled
+[2016.12.01-13.09.46:995][  0]SourceControl: Info Source control is disabled
+[2016.12.01-13.09.47:434][  0]LogEngine: Initializing Engine...
+[2016.12.01-13.09.47:435][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.01-13.09.47:617][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.01-13.09.47:636][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.01-13.09.47:679][  0]LogInit: FAudioDevice initialized.
+[2016.12.01-13.09.47:738][  0]LogDerivedDataCache: Saved boot cache 0.06s 62MB C:/Users/Leon/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.01-13.09.47:754][  0]LogInit: Texture streaming: Enabled
+[2016.12.01-13.09.47:787][  0]LogInit: Transaction tracking system initialized
+[2016.12.01-13.09.47:819][  0]BlueprintLog: New page: Editor Load
+[2016.12.01-13.09.47:931][  0]LocalizationService: Info Localization service is disabled
+[2016.12.01-13.09.48:037][  0]LogConsoleResponse:Display: 
+[2016.12.01-13.09.48:195][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.01-13.09.48:195][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.01-13.09.48:460][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/' took 0.02s
+[2016.12.01-13.09.48:460][  0]SourceControl: Info Source control is disabled
+[2016.12.01-13.09.48:460][  0]Cmd: MAP LOAD FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.01-13.09.48:470][  0]LightingResults: New page: Lighting Build
+[2016.12.01-13.09.48:474][  0]MapCheck: New page: Map Check
+[2016.12.01-13.09.48:474][  0]LightingResults: New page: Lighting Build
+[2016.12.01-13.09.48:840][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.12.01-13.09.48:843][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.01-13.09.48:844][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.01-13.09.48:952][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 107.2ms to complete.
+[2016.12.01-13.09.48:952][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.492
+[2016.12.01-13.09.49:201][  0]LogCollectionManager: Loaded 0 collections in 0.007023 seconds
+[2016.12.01-13.09.49:266][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Collections/' took 0.01s
+[2016.12.01-13.09.49:266][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Developers/Leon/Collections/' took 0.01s
+[2016.12.01-13.09.49:266][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Collections/' took 0.01s
+[2016.12.01-13.09.49:266][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2016.12.01-13.09.49:294][  0]LogContentBrowser: Native class hierarchy populated in 0.0276 seconds. Added 2141 classes and 415 folders.
+[2016.12.01-13.09.49:302][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.01-13.09.49:302][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.01-13.09.49:303][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2016.12.01-13.09.49:312][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.12.01-13.09.50:169][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2016.12.01-13.09.50:337][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.12.01-13.09.50:380][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.01-13.09.50:387][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.01-13.09.50:417][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.12.01-13.09.50:418][  0]LogLoad: (Engine Initialization) Total time: 12.52 seconds
+[2016.12.01-13.09.50:418][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2016.12.01-13.09.50:418][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.12.01-13.09.50:427][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.01-13.09.50:427][  0]LogOcInput: OculusInput pre-init called
+[2016.12.01-13.09.50:448][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.01-13.09.50:891][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.12.01-13.09.51:058][  2]LogAssetRegistry: Asset discovery search completed in 6.2496 seconds
+[2016.12.01-13.09.51:058][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.01-13.09.51:058][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2016.12.01-13.11.19:978][682]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.12.01-13.16.53:678][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jog_bs" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Jog_bs.uasset" SILENT=true
+[2016.12.01-13.16.53:696][594]LogSavePackage: Save=16.67ms
+[2016.12.01-13.16.53:696][594]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Jog_bs93D2698247BA4816FC023DAEEBC10AF2.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Jog_bs.uasset'
+[2016.12.01-13.16.53:714][594]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Jog_bs.uasset
+[2016.12.01-13.16.55:734][807]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.12.01-13.21.00:546][985]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2016.12.01-13.21.27:107][232]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.018
+[2016.12.01-13.21.27:108][232]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Walk_bs] ([1] browsable assets)...
+[2016.12.01-13.21.27:150][232]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Walk_bs.Walk_bs]
+[2016.12.01-13.21.27:150][232]OBJ SavePackage: Finished generating thumbnails for package [/Game/Walk_bs]
+[2016.12.01-13.21.27:150][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walk_bs" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Walk_bs_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.01-13.21.27:200][232]LogSavePackage: Save=15.32ms
+[2016.12.01-13.21.27:200][232]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Walk_bs_Auto1939012724D4E7ECE1EB9439C04BB33D6.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Walk_bs_Auto1.uasset'
+[2016.12.01-13.21.27:210][232]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Walk_bs_Auto1.uasset
+[2016.12.01-13.21.27:210][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walk_bs2" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Walk_bs2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.01-13.21.27:212][232]LogSavePackage: Save=1.08ms
+[2016.12.01-13.21.27:212][232]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Walk_bs2_Auto1F2F1B0E5428DF46F8B05F99E790AACDE.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Walk_bs2_Auto1.uasset'
+[2016.12.01-13.21.27:214][232]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Walk_bs2_Auto1.uasset
+[2016.12.01-13.21.27:214][232]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Jog_bs] ([1] browsable assets)...
+[2016.12.01-13.21.27:214][232]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jog_bs]
+[2016.12.01-13.21.27:214][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jog_bs" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Jog_bs_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.01-13.21.27:228][232]LogSavePackage: Save=4.62ms
+[2016.12.01-13.21.27:228][232]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Jog_bs_Auto16D04CFFD4C5A08C3F5CD21A01D436DD3.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Jog_bs_Auto1.uasset'
+[2016.12.01-13.21.27:229][232]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Jog_bs_Auto1.uasset
+[2016.12.01-13.21.27:230][232]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Crouch_bs] ([1] browsable assets)...
+[2016.12.01-13.21.27:269][232]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Crouch_bs.Crouch_bs]
+[2016.12.01-13.21.27:270][232]OBJ SavePackage: Finished generating thumbnails for package [/Game/Crouch_bs]
+[2016.12.01-13.21.27:270][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Crouch_bs" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Crouch_bs_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.01-13.21.27:285][232]LogSavePackage: Save=14.54ms
+[2016.12.01-13.21.27:286][232]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Crouch_bs_Auto19F8A632B433E2EC36DA126BC4B38FE14.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Crouch_bs_Auto1.uasset'
+[2016.12.01-13.21.27:287][232]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/Crouch_bs_Auto1.uasset
+[2016.12.01-13.21.27:287][232]LogFileHelpers: Auto-saving content packages took 0.180
+[2016.12.01-13.23.57:339][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Crouch_bs" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Crouch_bs.uasset" SILENT=true
+[2016.12.01-13.23.57:355][596]LogSavePackage: Save=14.44ms
+[2016.12.01-13.23.57:355][596]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Crouch_bs4FA8A457481EF461313DEDAA856B78E1.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Crouch_bs.uasset'
+[2016.12.01-13.23.57:358][596]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Crouch_bs.uasset
+[2016.12.01-13.25.17:888][666]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2016.12.01-13.25.18:861][666]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2016.12.01-13.31.45:017][ 81]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.042
+[2016.12.01-13.31.45:019][ 81]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAnimationblueprint] ([1] browsable assets)...
+[2016.12.01-13.31.45:058][ 81]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/MyAnimationblueprint.MyAnimationblueprint]
+[2016.12.01-13.31.45:058][ 81]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAnimationblueprint]
+[2016.12.01-13.31.45:083][ 81]LogSavePackage: Save=18.43ms
+[2016.12.01-13.31.45:083][ 81]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint_Auto23B1AD3D74F5AD99579D109925C0FA4AE.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto2.uasset'
+[2016.12.01-13.31.45:084][ 81]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto2.uasset
+[2016.12.01-13.31.45:084][ 81]LogFileHelpers: Auto-saving content packages took 0.067
+[2016.12.01-13.39.47:107][697]BlueprintLog: New page: Compile MyAnimationblueprint
+[2016.12.01-13.39.47:122][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:122][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:122][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:122][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:122][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error This blueprint (self) is not a WindDirectionalSourceComponent, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:123][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error Variable node  K2Node_VariableSet_1  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:123][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error Variable node  K2Node_VariableSet_5  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:123][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error Variable node  K2Node_VariableSet_4  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:123][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error Variable node  K2Node_VariableSet_3  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:123][697]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error Variable node  K2Node_VariableSet_2  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:333][697]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.12.01-13.39.47:333][697]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:333][697]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:333][697]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:333][697]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:333][697]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a WindDirectionalSourceComponent, therefore ' self ' must have a connection.
+[2016.12.01-13.39.47:334][697]BlueprintEditorCompileResults:Error: Error Variable node  K2Node_VariableSet_1  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:334][697]BlueprintEditorCompileResults:Error: Error Variable node  K2Node_VariableSet_5  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:334][697]BlueprintEditorCompileResults:Error: Error Variable node  K2Node_VariableSet_4  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:334][697]BlueprintEditorCompileResults:Error: Error Variable node  K2Node_VariableSet_3  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:334][697]BlueprintEditorCompileResults:Error: Error Variable node  K2Node_VariableSet_2  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.39.47:334][697]LogBlueprint:Warning: [Compiler MyAnimationblueprint] Warning [1809.44] Compile of MyAnimationblueprint failed. 10 Fatal Issue(s) 0 Warning(s) [in 227 ms] (/Game/MyAnimationblueprint.MyAnimationblueprint)
+[2016.12.01-13.41.57:774][934]BlueprintLog: New page: Compile MyAnimationblueprint
+[2016.12.01-13.41.57:788][934]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error This blueprint (self) is not a WindDirectionalSourceComponent, therefore ' self ' must have a connection.
+[2016.12.01-13.41.57:788][934]LogBlueprint:Error: [Compiler MyAnimationblueprint] Error Variable node  K2Node_VariableSet_1  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.41.57:981][934]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.12.01-13.41.57:981][934]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a WindDirectionalSourceComponent, therefore ' self ' must have a connection.
+[2016.12.01-13.41.57:981][934]BlueprintEditorCompileResults:Error: Error Variable node  K2Node_VariableSet_1  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.12.01-13.41.57:981][934]LogBlueprint:Warning: [Compiler MyAnimationblueprint] Warning [1940.09] Compile of MyAnimationblueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 207 ms] (/Game/MyAnimationblueprint.MyAnimationblueprint)
+[2016.12.01-13.43.16:126][463]BlueprintLog: New page: Compile MyAnimationblueprint
+[2016.12.01-13.43.16:250][463]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.12.01-13.43.18:650][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-13.43.18:688][616]LogSavePackage: Save=30.21ms
+[2016.12.01-13.43.18:688][616]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprintF90296D7464BAB6A84BDDAA71DF2AFAD.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-13.43.18:691][616]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-13.46.35:278][973]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.12.01-13.46.35:468][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.026
+[2016.12.01-13.46.35:470][983]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAnimationblueprint] ([1] browsable assets)...
+[2016.12.01-13.46.35:492][983]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/MyAnimationblueprint.MyAnimationblueprint]
+[2016.12.01-13.46.35:492][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAnimationblueprint]
+[2016.12.01-13.46.35:530][983]LogSavePackage: Save=31.99ms
+[2016.12.01-13.46.35:530][983]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint_Auto3BB54AC984A06302B1E53CDAC6BDBD4DA.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto3.uasset'
+[2016.12.01-13.46.35:531][983]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto3.uasset
+[2016.12.01-13.46.35:531][983]LogFileHelpers: Auto-saving content packages took 0.063
+[2016.12.01-13.46.54:775][840]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2016.12.01-13.46.56:931][ 32]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.12.01-13.46.58:177][136]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2016.12.01-13.47.01:084][396]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.12.01-13.47.07:869][963]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip_Break2.Idle_Rifle_Hip_Break2
+[2016.12.01-13.47.08:080][974]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip_Break1.Idle_Rifle_Hip_Break1
+[2016.12.01-13.47.18:634][425]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2016.12.01-13.47.48:725][881]BlueprintLog: New page: Compile MyAnimationblueprint
+[2016.12.01-13.48.04:603][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-13.48.04:642][ 95]LogSavePackage: Save=34.00ms
+[2016.12.01-13.48.04:642][ 95]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint88E23E594F735C33C783D8B487EE56BF.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-13.48.04:647][ 95]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-13.50.35:266][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-13.50.35:313][655]LogSavePackage: Save=39.68ms
+[2016.12.01-13.50.35:313][655]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint5A16E16540FA15A5F3F578AC43FEAE8C.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-13.50.35:316][655]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-13.58.46:589][174]BlueprintLog: New page: Compile MyAnimationblueprint
+[2016.12.01-13.58.46:616][174]LogBlueprint:Warning: [Compiler MyAnimationblueprint] Warning  AnimStateTransitionNode_1  will never be taken, please connect something to  bCanEnterTransition
+[2016.12.01-13.58.46:620][174]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:620][174]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:621][174]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:621][174]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:621][174]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.World_13:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0.MyAnimationblueprint_C_2
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:621][174]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.World_13:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0.MyAnimationblueprint_C_2
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:755][174]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:755][174]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:756][174]BlueprintEditorCompileResults:Warning: Warning  AnimStateTransitionNode_1  will never be taken, please connect something to  bCanEnterTransition
+[2016.12.01-13.58.46:757][174]LogBlueprint:Warning: [Compiler MyAnimationblueprint] Warning [2948.86] Compile of MyAnimationblueprint successful, but with 1 Warning(s) [in 167 ms] (/Game/MyAnimationblueprint.MyAnimationblueprint)
+[2016.12.01-13.58.46:758][174]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:758][174]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:790][175]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:791][175]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:807][176]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:807][176]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:820][177]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:820][177]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:834][178]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:834][178]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:848][179]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.58.46:848][179]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0086
+[2016.12.01-13.58.46:862][180]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_0
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0071
+[2016.12.01-13.59.21:401][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.026
+[2016.12.01-13.59.21:403][265]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAnimationblueprint] ([1] browsable assets)...
+[2016.12.01-13.59.21:424][265]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/MyAnimationblueprint.MyAnimationblueprint]
+[2016.12.01-13.59.21:424][265]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAnimationblueprint]
+[2016.12.01-13.59.21:482][265]LogSavePackage: Save=49.74ms
+[2016.12.01-13.59.21:482][265]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint_Auto459AE4EC240F54ABF901545A8541D950E.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto4.uasset'
+[2016.12.01-13.59.21:485][265]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto4.uasset
+[2016.12.01-13.59.21:485][265]LogFileHelpers: Auto-saving content packages took 0.083
+[2016.12.01-14.00.35:448][995]BlueprintLog: New page: Compile MyAnimationblueprint
+[2016.12.01-14.00.35:481][995]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:481][995]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:482][995]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MyAnimationblueprint_C_2
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:482][995]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MyAnimationblueprint_C_2
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:482][995]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.World_13:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0.MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:482][995]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.World_13:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0.MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:605][995]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:605][995]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:607][995]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:607][995]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:634][996]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:634][996]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:648][997]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:648][997]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:660][998]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:660][998]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:671][999]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.35:671][999]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0300
+[2016.12.01-14.00.35:683][  0]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_1
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:02EB
+[2016.12.01-14.00.37:691][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-14.00.37:745][149]LogSavePackage: Save=48.84ms
+[2016.12.01-14.00.37:745][149]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint4ED094FF4FD6CDEE57D4DFA2F5300A28.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-14.00.37:749][149]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-14.02.58:386][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-14.02.58:447][923]LogSavePackage: Save=55.79ms
+[2016.12.01-14.02.58:447][923]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint9C2A803A40572C0E6AA1268D5FBD27DF.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-14.02.58:450][923]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-14.08.16:544][499]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2016.12.01-14.08.20:050][800]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.12.01-14.08.21:306][897]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2016.12.01-14.08.22:007][956]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.12.01-14.08.22:036][957]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Pistol.Idle_Pistol
+[2016.12.01-14.10.13:308][327]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.042
+[2016.12.01-14.10.13:310][327]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAnimationblueprint] ([1] browsable assets)...
+[2016.12.01-14.10.13:352][327]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/MyAnimationblueprint.MyAnimationblueprint]
+[2016.12.01-14.10.13:352][327]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAnimationblueprint]
+[2016.12.01-14.10.13:437][327]LogSavePackage: Save=76.55ms
+[2016.12.01-14.10.13:437][327]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint_Auto5390C15DC4EAC8D568E76E0ADB45784CB.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto5.uasset'
+[2016.12.01-14.10.13:439][327]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto5.uasset
+[2016.12.01-14.10.13:439][327]LogFileHelpers: Auto-saving content packages took 0.130
+[2016.12.01-14.17.10:182][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-14.17.10:262][390]LogSavePackage: Save=72.93ms
+[2016.12.01-14.17.10:262][390]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint77334EE240FEC8E52623D6A6D529446C.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-14.17.10:266][390]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-14.21.26:331][761]BlueprintLog: New page: Compile MyAnimationblueprint
+[2016.12.01-14.21.26:393][761]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.World_13:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0.MyAnimationblueprint_C_2
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.21.26:393][761]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.World_13:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0.MyAnimationblueprint_C_2
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0417
+[2016.12.01-14.21.27:716][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-14.21.27:807][852]LogSavePackage: Save=84.45ms
+[2016.12.01-14.21.27:807][852]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprintB713823B442C324AC393A688C3074320.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-14.21.27:811][852]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-14.22.09:558][812]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.22.09:559][812]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0417
+[2016.12.01-14.22.09:583][812]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.22.09:583][812]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0417
+[2016.12.01-14.22.09:586][812]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.22.09:586][812]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0417
+[2016.12.01-14.22.09:622][813]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.22.09:622][813]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0417
+[2016.12.01-14.22.09:643][814]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.22.09:643][814]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0417
+[2016.12.01-14.22.09:663][815]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.22.09:663][815]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0417
+[2016.12.01-14.22.09:684][816]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.22.09:684][816]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0417
+[2016.12.01-14.22.09:703][817]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.DebugSkelMeshComponent_3:MyAnimationblueprint_C_3
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0402
+[2016.12.01-14.22.37:373][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.031
+[2016.12.01-14.22.37:376][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAnimationblueprint] ([1] browsable assets)...
+[2016.12.01-14.22.37:416][105]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/MyAnimationblueprint.MyAnimationblueprint]
+[2016.12.01-14.22.37:416][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAnimationblueprint]
+[2016.12.01-14.22.37:512][105]LogSavePackage: Save=88.49ms
+[2016.12.01-14.22.37:512][105]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint_Auto685B68BE647D01385EE94E2A2C2511BC3.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto6.uasset'
+[2016.12.01-14.22.37:514][105]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto6.uasset
+[2016.12.01-14.22.37:514][105]LogFileHelpers: Auto-saving content packages took 0.140
+[2016.12.01-14.33.22:790][375]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.047
+[2016.12.01-14.33.22:794][375]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAnimationblueprint] ([1] browsable assets)...
+[2016.12.01-14.33.22:834][375]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/MyAnimationblueprint.MyAnimationblueprint]
+[2016.12.01-14.33.22:834][375]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAnimationblueprint]
+[2016.12.01-14.33.22:938][375]LogSavePackage: Save=96.07ms
+[2016.12.01-14.33.22:938][375]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint_Auto754D735D34E3DBAF5E0D5559632D9A471.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto7.uasset'
+[2016.12.01-14.33.22:940][375]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Autosaves/Game/MyAnimationblueprint_Auto7.uasset
+[2016.12.01-14.33.22:940][375]LogFileHelpers: Auto-saving content packages took 0.149
+[2016.12.01-14.42.24:797][183]BlueprintLog: New page: Compile MyAnimationblueprint
+[2016.12.01-14.42.24:891][183]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	MyAnimationblueprint_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MyAnimationblueprint_C_2
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0513
+[2016.12.01-14.42.24:891][183]LogScript:Warning: Accessed None
+	MyAnimationblueprint_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MyAnimationblueprint_C_2
+	Function /Game/MyAnimationblueprint.MyAnimationblueprint_C:ExecuteUbergraph_MyAnimationblueprint:0528
+[2016.12.01-14.42.27:757][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-14.42.27:881][366]LogSavePackage: Save=116.79ms
+[2016.12.01-14.42.27:881][366]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprint862E26594AE96DA566BAAF9A11CF7418.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-14.42.27:886][366]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-14.44.21:403][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAnimationblueprint" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset" SILENT=true
+[2016.12.01-14.44.21:515][378]LogSavePackage: Save=104.98ms
+[2016.12.01-14.44.21:515][378]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/MyAnimationblueprintCE8391644235DE9653D29C8964829625.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset'
+[2016.12.01-14.44.21:517][378]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/MyAnimationblueprint.uasset
+[2016.12.01-14.44.26:343][848]LogSavePackage: Save=179.73ms
+[2016.12.01-14.44.26:343][848]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Minimal_Default969379FA4E31AA07D60C548674C66EF9.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.12.01-14.44.26:346][848]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.12.01-14.44.31:765][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walk_bs" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Walk_bs.uasset" SILENT=true
+[2016.12.01-14.44.31:779][463]LogSavePackage: Save=5.09ms
+[2016.12.01-14.44.31:779][463]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Walk_bs5D83ECA64BDF791FAB44E887C6676757.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Walk_bs.uasset'
+[2016.12.01-14.44.31:782][463]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Walk_bs.uasset
+[2016.12.01-14.44.31:785][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walk_bs2" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Walk_bs2.uasset" SILENT=true
+[2016.12.01-14.44.31:793][463]LogSavePackage: Save=1.26ms
+[2016.12.01-14.44.31:793][463]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Walk_bs24F8ED289408287D99227DCA962A3FB8C.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Walk_bs2.uasset'
+[2016.12.01-14.44.31:796][463]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Walk_bs2.uasset
+[2016.12.01-14.44.31:799][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jog_bs" FILE="C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Jog_bs.uasset" SILENT=true
+[2016.12.01-14.44.31:814][463]LogSavePackage: Save=4.70ms
+[2016.12.01-14.44.31:814][463]LogSavePackage: Moving 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Jog_bsE0E7B9B041104639A886EDAE1F67DB31.tmp' to 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Jog_bs.uasset'
+[2016.12.01-14.44.31:817][463]LogSavePackage:Display: Finished SavePackage C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Jog_bs.uasset
+[2016.12.01-14.44.40:120][436]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.01-14.44.40:356][437]Cmd: QUIT_EDITOR
+[2016.12.01-14.44.40:481][437]LogExit: Preparing to exit.
+[2016.12.01-14.44.41:793][437]LogExit: Editor shut down
+[2016.12.01-14.44.41:795][437]LogExit: Transaction tracking system shut down
+[2016.12.01-14.44.42:223][437]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.01-14.44.42:225][437]LogExit: Object subsystem successfully closed.
+[2016.12.01-14.44.42:251][437]LogD3D11RHI: Shutdown
+[2016.12.01-14.44.42:251][437]LogD3D11RHI: CleanupD3DDevice
+[2016.12.01-14.44.42:418][437]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.01-14.44.42:433][437]LogModuleManager: Shutting down and abandoning module BlueprintGraph (235)
+[2016.12.01-14.44.42:433][437]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (234)
+[2016.12.01-14.44.42:434][437]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2016.12.01-14.44.42:434][437]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2016.12.01-14.44.42:434][437]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2016.12.01-14.44.42:434][437]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2016.12.01-14.44.42:434][437]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2016.12.01-14.44.42:434][437]LogDirectoryWatcher: A directory notification for 'Q:/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.12.01-14.44.42:443][437]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2016.12.01-14.44.42:443][437]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2016.12.01-14.44.42:443][437]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2016.12.01-14.44.42:443][437]LogDirectoryWatcher: A directory notification for 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Collections/' was aborted.
+[2016.12.01-14.44.42:443][437]LogDirectoryWatcher: A directory notification for 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/Developers/Leon/Collections/' was aborted.
+[2016.12.01-14.44.42:443][437]LogDirectoryWatcher: A directory notification for 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Saved/Collections/' was aborted.
+[2016.12.01-14.44.42:443][437]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2016.12.01-14.44.42:443][437]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2016.12.01-14.44.42:443][437]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module Media (206)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2016.12.01-14.44.42:444][437]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2016.12.01-14.44.42:445][437]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2016.12.01-14.44.42:445][437]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2016.12.01-14.44.42:445][437]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2016.12.01-14.44.42:445][437]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2016.12.01-14.44.42:445][437]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2016.12.01-14.44.42:445][437]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2016.12.01-14.44.43:050][437]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2016.12.01-14.44.43:051][437]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2016.12.01-14.44.43:051][437]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2016.12.01-14.44.43:051][437]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2016.12.01-14.44.43:051][437]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2016.12.01-14.44.43:051][437]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2016.12.01-14.44.43:051][437]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2016.12.01-14.44.43:052][437]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2016.12.01-14.44.43:052][437]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2016.12.01-14.44.43:053][437]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2016.12.01-14.44.43:053][437]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2016.12.01-14.44.43:053][437]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2016.12.01-14.44.43:054][437]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2016.12.01-14.44.43:054][437]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2016.12.01-14.44.43:054][437]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2016.12.01-14.44.43:054][437]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2016.12.01-14.44.43:096][437]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2016.12.01-14.44.43:096][437]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2016.12.01-14.44.43:096][437]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2016.12.01-14.44.43:096][437]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2016.12.01-14.44.43:096][437]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2016.12.01-14.44.43:097][437]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2016.12.01-14.44.43:097][437]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2016.12.01-14.44.43:097][437]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2016.12.01-14.44.43:097][437]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2016.12.01-14.44.43:124][437]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2016.12.01-14.44.43:124][437]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2016.12.01-14.44.43:124][437]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2016.12.01-14.44.43:124][437]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2016.12.01-14.44.43:124][437]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2016.12.01-14.44.43:124][437]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2016.12.01-14.44.43:124][437]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2016.12.01-14.44.43:125][437]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2016.12.01-14.44.43:133][437]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2016.12.01-14.44.43:134][437]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2016.12.01-14.44.43:310][437]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.12.01-14.44.43:312][437]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2016.12.01-14.44.43:313][437]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.12.01-14.44.43:314][437]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.12.01-14.44.43:314][437]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.12.01-14.44.43:316][437]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2016.12.01-14.44.43:319][437]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2016.12.01-14.44.43:319][437]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.12.01-14.44.43:420][437]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.12.01-14.44.43:522][437]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.12.01-14.44.43:523][437]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.12.01-14.44.43:523][437]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.12.01-14.44.43:523][437]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.12.01-14.44.43:523][437]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.12.01-14.44.43:523][437]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.12.01-14.44.43:523][437]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.12.01-14.44.43:523][437]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.12.01-14.44.43:523][437]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.12.01-14.44.43:524][437]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.12.01-14.44.43:524][437]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.12.01-14.44.43:524][437]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.12.01-14.44.43:531][437]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.12.01-14.44.43:531][437]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.12.01-14.44.43:531][437]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.12.01-14.44.43:531][437]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.12.01-14.44.43:531][437]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.12.01-14.44.43:531][437]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.12.01-14.44.43:532][437]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.01-14.44.43:534][437]LogDirectoryWatcher: A directory notification for 'C:/Users/Leon/Documents/Unreal Projects/thirdpersonmovement/Content/' was aborted.
+[2016.12.01-14.44.43:536][437]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.01-14.44.43:548][437]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.12.01-14.44.43:686][437]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.12.01-14.44.43:686][437]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.12.01-14.44.43:686][437]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.12.01-14.44.43:686][437]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.12.01-14.44.43:770][437]LogDerivedDataCache: Shutdown
+[2016.12.01-14.44.43:770][437]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.12.01-14.44.43:770][437]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.12.01-14.44.43:771][437]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.12.01-14.44.43:772][437]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.01-14.44.43:772][437]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.01-14.44.43:772][437]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.01-14.44.43:772][437]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B724DBFD9-4713-456F-DB7D-7799D8443C8A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=7f92557c42786ba918cbc38bebc908b7%7C0eeafb15ab0d4b4dbe1d5afe36b175e9%7Cdbb7550b-9ab5-40d0-901d-d1798962b387&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.01-14.44.43:780][437]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.01-14.44.43:780][437]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.01-14.44.43:781][437]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.01-14.44.43:781][437]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.01-14.44.43:781][437]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.01-14.44.43:802][437]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.01-14.44.43:805][437]LogExit: Exiting.
+[2016.12.01-14.44.43:812][437]Log file closed, 12/01/16 14:44:43
