@@ -1,9 +1,9 @@
-﻿Log file open, 03/11/17 21:12:39
+﻿Log file open, 03/12/17 21:14:19
 LogInit:Display: Running engine for game: MultiplayerV2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1153838925) SRandInit(-1153838925).
+LogInit:Display: RandInit(-1040313561) SRandInit(-1040313561).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.142413
+LogStats: Stats thread started at 0.093296
 LogPluginManager: Loaded Plugin Paper2D, From D:/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From D:/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -138,618 +138,948 @@ LogInit: Base directory: D:/Epic Games/4.13/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.03.11-21.12.40:098][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.11-21.12.40:098][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.03.11-21.12.40:128][  0]LogInit: Computer: CONNORPAGE
-[2017.03.11-21.12.40:128][  0]LogInit: User: Connor
-[2017.03.11-21.12.40:128][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.03.11-21.12.40:128][  0]LogInit: High frequency timer resolution =2.533206 MHz
-[2017.03.11-21.12.40:128][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.03.11-21.12.40:128][  0]LogMemory: Platform Memory Stats for Windows
-[2017.03.11-21.12.40:128][  0]LogMemory: Process Physical Memory: 258.09 MB used, 258.09 MB peak
-[2017.03.11-21.12.40:128][  0]LogMemory: Process Virtual Memory: 260.24 MB used, 260.24 MB peak
-[2017.03.11-21.12.40:128][  0]LogMemory: Physical Memory: 4356.93 MB used, 8109.73 MB total
-[2017.03.11-21.12.40:128][  0]LogMemory: Virtual Memory: 625.00 MB used, 134217728.00 MB total
-[2017.03.11-21.12.40:863][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2017.03.11-21.12.43:589][  0]LogD3D11RHI: D3D11 adapters:
-[2017.03.11-21.12.44:173][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2017.03.11-21.12.44:173][  0]LogD3D11RHI:       3040/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.03.11-21.12.44:180][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.03.11-21.12.44:180][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.03.11-21.12.44:182][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.03.11-21.12.44:182][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.03.11-21.12.44:182][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.03.11-21.12.44:187][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.03.11-21.12.44:187][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2017.03.11-21.12.44:187][  0]LogWindows: EnumDisplayDevices:
-[2017.03.11-21.12.44:187][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.03.11-21.12.44:187][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.03.11-21.12.44:187][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.03.11-21.12.44:187][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.03.11-21.12.44:187][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2017.03.11-21.12.44:187][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.03.11-21.12.44:187][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.03.11-21.12.44:187][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.03.11-21.12.44:703][  0]LogD3D11RHI: Async texture creation enabled
-[2017.03.11-21.12.44:751][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.03.11-21.12.44:751][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/13444/).
-[2017.03.11-21.12.44:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Connor/AppData/Local/Temp/UnrealShaderWorkingDir/689B97354E45D4A9D4BEDAB2DDEF9AA8/'.
-[2017.03.11-21.12.44:778][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.03.11-21.12.47:209][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.03.11-21.12.47:216][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.03.11-21.12.47:223][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.03.11-21.12.47:231][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.03.11-21.12.47:237][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.03.11-21.12.47:306][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.03.11-21.12.47:328][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.03.11-21.12.47:353][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.03.11-21.12.47:373][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.03.11-21.12.47:383][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.03.11-21.12.47:397][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.03.11-21.12.47:426][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.03.11-21.12.47:426][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.03.11-21.12.47:427][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.03.11-21.12.47:538][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.03.11-21.12.47:544][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.03.11-21.12.47:550][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.03.11-21.12.47:556][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.03.11-21.12.47:562][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.03.11-21.12.47:615][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.03.11-21.12.47:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.03.11-21.12.48:662][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.03.11-21.12.49:024][  0]LogDerivedDataCache: Loaded boot cache 0.36s 62MB C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.03.11-21.12.49:024][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.03.11-21.12.49:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.03.11-21.12.49:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.03.11-21.12.49:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.03.11-21.12.49:024][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.03.11-21.12.49:104][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.03.11-21.12.49:118][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Connor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.03.11-21.12.59:602][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.11-21.12.59:797][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.03.11-21.13.00:877][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.03.11-21.13.00:877][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.03.11-21.13.00:877][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.03.11-21.13.02:946][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.03.11-21.13.07:164][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2011542088
-[2017.03.11-21.13.07:352][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
-[2017.03.11-21.13.07:498][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.084970 seconds
-[2017.03.11-21.13.07:568][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2017.03.11-21.13.07:568][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
-[2017.03.11-21.13.07:568][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.03.11-21.13.12:145][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.11-21.13.12:145][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.11-21.13.20:147][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2017.03.11-21.13.20:207][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.03.11-21.13.20:243][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.03.11-21.13.21:987][  0]SourceControl: Info Source control is disabled
-[2017.03.11-21.13.22:001][  0]SourceControl: Info Source control is disabled
-[2017.03.11-21.13.22:055][  0]SourceControl: Info Source control is disabled
-[2017.03.11-21.13.22:083][  0]SourceControl: Info Source control is disabled
-[2017.03.11-21.13.23:985][  0]LogEngine: Initializing Engine...
-[2017.03.11-21.13.24:011][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.03.11-21.13.25:079][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.03.11-21.13.25:383][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.11-21.13.25:405][  0]LogInit: FAudioDevice initialized.
-[2017.03.11-21.13.25:455][  0]LogDerivedDataCache: Saved boot cache 0.05s 62MB C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.03.11-21.13.25:476][  0]LogInit: Texture streaming: Enabled
-[2017.03.11-21.13.25:678][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.11-21.13.26:101][  0]LogInit: Transaction tracking system initialized
-[2017.03.11-21.13.28:591][  0]BlueprintLog: New page: Editor Load
-[2017.03.11-21.13.29:798][  0]LocalizationService: Info Localization service is disabled
-[2017.03.11-21.13.30:964][  0]LogConsoleResponse:Display: 
-[2017.03.11-21.13.33:351][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/' took 0.02s
-[2017.03.11-21.13.33:351][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.03.11-21.13.33:351][  0]LogCook:Display: Mobile HDR setting 1
-[2017.03.11-21.13.36:464][  0]SourceControl: Info Source control is disabled
-[2017.03.11-21.13.36:551][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.11-21.13.36:601][  0]LightingResults: New page: Lighting Build
-[2017.03.11-21.13.37:129][  0]MapCheck: New page: Map Check
-[2017.03.11-21.13.37:129][  0]LightingResults: New page: Lighting Build
-[2017.03.11-21.13.40:328][  0]LogAIModule: Creating AISystem for world MainMenu
-[2017.03.11-21.13.40:604][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.11-21.13.40:775][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.11-21.13.40:846][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.497ms to complete.
-[2017.03.11-21.13.40:846][  0]LogFileHelpers: Loading map 'MainMenu' took 4.323
-[2017.03.11-21.13.44:389][  0]LogCollectionManager: Loaded 0 collections in 0.001453 seconds
-[2017.03.11-21.13.44:520][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Collections/' took 0.01s
-[2017.03.11-21.13.44:520][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Developers/Connor/Collections/' took 0.01s
-[2017.03.11-21.13.44:520][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Collections/' took 0.01s
-[2017.03.11-21.13.44:520][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2017.03.11-21.13.44:551][  0]LogContentBrowser: Native class hierarchy populated in 0.0303 seconds. Added 2156 classes and 421 folders.
-[2017.03.11-21.13.44:659][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.03.11-21.13.44:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
-[2017.03.11-21.13.44:672][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
-[2017.03.11-21.13.44:725][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.03.11-21.13.45:797][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.03.11-21.13.45:949][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.03.11-21.13.47:021][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.03.11-21.13.47:178][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.03.11-21.13.47:351][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.03.11-21.13.47:351][  0]LogLoad: (Engine Initialization) Total time: 70.38 seconds
-[2017.03.11-21.13.47:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.64 seconds
-[2017.03.11-21.13.47:352][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.03.11-21.13.47:397][  0]LogOcInput: OculusInput pre-init called
-[2017.03.11-21.13.47:698][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.03.11-21.13.51:098][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2017.03.11-21.13.52:789][  3]LogAssetRegistry: Asset discovery search completed in 45.4587 seconds
-[2017.03.11-21.13.52:808][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.03.11-21.13.52:808][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.019141 seconds (updated 0 objects)
-[2017.03.11-21.14.51:202][794]LogSavePackage: Save=141.47ms
-[2017.03.11-21.14.51:202][794]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu12A5F1B54C65F22E8212E69B7BD4209B.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
-[2017.03.11-21.14.51:203][794]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
-[2017.03.11-21.14.51:224][794]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.03.11-21.16.46:335][658]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
-[2017.03.11-21.18.50:143][559]BlueprintLog: New page: Compile LobbyPC
-[2017.03.11-21.18.50:868][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyPC" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyPC.uasset" SILENT=true
-[2017.03.11-21.18.50:929][585]LogSavePackage: Save=49.34ms
-[2017.03.11-21.18.50:929][585]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyPC98F343D342BFE045755A26A09019A8E7.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyPC.uasset'
-[2017.03.11-21.18.50:932][585]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyPC.uasset
-[2017.03.11-21.23.48:425][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainMenu' took 0.035
-[2017.03.11-21.23.48:450][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobbyGM] ([1] browsable assets)...
-[2017.03.11-21.23.48:450][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobbyGM]
-[2017.03.11-21.23.48:450][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.03.11-21.23.48:498][992]LogSavePackage: Save=24.18ms
-[2017.03.11-21.23.48:498][992]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM_Auto14BEFE83D428F56F26B957D8A5C19504F.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto1.uasset'
-[2017.03.11-21.23.48:499][992]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto1.uasset
-[2017.03.11-21.23.48:499][992]LogFileHelpers: Auto-saving content packages took 0.063
-[2017.03.11-21.25.47:540][752]Cmd: TRANSACTION UNDO
-[2017.03.11-21.25.47:540][752]LogEditorTransaction: Undo Create Pin Link
-[2017.03.11-21.25.51:125][962]Cmd: TRANSACTION REDO
-[2017.03.11-21.25.51:125][962]LogEditorTransaction: Redo Create Pin Link
-[2017.03.11-21.27.39:185][ 80]LogAIModule: Creating AISystem for world Lobby
-[2017.03.11-21.27.40:689][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
-[2017.03.11-21.27.40:719][ 80]LogSavePackage: Save=25.23ms
-[2017.03.11-21.27.40:719][ 80]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM3C02FFE445A12021452AC0B278087FE8.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
-[2017.03.11-21.27.40:725][ 80]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
-[2017.03.11-21.27.40:726][ 80]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.11-21.27.40:726][ 80]LightingResults: New page: Lighting Build
-[2017.03.11-21.27.40:727][ 80]LoadErrors: New page: Loading map: Lobby.umap
-[2017.03.11-21.27.40:742][ 80]MapCheck: New page: Map Check
-[2017.03.11-21.27.40:742][ 80]LightingResults: New page: Lighting Build
-[2017.03.11-21.27.40:850][ 80]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.11-21.27.40:889][ 80]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.11-21.27.40:949][ 80]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.347ms to complete.
-[2017.03.11-21.27.40:949][ 80]LogFileHelpers: Loading map 'Lobby' took 0.224
-[2017.03.11-21.27.42:617][172]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.03.11-21.27.45:223][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.03.11-21.27.47:088][419]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start2)
-[2017.03.11-21.27.47:763][459]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start2)
-[2017.03.11-21.27.47:867][464]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
-[2017.03.11-21.27.48:727][515]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
-[2017.03.11-21.27.48:789][518]LogEditorViewport: Clicking on Actor (double click): PlayerStart (Player Start2)
-[2017.03.11-21.27.49:059][534]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start2)
-[2017.03.11-21.27.49:383][553]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
-[2017.03.11-21.27.49:661][569]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
-[2017.03.11-21.27.49:922][584]LogEditorViewport: Clicking on Actor (double click): PlayerStart (Player Start2)
-[2017.03.11-21.27.50:174][599]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start2)
-[2017.03.11-21.27.50:281][605]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
-[2017.03.11-21.27.50:560][621]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
-[2017.03.11-21.35.30:068][423]BlueprintLog: New page: Compile LobbyGM
-[2017.03.11-21.38.07:072][984]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Lobby' took 0.050
-[2017.03.11-21.38.07:074][984]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobbyGM] ([1] browsable assets)...
-[2017.03.11-21.38.07:074][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobbyGM]
-[2017.03.11-21.38.07:074][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2017.03.11-21.38.07:147][984]LogSavePackage: Save=46.08ms
-[2017.03.11-21.38.07:147][984]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM_Auto2D828CF824C2E46E7548979B9FF2FDBA7.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto2.uasset'
-[2017.03.11-21.38.07:149][984]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto2.uasset
-[2017.03.11-21.38.07:150][984]LogFileHelpers: Auto-saving content packages took 0.077
-[2017.03.11-21.47.57:226][359]BlueprintLog: New page: Compile LobbyGM
-[2017.03.11-21.48.38:169][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Lobby' took 0.016
-[2017.03.11-21.48.38:171][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobbyGM] ([1] browsable assets)...
-[2017.03.11-21.48.38:171][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobbyGM]
-[2017.03.11-21.48.38:171][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2017.03.11-21.48.38:203][675]LogSavePackage: Save=21.11ms
-[2017.03.11-21.48.38:203][675]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM_Auto3EF0E183D4C288350AA9912ACB8ACF70A.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto3.uasset'
-[2017.03.11-21.48.38:204][675]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto3.uasset
-[2017.03.11-21.48.38:204][675]LogFileHelpers: Auto-saving content packages took 0.034
-[2017.03.11-21.51.21:751][923]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.03.11-21.58.38:919][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Lobby' took 0.052
-[2017.03.11-21.58.38:923][ 10]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobbyGM] ([1] browsable assets)...
-[2017.03.11-21.58.38:923][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobbyGM]
-[2017.03.11-21.58.38:923][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto4.uasset" SILENT=false AUTOSAVING=true
-[2017.03.11-21.58.39:023][ 10]LogSavePackage: Save=68.92ms
-[2017.03.11-21.58.39:023][ 10]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM_Auto4E6ED516F4EBAD79A204BD998C1A43958.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto4.uasset'
-[2017.03.11-21.58.39:024][ 10]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto4.uasset
-[2017.03.11-21.58.39:024][ 10]LogFileHelpers: Auto-saving content packages took 0.104
-[2017.03.11-22.02.20:352][329]LogClass:Warning: Type mismatch in ConnectedPlayers of SKEL_LobbyGM_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
-[2017.03.11-22.08.30:904][206]BlueprintLog: New page: Compile LobbyGM
-[2017.03.11-22.08.31:587][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
-[2017.03.11-22.08.31:635][228]LogSavePackage: Save=33.98ms
-[2017.03.11-22.08.31:635][228]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM6D227EC049E3779CAFF56C8EB66F0614.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
-[2017.03.11-22.08.31:639][228]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
-[2017.03.11-22.09.06:828][ 38]BlueprintLog: New page: Compile LobbyPC
-[2017.03.11-22.09.07:432][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyPC" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyPC.uasset" SILENT=true
-[2017.03.11-22.09.07:478][ 60]LogSavePackage: Save=36.65ms
-[2017.03.11-22.09.07:478][ 60]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyPCD02E931840160F8F2117829A90F55412.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyPC.uasset'
-[2017.03.11-22.09.07:481][ 60]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyPC.uasset
-[2017.03.11-22.10.51:750][  7]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Lobby' took 0.068
-[2017.03.11-22.10.51:759][  7]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobbyGM] ([1] browsable assets)...
-[2017.03.11-22.10.51:759][  7]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobbyGM]
-[2017.03.11-22.10.51:759][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2017.03.11-22.10.51:862][  7]LogSavePackage: Save=89.88ms
-[2017.03.11-22.10.51:862][  7]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM_Auto55BDB1A2540D40C78CCA476AB60650FB7.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto5.uasset'
-[2017.03.11-22.10.51:865][  7]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto5.uasset
-[2017.03.11-22.10.51:865][  7]LogFileHelpers: Auto-saving content packages took 0.111
-[2017.03.11-22.12.55:862][974]BlueprintLog: New page: Compile LobbyGM
-[2017.03.11-22.16.24:877][140]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.03.11-22.21.06:073][182]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Lobby' took 0.060
-[2017.03.11-22.21.06:076][182]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobbyGM] ([1] browsable assets)...
-[2017.03.11-22.21.06:076][182]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobbyGM]
-[2017.03.11-22.21.06:076][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2017.03.11-22.21.06:205][182]LogSavePackage: Save=104.30ms
-[2017.03.11-22.21.06:205][182]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM_Auto676D58F3240F37AB5539B6A88DDCB40AF.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto6.uasset'
-[2017.03.11-22.21.06:208][182]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto6.uasset
-[2017.03.11-22.21.06:209][182]LogFileHelpers: Auto-saving content packages took 0.135
-[2017.03.11-22.22.32:383][927]BlueprintLog: New page: Compile LobbyGM
-[2017.03.11-22.31.11:559][159]LogTexture:Display: Building textures: T_Rock_Marble_Polished_D2 (AutoDXT)
-[2017.03.11-22.31.13:424][159]LogMaterial: Missing cached shader map for material T_Rock_Marble_Polished_D2_Mat, compiling. 
-[2017.03.11-22.31.13:722][159]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.03.11-22.31.15:283][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
-[2017.03.11-22.31.15:365][159]LogSavePackage: Save=70.30ms
-[2017.03.11-22.31.15:365][159]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMF450C5784D525BD02380C297F13A54DD.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
-[2017.03.11-22.31.15:370][159]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
-[2017.03.11-22.31.15:378][159]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.11-22.31.15:378][159]LightingResults: New page: Lighting Build
-[2017.03.11-22.31.15:392][159]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
-[2017.03.11-22.31.15:397][159]MapCheck: New page: Map Check
-[2017.03.11-22.31.15:397][159]LightingResults: New page: Lighting Build
-[2017.03.11-22.31.15:511][159]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.11-22.31.15:556][159]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.11-22.31.15:676][159]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.753ms to complete.
-[2017.03.11-22.31.15:676][159]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.306
-[2017.03.11-22.31.22:220][519]LogAIModule: Creating AISystem for world Lobby
-[2017.03.11-22.31.22:240][519]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.11-22.31.22:240][519]LightingResults: New page: Lighting Build
-[2017.03.11-22.31.22:241][519]LoadErrors: New page: Loading map: Lobby.umap
-[2017.03.11-22.31.22:241][519]MapCheck: New page: Map Check
-[2017.03.11-22.31.22:241][519]LightingResults: New page: Lighting Build
-[2017.03.11-22.31.22:321][519]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.11-22.31.22:351][519]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.11-22.31.22:418][519]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.235ms to complete.
-[2017.03.11-22.31.22:418][519]LogFileHelpers: Loading map 'Lobby' took 0.180
-[2017.03.11-22.33.33:964][344]BlueprintLog: New page: Compile LobbyGM
-[2017.03.11-22.33.34:846][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
-[2017.03.11-22.33.34:908][375]LogSavePackage: Save=58.64ms
-[2017.03.11-22.33.34:908][375]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM1C458F2D4BFC6B51541EC8987F92E0DB.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
-[2017.03.11-22.33.34:911][375]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
-[2017.03.11-22.35.46:811][286]BlueprintLog: New page: Compile LobbyGM
-[2017.03.11-22.35.47:415][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
-[2017.03.11-22.35.47:468][312]LogSavePackage: Save=47.12ms
-[2017.03.11-22.35.47:468][312]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM91012218401AD2DE0ED4489DF6068011.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
-[2017.03.11-22.35.47:471][312]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
-[2017.03.11-22.36.17:227][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.11-22.36.17:235][723]PIE: New page: PIE session: Lobby (11 Mar 2017 22:36:17)
-[2017.03.11-22.36.17:236][723]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_Lobby
-[2017.03.11-22.36.17:239][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003239s)
-[2017.03.11-22.36.17:240][723]LogAIModule: Creating AISystem for world Lobby
-[2017.03.11-22.36.17:240][723]LogPlayLevel: PIE: World Init took: (0.000989s)
-[2017.03.11-22.36.17:240][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Lobby.Lobby to /Game/ThirdPersonBP/Maps/UEDPIE_1_Lobby.Lobby (0.004536s)
-[2017.03.11-22.36.17:259][723]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.11-22.36.17:268][723]LogInit: FAudioDevice initialized.
-[2017.03.11-22.36.17:340][723]LogWorld: Game class is 'LobbyGM_C'
-[2017.03.11-22.36.17:345][723]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_Lobby.Lobby up for play (max tick rate 60) at 2017.03.11-22.36.17
-[2017.03.11-22.36.17:345][723]LogWorld: Bringing up level for play took: 0.003747
-[2017.03.11-22.36.17:373][723]LogVoice:Warning: Failed to initialize voice interface
-[2017.03.11-22.36.17:381][723]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
-[2017.03.11-22.36.17:385][723]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.03.11-22.36.17:385][723]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.03.11-22.36.17:385][723]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.03.11-22.36.17:386][723]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.03.11-22.36.17:395][723]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_Lobby 1.057
-[2017.03.11-22.36.17:396][723]PIE: New page: PIE session: Lobby (11 Mar 2017 22:36:17)
-[2017.03.11-22.36.17:397][723]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_2_Lobby
-[2017.03.11-22.36.17:400][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002896s)
-[2017.03.11-22.36.17:400][723]LogAIModule: Creating AISystem for world Lobby
-[2017.03.11-22.36.17:401][723]LogPlayLevel: PIE: World Init took: (0.001108s)
-[2017.03.11-22.36.17:401][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Lobby.Lobby to /Game/ThirdPersonBP/Maps/UEDPIE_2_Lobby.Lobby (0.004225s)
-[2017.03.11-22.36.17:473][723]LogWorld: Game class is 'LobbyGM_C'
-[2017.03.11-22.36.17:479][723]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_Lobby.Lobby up for play (max tick rate 60) at 2017.03.11-22.36.17
-[2017.03.11-22.36.17:479][723]LogWorld: Bringing up level for play took: 0.003535
-[2017.03.11-22.36.17:491][723]LogVoice:Warning: Failed to initialize voice interface
-[2017.03.11-22.36.17:498][723]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.03.11-22.36.17:498][723]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.03.11-22.36.17:498][723]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.03.11-22.36.17:498][723]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.03.11-22.36.17:505][723]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_2_Lobby 1.168
-[2017.03.11-22.36.17:576][723]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:8659).
-[2017.03.11-22.36.22:917][ 37]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
-[2017.03.11-22.36.22:917][ 37]LogScriptCore:Warning: 
-[2017.03.11-22.36.22:917][ 37]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
-[2017.03.11-22.36.22:917][ 37]LogScriptCore:Warning: 
-[2017.03.11-22.36.22:966][ 37]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.03.11-22.36.22:992][ 37]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.03.11-22.36.22:992][ 37]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2017.03.11-22.36.23:029][ 38]LogPlayLevel:Display: Destroying online subsystem :Context_9
-[2017.03.11-22.36.23:029][ 38]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.03.11-22.36.23:029][ 38]LogPlayLevel:Display: Destroying online subsystem :Context_8
-[2017.03.11-22.36.23:029][ 38]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.03.11-22.36.25:974][201]LogSavePackage: Save=32.47ms
-[2017.03.11-22.36.25:974][201]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyB9D26FF54E98AFDD75A173B0EC80ADB7.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCLobby.umap'
-[2017.03.11-22.36.25:975][201]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCLobby.umap
-[2017.03.11-22.36.25:981][201]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.03.11-22.36.45:424][567]LogAIModule: Creating AISystem for world MainMenu
-[2017.03.11-22.36.45:447][567]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.11-22.36.45:447][567]LightingResults: New page: Lighting Build
-[2017.03.11-22.36.45:448][567]LoadErrors: New page: Loading map: MainMenu.umap
-[2017.03.11-22.36.45:448][567]MapCheck: New page: Map Check
-[2017.03.11-22.36.45:448][567]LightingResults: New page: Lighting Build
-[2017.03.11-22.36.45:518][567]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.11-22.36.45:579][567]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.11-22.36.45:641][567]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.578ms to complete.
-[2017.03.11-22.36.45:642][567]LogFileHelpers: Loading map 'MainMenu' took 0.197
-[2017.03.11-22.36.47:259][645]LogSavePackage: Save=98.57ms
-[2017.03.11-22.36.47:259][645]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu074DAB504AD6F92484C0BF9CE2656611.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
-[2017.03.11-22.36.47:261][645]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
-[2017.03.11-22.38.00:280][997]LogEditorViewport: Clicking on Actor (LMB): PlayerStartPIE (PlayerStartPIE)
-[2017.03.11-22.38.00:656][ 19]LogEditorViewport: Clicking on Actor (context menu): PlayerStartPIE (PlayerStartPIE)
-[2017.03.11-22.38.08:538][459]LogSavePackage: Save=102.51ms
-[2017.03.11-22.38.08:538][459]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu6070157348F4BD2D2EBE0D972C79B308.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
-[2017.03.11-22.38.08:539][459]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
-[2017.03.11-22.38.30:288][842]LogSavePackage: Save=92.82ms
-[2017.03.11-22.38.30:288][842]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/MainMenuF3C005424A44B3EED80A6F825D2B13EC.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap'
-[2017.03.11-22.38.30:289][842]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap
-[2017.03.11-22.38.32:532][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.03.11-22.38.32:600][952]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.11-22.38.32:983][953]Cmd: QUIT_EDITOR
-[2017.03.11-22.38.33:425][953]LogExit: Preparing to exit.
-[2017.03.11-22.38.33:801][953]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/' was aborted.
-[2017.03.11-22.38.33:924][953]LogExit: Editor shut down
-[2017.03.11-22.38.33:925][953]LogExit: Transaction tracking system shut down
-[2017.03.11-22.38.34:462][953]LogObj: Freed 0b from 0 cluster array pools.
-[2017.03.11-22.38.34:463][953]LogExit: Object subsystem successfully closed.
-[2017.03.11-22.38.34:492][953]LogD3D11RHI: Shutdown
-[2017.03.11-22.38.34:492][953]LogD3D11RHI: CleanupD3DDevice
-[2017.03.11-22.38.34:589][953]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.03.11-22.38.35:979][953]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (241)
-[2017.03.11-22.38.35:979][953]LogModuleManager: Shutting down and abandoning module SequencerWidgets (240)
-[2017.03.11-22.38.35:979][953]LogModuleManager: Shutting down and abandoning module BlueprintGraph (239)
-[2017.03.11-22.38.35:979][953]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (238)
-[2017.03.11-22.38.36:056][953]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (237)
-[2017.03.11-22.38.36:103][953]LogModuleManager: Shutting down and abandoning module CrashTracker (236)
-[2017.03.11-22.38.36:103][953]LogModuleManager: Shutting down and abandoning module SceneOutliner (235)
-[2017.03.11-22.38.36:103][953]LogModuleManager: Shutting down and abandoning module WidgetCarousel (234)
-[2017.03.11-22.38.36:103][953]LogModuleManager: Shutting down and abandoning module AddContentDialog (233)
-[2017.03.11-22.38.36:111][953]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/4.13/FeaturePacks/' was aborted.
-[2017.03.11-22.38.36:119][953]LogModuleManager: Shutting down and abandoning module GameplayTags (232)
-[2017.03.11-22.38.36:119][953]LogModuleManager: Shutting down and abandoning module EditorWidgets (231)
-[2017.03.11-22.38.36:119][953]LogModuleManager: Shutting down and abandoning module CollectionManager (230)
-[2017.03.11-22.38.36:152][953]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Collections/' was aborted.
-[2017.03.11-22.38.36:152][953]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Developers/Connor/Collections/' was aborted.
-[2017.03.11-22.38.36:152][953]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Collections/' was aborted.
-[2017.03.11-22.38.36:152][953]LogModuleManager: Shutting down and abandoning module StatsViewer (229)
-[2017.03.11-22.38.36:159][953]LogModuleManager: Shutting down and abandoning module FoliageEdit (228)
-[2017.03.11-22.38.36:164][953]LogModuleManager: Shutting down and abandoning module LandscapeEditor (227)
-[2017.03.11-22.38.36:176][953]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (226)
-[2017.03.11-22.38.36:176][953]LogModuleManager: Shutting down and abandoning module ActorPickerMode (225)
-[2017.03.11-22.38.36:176][953]LogModuleManager: Shutting down and abandoning module GeometryMode (224)
-[2017.03.11-22.38.36:176][953]LogModuleManager: Shutting down and abandoning module TextureAlignMode (223)
-[2017.03.11-22.38.36:176][953]LogModuleManager: Shutting down and abandoning module BspMode (222)
-[2017.03.11-22.38.36:189][953]LogModuleManager: Shutting down and abandoning module HardwareSurvey (221)
-[2017.03.11-22.38.36:189][953]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (220)
-[2017.03.11-22.38.36:189][953]LogModuleManager: Shutting down and abandoning module SequenceRecorder (219)
-[2017.03.11-22.38.36:201][953]LogModuleManager: Shutting down and abandoning module AutomationWorker (218)
-[2017.03.11-22.38.36:201][953]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (217)
-[2017.03.11-22.38.36:201][953]LogModuleManager: Shutting down and abandoning module PlacementMode (216)
-[2017.03.11-22.38.36:223][953]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (215)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (214)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (213)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (212)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (211)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module Media (210)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (209)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (208)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module CharacterAI (207)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module SmartSnapping (206)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module SessionServices (205)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module ViewportSnapping (204)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module ViewportInteraction (203)
-[2017.03.11-22.38.36:250][953]LogModuleManager: Shutting down and abandoning module LogVisualizer (202)
-[2017.03.11-22.38.36:261][953]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (201)
-[2017.03.11-22.38.36:270][953]LogModuleManager: Shutting down and abandoning module IntroTutorials (200)
-[2017.03.11-22.38.36:282][953]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (199)
-[2017.03.11-22.38.36:283][953]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (198)
-[2017.03.11-22.38.36:295][953]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (197)
-[2017.03.11-22.38.36:295][953]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
-[2017.03.11-22.38.36:390][953]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
-[2017.03.11-22.38.36:404][953]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
-[2017.03.11-22.38.36:404][953]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
-[2017.03.11-22.38.36:404][953]LogModuleManager: Shutting down and abandoning module NiagaraEditor (192)
-[2017.03.11-22.38.36:431][953]LogModuleManager: Shutting down and abandoning module MergeActors (191)
-[2017.03.11-22.38.36:442][953]LogModuleManager: Shutting down and abandoning module SizeMap (190)
-[2017.03.11-22.38.36:452][953]LogModuleManager: Shutting down and abandoning module TreeMap (189)
-[2017.03.11-22.38.36:459][953]LogModuleManager: Shutting down and abandoning module ReferenceViewer (188)
-[2017.03.11-22.38.36:459][953]LogModuleManager: Shutting down and abandoning module LocalizationService (187)
-[2017.03.11-22.38.36:474][953]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (186)
-[2017.03.11-22.38.36:489][953]LogModuleManager: Shutting down and abandoning module HardwareTargeting (185)
-[2017.03.11-22.38.36:499][953]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (184)
-[2017.03.11-22.38.36:510][953]LogModuleManager: Shutting down and abandoning module UndoHistory (183)
-[2017.03.11-22.38.36:517][953]LogModuleManager: Shutting down and abandoning module UserFeedback (182)
-[2017.03.11-22.38.36:517][953]LogModuleManager: Shutting down and abandoning module XmlParser (181)
-[2017.03.11-22.38.36:517][953]LogModuleManager: Shutting down and abandoning module Blutility (180)
-[2017.03.11-22.38.36:529][953]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (179)
-[2017.03.11-22.38.36:541][953]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (178)
-[2017.03.11-22.38.36:541][953]LogModuleManager: Shutting down and abandoning module InputBindingEditor (177)
-[2017.03.11-22.38.36:578][953]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
-[2017.03.11-22.38.36:578][953]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
-[2017.03.11-22.38.36:586][953]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
-[2017.03.11-22.38.36:602][953]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
-[2017.03.11-22.38.36:613][953]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
-[2017.03.11-22.38.36:627][953]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
-[2017.03.11-22.38.36:636][953]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
-[2017.03.11-22.38.36:706][953]LogModuleManager: Shutting down and abandoning module AutomationController (169)
-[2017.03.11-22.38.36:706][953]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
-[2017.03.11-22.38.36:719][953]LogModuleManager: Shutting down and abandoning module Layers (167)
-[2017.03.11-22.38.36:737][953]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
-[2017.03.11-22.38.36:737][953]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
-[2017.03.11-22.38.36:748][953]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
-[2017.03.11-22.38.36:748][953]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
-[2017.03.11-22.38.36:748][953]LogModuleManager: Shutting down and abandoning module Persona (162)
-[2017.03.11-22.38.36:792][953]LogModuleManager: Shutting down and abandoning module Kismet (161)
-[2017.03.11-22.38.36:808][953]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
-[2017.03.11-22.38.36:808][953]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
-[2017.03.11-22.38.36:811][953]LogModuleManager: Shutting down and abandoning module Toolbox (158)
-[2017.03.11-22.38.36:835][953]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
-[2017.03.11-22.38.36:845][953]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
-[2017.03.11-22.38.36:866][953]LogModuleManager: Shutting down and abandoning module OutputLog (155)
-[2017.03.11-22.38.36:877][953]LogModuleManager: Shutting down and abandoning module GammaUI (154)
-[2017.03.11-22.38.36:938][953]LogModuleManager: Shutting down and abandoning module Documentation (153)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module Niagara (152)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module PortalServices (149)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module AIModule (144)
-[2017.03.11-22.38.36:940][953]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
-[2017.03.11-22.38.37:078][953]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
-[2017.03.11-22.38.37:078][953]LogModuleManager: Shutting down and abandoning module SubstanceEditor (141)
-[2017.03.11-22.38.37:097][953]LogModuleManager: Shutting down and abandoning module SlateRemote (140)
-[2017.03.11-22.38.37:097][953]LogModuleManager: Shutting down and abandoning module SteamVRController (139)
-[2017.03.11-22.38.37:097][953]LogModuleManager: Shutting down and abandoning module SteamVR (138)
-[2017.03.11-22.38.37:097][953]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (137)
-[2017.03.11-22.38.37:115][953]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (136)
-[2017.03.11-22.38.37:115][953]LogModuleManager: Shutting down and abandoning module OculusLibrary (135)
-[2017.03.11-22.38.37:115][953]LogModuleManager: Shutting down and abandoning module OculusInput (134)
-[2017.03.11-22.38.37:115][953]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (133)
-[2017.03.11-22.38.37:115][953]LogModuleManager: Shutting down and abandoning module CableComponent (132)
-[2017.03.11-22.38.37:115][953]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (131)
-[2017.03.11-22.38.37:115][953]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (130)
-[2017.03.11-22.38.37:136][953]LogModuleManager: Shutting down and abandoning module HTML5Networking (129)
-[2017.03.11-22.38.37:136][953]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (128)
-[2017.03.11-22.38.37:136][953]LogModuleManager: Shutting down and abandoning module GeometryCache (127)
-[2017.03.11-22.38.37:136][953]LogModuleManager: Shutting down and abandoning module AlembicLibrary (126)
-[2017.03.11-22.38.37:136][953]LogModuleManager: Shutting down and abandoning module AlembicImporter (125)
-[2017.03.11-22.38.37:147][953]LogModuleManager: Shutting down and abandoning module SuperSearch (124)
-[2017.03.11-22.38.37:147][953]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (123)
-[2017.03.11-22.38.37:147][953]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (122)
-[2017.03.11-22.38.37:147][953]LogModuleManager: Shutting down and abandoning module PluginBrowser (121)
-[2017.03.11-22.38.37:158][953]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (120)
-[2017.03.11-22.38.37:174][953]LogModuleManager: Shutting down and abandoning module EpicSurvey (119)
-[2017.03.11-22.38.37:177][953]LogModuleManager: Shutting down and abandoning module DesktopPlatform (118)
-[2017.03.11-22.38.37:177][953]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (117)
-[2017.03.11-22.38.37:184][953]LogModuleManager: Shutting down and abandoning module UObjectPlugin (116)
-[2017.03.11-22.38.37:184][953]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (115)
-[2017.03.11-22.38.37:184][953]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (114)
-[2017.03.11-22.38.37:184][953]LogModuleManager: Shutting down and abandoning module SourceControl (113)
-[2017.03.11-22.38.37:184][953]LogModuleManager: Shutting down and abandoning module GitSourceControl (112)
-[2017.03.11-22.38.37:197][953]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (111)
-[2017.03.11-22.38.37:197][953]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (110)
-[2017.03.11-22.38.37:206][953]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (109)
-[2017.03.11-22.38.37:206][953]LogModuleManager: Shutting down and abandoning module MeshPaint (108)
-[2017.03.11-22.38.37:206][953]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (107)
-[2017.03.11-22.38.37:227][953]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
-[2017.03.11-22.38.37:241][953]LogModuleManager: Shutting down and abandoning module HotReload (105)
-[2017.03.11-22.38.37:243][953]LogModuleManager: Shutting down and abandoning module MainFrame (104)
-[2017.03.11-22.38.37:243][953]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
-[2017.03.11-22.38.37:244][953]LogModuleManager: Shutting down and abandoning module ContentBrowser (102)
-[2017.03.11-22.38.37:246][953]LogModuleManager: Shutting down and abandoning module Paper2DEditor (101)
-[2017.03.11-22.38.37:257][953]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
-[2017.03.11-22.38.37:358][953]LogModuleManager: Shutting down and abandoning module TcpMessaging (99)
-[2017.03.11-22.38.37:459][953]LogModuleManager: Shutting down and abandoning module SubstanceCore (98)
-[2017.03.11-22.38.37:459][953]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (97)
-[2017.03.11-22.38.37:459][953]LogModuleManager: Shutting down and abandoning module Paper2D (96)
-[2017.03.11-22.38.37:459][953]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (95)
-[2017.03.11-22.38.37:460][953]LogModuleManager: Shutting down and abandoning module WmfMedia (94)
-[2017.03.11-22.38.37:460][953]LogModuleManager: Shutting down and abandoning module MediaAssets (93)
-[2017.03.11-22.38.37:460][953]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (92)
-[2017.03.11-22.38.37:460][953]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (91)
-[2017.03.11-22.38.37:461][953]LogModuleManager: Shutting down and abandoning module VREditor (90)
-[2017.03.11-22.38.37:461][953]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (89)
-[2017.03.11-22.38.37:461][953]LogModuleManager: Shutting down and abandoning module PropertyEditor (88)
-[2017.03.11-22.38.37:474][953]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (87)
-[2017.03.11-22.38.37:474][953]LogModuleManager: Shutting down and abandoning module FunctionalTesting (86)
-[2017.03.11-22.38.37:474][953]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (85)
-[2017.03.11-22.38.37:474][953]LogModuleManager: Shutting down and abandoning module Sequencer (84)
-[2017.03.11-22.38.37:475][953]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (83)
-[2017.03.11-22.38.37:475][953]LogModuleManager: Shutting down and abandoning module MessageLog (82)
-[2017.03.11-22.38.37:475][953]LogModuleManager: Shutting down and abandoning module AssetTools (81)
-[2017.03.11-22.38.37:475][953]LogModuleManager: Shutting down and abandoning module UMGEditor (80)
-[2017.03.11-22.38.37:475][953]LogModuleManager: Shutting down and abandoning module UMG (79)
-[2017.03.11-22.38.37:476][953]LogModuleManager: Shutting down and abandoning module SlateReflector (78)
-[2017.03.11-22.38.37:476][953]LogModuleManager: Shutting down and abandoning module Slate (77)
-[2017.03.11-22.38.37:476][953]LogModuleManager: Shutting down and abandoning module EditorStyle (76)
-[2017.03.11-22.38.37:479][953]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (75)
-[2017.03.11-22.38.37:479][953]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
-[2017.03.11-22.38.37:479][953]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
-[2017.03.11-22.38.37:479][953]LogModuleManager: Shutting down and abandoning module Networking (72)
-[2017.03.11-22.38.37:479][953]LogModuleManager: Shutting down and abandoning module Core (71)
-[2017.03.11-22.38.37:479][953]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (70)
-[2017.03.11-22.38.37:479][953]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.03.11-22.38.37:479][953]LogDirectoryWatcher: A directory notification for '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/' was aborted.
-[2017.03.11-22.38.37:480][953]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.03.11-22.38.37:484][953]LogModuleManager: Shutting down and abandoning module AssetRegistry (69)
-[2017.03.11-22.38.37:694][953]LogModuleManager: Shutting down and abandoning module KismetCompiler (68)
-[2017.03.11-22.38.37:694][953]LogModuleManager: Shutting down and abandoning module PhysXFormats (67)
-[2017.03.11-22.38.37:694][953]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.03.11-22.38.37:694][953]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.03.11-22.38.37:706][953]LogDerivedDataCache: Shutdown
-[2017.03.11-22.38.37:706][953]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.03.11-22.38.37:706][953]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.03.11-22.38.37:706][953]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.03.11-22.38.37:706][953]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.03.11-22.38.37:706][953]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.03.11-22.38.37:706][953]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.03.11-22.38.37:706][953]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.03.11-22.38.37:706][953]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
-[2017.03.11-22.38.37:707][953]LogModuleManager: Shutting down and abandoning module InputCore (28)
-[2017.03.11-22.38.37:708][953]LogModuleManager: Shutting down and abandoning module Settings (27)
-[2017.03.11-22.38.37:708][953]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2017.03.11-22.38.37:708][953]LogModuleManager: Shutting down and abandoning module GearVR (25)
-[2017.03.11-22.38.37:708][953]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
-[2017.03.11-22.38.37:708][953]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
-[2017.03.11-22.38.37:708][953]LogModuleManager: Shutting down and abandoning module Voice (21)
-[2017.03.11-22.38.37:708][953]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2017.03.11-22.38.37:708][953]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.03.11-22.38.37:708][953]LogOnline:Display: Unloading online subsystem: NULL
-[2017.03.11-22.38.37:708][953]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.03.11-22.38.37:708][953]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2017.03.11-22.38.37:708][953]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB6854223-4577-95B4-8FCB-1DB30C8173C1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=4b9972bd4ce3693f1c40f48e45651904%7Cd95bbae5a2c34cf6b3073801ef7200b6%7Ca979dc9b-9d08-4556-ac9a-aeddded5a6c4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.03.11-22.38.37:708][953]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB6854223-4577-95B4-8FCB-1DB30C8173C1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=4b9972bd4ce3693f1c40f48e45651904%7Cd95bbae5a2c34cf6b3073801ef7200b6%7Ca979dc9b-9d08-4556-ac9a-aeddded5a6c4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.03.11-22.38.37:730][953]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.03.11-22.38.37:730][953]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.03.11-22.38.37:730][953]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.03.11-22.38.37:730][953]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.03.11-22.38.37:730][953]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.03.11-22.38.37:749][953]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.03.11-22.38.37:751][953]LogExit: Exiting.
-[2017.03.11-22.38.37:757][953]Log file closed, 03/11/17 22:38:37
+[2017.03.12-21.14.19:639][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.12-21.14.19:639][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.12-21.14.19:657][  0]LogInit: Computer: CONNORPAGE
+[2017.03.12-21.14.19:657][  0]LogInit: User: Connor
+[2017.03.12-21.14.19:657][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.12-21.14.19:657][  0]LogInit: High frequency timer resolution =2.533206 MHz
+[2017.03.12-21.14.19:657][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.12-21.14.19:657][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.12-21.14.19:657][  0]LogMemory: Process Physical Memory: 258.05 MB used, 258.05 MB peak
+[2017.03.12-21.14.19:657][  0]LogMemory: Process Virtual Memory: 260.26 MB used, 260.26 MB peak
+[2017.03.12-21.14.19:657][  0]LogMemory: Physical Memory: 4120.85 MB used, 8109.73 MB total
+[2017.03.12-21.14.19:657][  0]LogMemory: Virtual Memory: 625.00 MB used, 134217728.00 MB total
+[2017.03.12-21.14.19:686][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.03.12-21.14.20:322][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.12-21.14.20:847][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.03.12-21.14.20:847][  0]LogD3D11RHI:       3040/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.12-21.14.20:853][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.12-21.14.20:853][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.12-21.14.20:854][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.12-21.14.20:854][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.12-21.14.20:854][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.12-21.14.20:858][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.12-21.14.20:858][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.12-21.14.20:858][  0]LogWindows: EnumDisplayDevices:
+[2017.03.12-21.14.20:858][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.03.12-21.14.20:858][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.12-21.14.20:859][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.12-21.14.20:859][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.12-21.14.20:859][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.03.12-21.14.20:859][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.12-21.14.20:859][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.12-21.14.20:859][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.12-21.14.21:371][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.12-21.14.21:403][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.12-21.14.21:403][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/11568/).
+[2017.03.12-21.14.21:403][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Connor/AppData/Local/Temp/UnrealShaderWorkingDir/2DBC126845F6820CE7DFC2A7FF27C0C4/'.
+[2017.03.12-21.14.21:403][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.12-21.14.22:257][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.12-21.14.22:264][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.12-21.14.22:271][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.12-21.14.22:278][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.12-21.14.22:285][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.12-21.14.22:291][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.12-21.14.22:297][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.12-21.14.22:303][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.12-21.14.22:309][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.12-21.14.22:315][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.12-21.14.22:321][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.12-21.14.22:333][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.12-21.14.22:333][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.12-21.14.22:334][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.12-21.14.22:354][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.12-21.14.22:360][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.12-21.14.22:366][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.12-21.14.22:372][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.12-21.14.22:378][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.12-21.14.22:384][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.12-21.14.22:384][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.12-21.14.22:453][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.12-21.14.22:526][  0]LogDerivedDataCache: Loaded boot cache 0.07s 61MB C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.12-21.14.22:526][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.03.12-21.14.22:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.12-21.14.22:526][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.12-21.14.22:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.12-21.14.22:526][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.12-21.14.22:544][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.12-21.14.22:556][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Connor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.12-21.14.22:746][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.12-21.14.22:749][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.12-21.14.22:835][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.12-21.14.22:835][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.12-21.14.22:835][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.12-21.14.22:897][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.12-21.14.23:257][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2011542088
+[2017.03.12-21.14.23:299][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.03.12-21.14.23:330][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.029629 seconds
+[2017.03.12-21.14.23:335][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.03.12-21.14.23:335][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2017.03.12-21.14.23:335][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.12-21.14.23:516][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.12-21.14.23:516][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.12-21.14.24:232][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.03.12-21.14.24:243][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.12-21.14.24:266][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.12-21.14.24:509][  0]SourceControl: Info Source control is disabled
+[2017.03.12-21.14.24:509][  0]SourceControl: Info Source control is disabled
+[2017.03.12-21.14.24:519][  0]SourceControl: Info Source control is disabled
+[2017.03.12-21.14.24:529][  0]SourceControl: Info Source control is disabled
+[2017.03.12-21.14.24:837][  0]LogEngine: Initializing Engine...
+[2017.03.12-21.14.24:837][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.12-21.14.24:988][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.12-21.14.24:994][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.12-21.14.25:324][  0]LogInit: FAudioDevice initialized.
+[2017.03.12-21.14.25:363][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.12-21.14.25:374][  0]LogInit: Texture streaming: Enabled
+[2017.03.12-21.14.25:397][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.12-21.14.25:427][  0]LogInit: Transaction tracking system initialized
+[2017.03.12-21.14.25:442][  0]BlueprintLog: New page: Editor Load
+[2017.03.12-21.14.25:498][  0]LocalizationService: Info Localization service is disabled
+[2017.03.12-21.14.25:567][  0]LogConsoleResponse:Display: 
+[2017.03.12-21.14.25:666][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.12-21.14.25:666][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.12-21.14.25:825][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/' took 0.02s
+[2017.03.12-21.14.25:825][  0]SourceControl: Info Source control is disabled
+[2017.03.12-21.14.25:825][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.12-21.14.25:826][  0]LogEditorServer:Warning: Can't find file '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap'
+[2017.03.12-21.14.25:826][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.12-21.14.25:868][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.337ms to complete.
+[2017.03.12-21.14.25:868][  0]LogFileHelpers: Loading map 'MainMenu' took 0.043
+[2017.03.12-21.14.25:980][  0]LogCollectionManager: Loaded 0 collections in 0.001250 seconds
+[2017.03.12-21.14.26:019][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Collections/' took 0.01s
+[2017.03.12-21.14.26:019][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Developers/Connor/Collections/' took 0.01s
+[2017.03.12-21.14.26:019][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Collections/' took 0.01s
+[2017.03.12-21.14.26:019][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.03.12-21.14.26:028][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2156 classes and 421 folders.
+[2017.03.12-21.14.26:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.12-21.14.26:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.12-21.14.26:032][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2017.03.12-21.14.26:035][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.12-21.14.26:092][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.12-21.14.26:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.12-21.14.26:139][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.12-21.14.26:146][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.12-21.14.26:172][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.12-21.14.26:173][  0]LogLoad: (Engine Initialization) Total time: 7.53 seconds
+[2017.03.12-21.14.26:173][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.03.12-21.14.26:173][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.12-21.14.26:190][  0]LogOcInput: OculusInput pre-init called
+[2017.03.12-21.14.26:209][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.12-21.14.26:400][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.03.12-21.14.26:508][  2]LogAssetRegistry: Asset discovery search completed in 3.2311 seconds
+[2017.03.12-21.14.26:508][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.12-21.14.26:508][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.03.12-21.14.46:497][120]LogAIModule: Creating AISystem for world Lobby
+[2017.03.12-21.14.46:503][120]LogAIModule: Creating AISystem for world TravelMap
+[2017.03.12-21.14.46:770][120]LogAIModule: Creating AISystem for world ThirdPersonExampleMap2
+[2017.03.12-21.14.46:827][120]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.12-21.14.46:837][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:838][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/BP_fallingTrap.uasset.
+[2017.03.12-21.14.46:838][120]LoadErrors:Error: Error /Game/BadGuyBP/TrapBP/BP_fallingTrap : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2017.03.12-21.14.46:847][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:847][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/BP_fallingTrap.uasset.
+[2017.03.12-21.14.46:849][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:849][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:849][120]LoadErrors:Error: Error /Game/BadGuyBP/BadGuyBP : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2017.03.12-21.14.46:849][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:849][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:849][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:849][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:853][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:853][120]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_DynamicCast_4
+[2017.03.12-21.14.46:853][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:853][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:853][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:865][120]LogBlueprint:Warning: [Compiler BP_fallingTrap] Warning Can't connect pins  ReturnValue  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.03.12-21.14.46:865][120]LogBlueprint:Warning: [Compiler BP_fallingTrap] Warning Can't connect pins  Object  and  ReturnValue : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.03.12-21.14.46:866][120]LogBlueprint:Error: [Compiler BP_fallingTrap] Error This blueprint (self) is not a Character, therefore ' self ' must have a connection.
+[2017.03.12-21.14.46:866][120]LogBlueprint:Error: [Compiler BP_fallingTrap] Error Variable node  K2Node_VariableGet_40  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.03.12-21.14.46:873][120]LogBlueprint:Warning: [Compiler BP_fallingTrap] Warning [0028.23] Compile of BP_fallingTrap failed. 2 Fatal Issue(s) 2 Warning(s) [in 10 ms] (/Game/BadGuyBP/TrapBP/BP_fallingTrap.BP_fallingTrap)
+[2017.03.12-21.14.46:873][120]LogBlueprint:Warning: [Compiler BP_fallingTrap] Warning [0028.23] Compile of BP_fallingTrap failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/BadGuyBP/TrapBP/BP_fallingTrap.BP_fallingTrap)
+[2017.03.12-21.14.46:873][120]LogBlueprint:Warning: [Compiler BP_fallingTrap] Warning [0028.23] Compile of BP_fallingTrap failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/BadGuyBP/TrapBP/BP_fallingTrap.BP_fallingTrap)
+[2017.03.12-21.14.46:876][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:876][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/BP_raisingTrap.uasset.
+[2017.03.12-21.14.46:876][120]LoadErrors:Error: Error /Game/BadGuyBP/TrapBP/BP_raisingTrap : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2017.03.12-21.14.46:877][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:877][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/BP_raisingTrap.uasset.
+[2017.03.12-21.14.46:880][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:880][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:880][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:880][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:880][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:880][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:883][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:883][120]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_DynamicCast_0
+[2017.03.12-21.14.46:883][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:883][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:884][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:896][120]LogBlueprint:Warning: [Compiler BP_raisingTrap] Warning Can't connect pins  ReturnValue  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.03.12-21.14.46:896][120]LogBlueprint:Warning: [Compiler BP_raisingTrap] Warning Can't connect pins  Object  and  ReturnValue : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.03.12-21.14.46:896][120]LogBlueprint:Error: [Compiler BP_raisingTrap] Error This blueprint (self) is not a Character, therefore ' self ' must have a connection.
+[2017.03.12-21.14.46:897][120]LogBlueprint:Error: [Compiler BP_raisingTrap] Error Variable node  K2Node_VariableGet_40  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.03.12-21.14.46:903][120]LogBlueprint:Warning: [Compiler BP_raisingTrap] Warning [0028.26] Compile of BP_raisingTrap failed. 2 Fatal Issue(s) 2 Warning(s) [in 10 ms] (/Game/BadGuyBP/TrapBP/BP_raisingTrap.BP_raisingTrap)
+[2017.03.12-21.14.46:903][120]LogBlueprint:Warning: [Compiler BP_raisingTrap] Warning [0028.26] Compile of BP_raisingTrap failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/BadGuyBP/TrapBP/BP_raisingTrap.BP_raisingTrap)
+[2017.03.12-21.14.46:903][120]LogBlueprint:Warning: [Compiler BP_raisingTrap] Warning [0028.26] Compile of BP_raisingTrap failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/BadGuyBP/TrapBP/BP_raisingTrap.BP_raisingTrap)
+[2017.03.12-21.14.46:905][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:905][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/BP_ropeTrap.uasset.
+[2017.03.12-21.14.46:905][120]LoadErrors:Error: Error /Game/BadGuyBP/TrapBP/BP_ropeTrap : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2017.03.12-21.14.46:906][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:906][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/BP_ropeTrap.uasset.
+[2017.03.12-21.14.46:907][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:907][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:907][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:907][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:907][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:907][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:908][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:908][120]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_DynamicCast_3
+[2017.03.12-21.14.46:908][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:908][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:908][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:912][120]LogBlueprint:Warning: [Compiler BP_ropeTrap] Warning Can't connect pins  Object  and  ReturnValue : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.03.12-21.14.46:912][120]LogBlueprint:Warning: [Compiler BP_ropeTrap] Warning Can't connect pins  ReturnValue  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.03.12-21.14.46:912][120]LogBlueprint:Error: [Compiler BP_ropeTrap] Error This blueprint (self) is not a Character, therefore ' self ' must have a connection.
+[2017.03.12-21.14.46:912][120]LogBlueprint:Error: [Compiler BP_ropeTrap] Error Variable node  K2Node_VariableGet_12  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.03.12-21.14.46:914][120]LogBlueprint:Warning: [Compiler BP_ropeTrap] Warning [0028.27] Compile of BP_ropeTrap failed. 2 Fatal Issue(s) 2 Warning(s) [in 3 ms] (/Game/BadGuyBP/TrapBP/BP_ropeTrap.BP_ropeTrap)
+[2017.03.12-21.14.46:914][120]LogBlueprint:Warning: [Compiler BP_ropeTrap] Warning [0028.27] Compile of BP_ropeTrap failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/BadGuyBP/TrapBP/BP_ropeTrap.BP_ropeTrap)
+[2017.03.12-21.14.46:914][120]LogBlueprint:Warning: [Compiler BP_ropeTrap] Warning [0028.27] Compile of BP_ropeTrap failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/BadGuyBP/TrapBP/BP_ropeTrap.BP_ropeTrap)
+[2017.03.12-21.14.46:916][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:916][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/BP_slowingTrap.uasset.
+[2017.03.12-21.14.46:916][120]LoadErrors:Error: Error /Game/BadGuyBP/TrapBP/BP_slowingTrap : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2017.03.12-21.14.46:917][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:917][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/BP_slowingTrap.uasset.
+[2017.03.12-21.14.46:918][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:918][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:918][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:918][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:918][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:918][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:919][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:919][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:919][120]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2017.03.12-21.14.46:919][120]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset.
+[2017.03.12-21.14.46:922][120]LogBlueprint:Warning: [Compiler BP_slowingTrap] Warning Can't connect pins  Object  and  ReturnValue : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.03.12-21.14.46:922][120]LogBlueprint:Warning: [Compiler BP_slowingTrap] Warning Can't connect pins  ReturnValue  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.03.12-21.14.46:922][120]LogBlueprint:Error: [Compiler BP_slowingTrap] Error This blueprint (self) is not a Character, therefore ' self ' must have a connection.
+[2017.03.12-21.14.46:922][120]LogBlueprint:Error: [Compiler BP_slowingTrap] Error Variable node  K2Node_VariableGet_12  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.03.12-21.14.46:924][120]LogBlueprint:Warning: [Compiler BP_slowingTrap] Warning [0028.28] Compile of BP_slowingTrap failed. 2 Fatal Issue(s) 2 Warning(s) [in 3 ms] (/Game/BadGuyBP/TrapBP/BP_slowingTrap.BP_slowingTrap)
+[2017.03.12-21.14.46:924][120]LogBlueprint:Warning: [Compiler BP_slowingTrap] Warning [0028.28] Compile of BP_slowingTrap failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/BadGuyBP/TrapBP/BP_slowingTrap.BP_slowingTrap)
+[2017.03.12-21.14.46:924][120]LogBlueprint:Warning: [Compiler BP_slowingTrap] Warning [0028.28] Compile of BP_slowingTrap failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/BadGuyBP/TrapBP/BP_slowingTrap.BP_slowingTrap)
+[2017.03.12-21.14.47:318][120]LogAIModule: Creating AISystem for world Template_Free2
+[2017.03.12-21.14.47:438][120]LogAIModule: Creating AISystem for world Template_Free
+[2017.03.12-21.14.47:455][120]LogAIModule: Creating AISystem for world MainMenu
+[2017.03.12-21.14.47:563][120]LogAIModule: Creating AISystem for world Map_Shaun
+[2017.03.12-21.14.51:002][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap2, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2:PersistentLevel.ThirdPersonExampleMap2_C_0
+[2017.03.12-21.14.51:115][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2_C' ref from Metadata '/Game/Maps/ThirdPersonExampleMap2.PackageMetaData'
+[2017.03.12-21.14.51:115][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.SKEL_ThirdPersonExampleMap2_C' ref from Metadata '/Game/Maps/ThirdPersonExampleMap2.PackageMetaData'
+[2017.03.12-21.14.51:169][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_1
+[2017.03.12-21.14.51:226][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' ref from Metadata '/Game/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2017.03.12-21.14.51:226][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.SKEL_ThirdPersonExampleMap_C' ref from Metadata '/Game/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2017.03.12-21.14.51:418][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free2, Actor: /Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2:PersistentLevel.Template_Free2_C_1
+[2017.03.12-21.14.51:477][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2_C' ref from Metadata '/Game/Maps/Template_Free2.PackageMetaData'
+[2017.03.12-21.14.51:477][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/Template_Free2.SKEL_Template_Free2_C' ref from Metadata '/Game/Maps/Template_Free2.PackageMetaData'
+[2017.03.12-21.14.51:681][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free, Actor: /Game/ThirdPersonBP/Maps/Template_Free.Template_Free:PersistentLevel.Template_Free_C_1
+[2017.03.12-21.14.51:741][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/Template_Free.Template_Free_C' ref from Metadata '/Game/Maps/Template_Free.PackageMetaData'
+[2017.03.12-21.14.51:741][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/Template_Free.SKEL_Template_Free_C' ref from Metadata '/Game/Maps/Template_Free.PackageMetaData'
+[2017.03.12-21.14.51:784][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainMenu, Actor: /Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu_C_0
+[2017.03.12-21.14.51:843][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Maps/MainMenu.PackageMetaData'
+[2017.03.12-21.14.51:843][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' ref from Metadata '/Game/Maps/MainMenu.PackageMetaData'
+[2017.03.12-21.14.51:843][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/Maps/MainMenu.PackageMetaData'
+[2017.03.12-21.14.52:035][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Map_Shaun, Actor: /Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun_C_0
+[2017.03.12-21.14.52:092][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun_C' ref from Metadata '/Game/Maps/Map_Shaun.PackageMetaData'
+[2017.03.12-21.14.52:092][311]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/Map_Shaun.SKEL_Map_Shaun_C' ref from Metadata '/Game/Maps/Map_Shaun.PackageMetaData'
+[2017.03.12-21.14.52:219][311]LogSavePackage: Save=26.20ms
+[2017.03.12-21.14.52:219][311]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Lobby0DC65C514A5F3F5EDF5DEDB4FB417928.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap'
+[2017.03.12-21.14.52:224][311]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap
+[2017.03.12-21.14.52:226][311]LogFileHelpers: Saving map 'Lobby' took 0.119
+[2017.03.12-21.14.52:342][311]LogSavePackage: Save=9.35ms
+[2017.03.12-21.14.52:342][311]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/TravelMap54A02449403ED1E152889B925A6712CF.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/TravelMap.umap'
+[2017.03.12-21.14.52:345][311]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/TravelMap.umap
+[2017.03.12-21.14.52:346][311]LogFileHelpers: Saving map 'TravelMap' took 0.115
+[2017.03.12-21.14.52:443][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap2, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2:PersistentLevel.ThirdPersonExampleMap2_C_1
+[2017.03.12-21.14.52:559][311]LogSavePackage: Save=126.39ms
+[2017.03.12-21.14.52:559][311]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap20E204D12485715D7CE0810A4763E514D.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap'
+[2017.03.12-21.14.52:561][311]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap
+[2017.03.12-21.14.52:564][311]LogFileHelpers: Saving map 'ThirdPersonExampleMap2' took 0.216
+[2017.03.12-21.14.52:663][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
+[2017.03.12-21.14.52:786][311]LogSavePackage: Save=133.68ms
+[2017.03.12-21.14.52:786][311]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap47E7081B4E26FF782C99B78E7B2A3C09.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.12-21.14.52:788][311]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.12-21.14.52:791][311]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.225
+[2017.03.12-21.14.52:932][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free2, Actor: /Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2:PersistentLevel.Template_Free2_C_0
+[2017.03.12-21.14.53:507][311]LogSavePackage: Save=589.69ms
+[2017.03.12-21.14.53:507][311]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free2B0779F80419F6A232E8BA7B7C8116AB5.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap'
+[2017.03.12-21.14.53:510][311]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap
+[2017.03.12-21.14.53:518][311]LogFileHelpers: Saving map 'Template_Free2' took 0.725
+[2017.03.12-21.14.53:631][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free, Actor: /Game/ThirdPersonBP/Maps/Template_Free.Template_Free:PersistentLevel.Template_Free_C_0
+[2017.03.12-21.14.54:232][311]LogSavePackage: Save=616.24ms
+[2017.03.12-21.14.54:232][311]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free87C33B0F49C0CAFC905FF48C1716B994.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap'
+[2017.03.12-21.14.54:235][311]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap
+[2017.03.12-21.14.54:243][311]LogFileHelpers: Saving map 'Template_Free' took 0.723
+[2017.03.12-21.14.54:355][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: MainMenu, Actor: /Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu_C_1
+[2017.03.12-21.14.54:421][311]LogSavePackage: Save=69.94ms
+[2017.03.12-21.14.54:421][311]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/MainMenuF912741B4E8FD36CC97B2FA771C920A4.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap'
+[2017.03.12-21.14.54:424][311]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap
+[2017.03.12-21.14.54:425][311]LogFileHelpers: Saving map 'MainMenu' took 0.180
+[2017.03.12-21.14.54:542][311]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Map_Shaun, Actor: /Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun_C_1
+[2017.03.12-21.14.55:128][311]LogSavePackage: Save=599.47ms
+[2017.03.12-21.14.55:128][311]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_Shaun502966A34A2FD315FCBCF5BEB56F44AE.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap'
+[2017.03.12-21.14.55:131][311]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap
+[2017.03.12-21.14.55:139][311]LogFileHelpers: Saving map 'Map_Shaun' took 0.712
+[2017.03.12-21.15.16:951][ 36]LogSavePackage: Save=25.35ms
+[2017.03.12-21.15.16:951][ 36]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyA8AD06254CBB147E367415B0D8246D5F.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap'
+[2017.03.12-21.15.16:954][ 36]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap
+[2017.03.12-21.15.16:955][ 36]LogFileHelpers: Saving map 'Lobby' took 0.125
+[2017.03.12-21.15.17:071][ 36]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Map_Shaun, Actor: /Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun_C_0
+[2017.03.12-21.15.17:616][ 36]LogSavePackage: Save=559.90ms
+[2017.03.12-21.15.17:616][ 36]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_Shaun6C69537242F2338809C6F4906D6051D1.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap'
+[2017.03.12-21.15.17:619][ 36]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap
+[2017.03.12-21.15.17:623][ 36]LogFileHelpers: Saving map 'Map_Shaun' took 0.668
+[2017.03.12-21.15.17:734][ 36]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free, Actor: /Game/ThirdPersonBP/Maps/Template_Free.Template_Free:PersistentLevel.Template_Free_C_1
+[2017.03.12-21.15.18:274][ 36]LogSavePackage: Save=553.79ms
+[2017.03.12-21.15.18:274][ 36]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free4BEFA122483F9F1A4AC73DA4DB130C1D.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap'
+[2017.03.12-21.15.18:277][ 36]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap
+[2017.03.12-21.15.18:281][ 36]LogFileHelpers: Saving map 'Template_Free' took 0.658
+[2017.03.12-21.15.18:417][ 36]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free2, Actor: /Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2:PersistentLevel.Template_Free2_C_1
+[2017.03.12-21.15.19:001][ 36]LogSavePackage: Save=599.25ms
+[2017.03.12-21.15.19:001][ 36]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free2CAF46CB44839FBDB0831D3916C8AEAB0.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap'
+[2017.03.12-21.15.19:005][ 36]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap
+[2017.03.12-21.15.19:010][ 36]LogFileHelpers: Saving map 'Template_Free2' took 0.728
+[2017.03.12-21.15.19:116][ 36]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_1
+[2017.03.12-21.15.19:216][ 36]LogSavePackage: Save=110.96ms
+[2017.03.12-21.15.19:216][ 36]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMapC323DE5A481B3F87B66569AE66C8E385.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.12-21.15.19:220][ 36]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.12-21.15.19:222][ 36]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.212
+[2017.03.12-21.15.19:326][ 36]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap2, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2:PersistentLevel.ThirdPersonExampleMap2_C_0
+[2017.03.12-21.15.19:427][ 36]LogSavePackage: Save=111.26ms
+[2017.03.12-21.15.19:427][ 36]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap2F71765254CACCECE45CF2392B3D5552F.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap'
+[2017.03.12-21.15.19:431][ 36]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap
+[2017.03.12-21.15.19:433][ 36]LogFileHelpers: Saving map 'ThirdPersonExampleMap2' took 0.211
+[2017.03.12-21.15.19:435][ 36]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.12-21.15.19:435][ 36]LightingResults: New page: Lighting Build
+[2017.03.12-21.15.19:437][ 36]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0006 seconds. Added 5 classes and 0 folders.
+[2017.03.12-21.15.19:438][ 36]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.03.12-21.15.19:438][ 36]MapCheck: New page: Map Check
+[2017.03.12-21.15.19:438][ 36]LightingResults: New page: Lighting Build
+[2017.03.12-21.15.28:480][ 36]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.12-21.15.28:512][ 36]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.12-21.15.28:581][ 36]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.453ms to complete.
+[2017.03.12-21.15.28:582][ 36]LogFileHelpers: Loading map 'MainMenu' took 9.148
+[2017.03.12-21.15.30:575][144]LogSavePackage: Save=88.89ms
+[2017.03.12-21.15.30:575][144]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/MainMenu0C6836F243ECB0503B019EA47FA5DC54.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap'
+[2017.03.12-21.15.30:576][144]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap
+[2017.03.12-21.15.31:382][183]LogSavePackage: Save=68.33ms
+[2017.03.12-21.15.31:382][183]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/MainMenuBC64E847407798128D9D31978A40C882.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap'
+[2017.03.12-21.15.31:383][183]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap
+[2017.03.12-21.15.34:655][275]LogSavePackage: Save=25.50ms
+[2017.03.12-21.15.34:655][275]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyB45561F0460B2D6FDEB5F7860138B953.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap'
+[2017.03.12-21.15.34:658][275]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap
+[2017.03.12-21.15.34:660][275]LogFileHelpers: Saving map 'Lobby' took 0.117
+[2017.03.12-21.15.34:767][275]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Map_Shaun, Actor: /Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun_C_1
+[2017.03.12-21.15.35:304][275]LogSavePackage: Save=552.94ms
+[2017.03.12-21.15.35:304][275]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_Shaun2D60C5644D51A71F740522883AE0F038.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap'
+[2017.03.12-21.15.35:308][275]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap
+[2017.03.12-21.15.35:315][275]LogFileHelpers: Saving map 'Map_Shaun' took 0.653
+[2017.03.12-21.15.35:418][275]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free, Actor: /Game/ThirdPersonBP/Maps/Template_Free.Template_Free:PersistentLevel.Template_Free_C_0
+[2017.03.12-21.15.35:964][275]LogSavePackage: Save=559.62ms
+[2017.03.12-21.15.35:964][275]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free84A8CECD4999B575CCADAF8E8A90B468.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap'
+[2017.03.12-21.15.35:967][275]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap
+[2017.03.12-21.15.35:974][275]LogFileHelpers: Saving map 'Template_Free' took 0.658
+[2017.03.12-21.15.36:078][275]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free2, Actor: /Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2:PersistentLevel.Template_Free2_C_0
+[2017.03.12-21.15.36:626][275]LogSavePackage: Save=562.09ms
+[2017.03.12-21.15.36:626][275]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free29627D58945E9F10DF9C86B9FF483B832.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap'
+[2017.03.12-21.15.36:629][275]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap
+[2017.03.12-21.15.36:637][275]LogFileHelpers: Saving map 'Template_Free2' took 0.661
+[2017.03.12-21.15.36:733][275]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
+[2017.03.12-21.15.36:831][275]LogSavePackage: Save=108.16ms
+[2017.03.12-21.15.36:831][275]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap03F12A0A4D17CC30699418BFCB28A6AC.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.12-21.15.36:835][275]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.12-21.15.36:837][275]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.199
+[2017.03.12-21.15.36:933][275]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap2, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2:PersistentLevel.ThirdPersonExampleMap2_C_1
+[2017.03.12-21.15.37:054][275]LogSavePackage: Save=132.60ms
+[2017.03.12-21.15.37:054][275]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap23EF4346C4DA062B865FF32A3CF1D71AD.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap'
+[2017.03.12-21.15.37:058][275]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap
+[2017.03.12-21.15.37:061][275]LogFileHelpers: Saving map 'ThirdPersonExampleMap2' took 0.222
+[2017.03.12-21.15.39:254][399]LogSavePackage: Save=68.85ms
+[2017.03.12-21.15.39:254][399]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/MainMenu77FE9C074D26D1522970F4B04673A76C.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap'
+[2017.03.12-21.15.39:255][399]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap
+[2017.03.12-21.17.08:324][198]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.03.12-21.17.22:317][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.17.22:390][993]LogSavePackage: Save=62.88ms
+[2017.03.12-21.17.22:390][993]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM111A4F774D538C731EED95B4477CD178.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.17.22:395][993]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.17.22:938][ 26]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.17.26:681][227]LogSavePackage: Save=91.20ms
+[2017.03.12-21.17.26:681][227]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuE6FCDDA140C8B88794B29481ED8086BC.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.17.26:682][227]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.17.26:687][227]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.17.46:144][446]LogSavePackage: Save=95.25ms
+[2017.03.12-21.17.46:144][446]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu80EF587740D942624EC5BCA64D67E3BC.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.17.46:145][446]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.17.46:151][446]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.20.31:707][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.20.31:784][375]LogSavePackage: Save=72.83ms
+[2017.03.12-21.20.31:784][375]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMAC35BE974BD5150893B28E98F5957B42.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.20.31:787][375]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.20.32:297][406]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.20.39:728][824]LogSavePackage: Save=91.13ms
+[2017.03.12-21.20.39:728][824]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuD1089C01415921023674B6A189F900E9.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.20.39:730][824]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.20.39:901][824]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.21.19:927][112]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.234 s
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: 
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 375]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: 
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: Stack: 
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:297]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:432]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Slate.dll!SDockingTabWell::OnDrop() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\docking\sdockingtabwell.cpp:375]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Slate.dll!<lambda_d21373bc5354aa11b893894bcf47e418>::operator()() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4933]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FPointerEvent,<lambda_d21373bc5354aa11b893894bcf47e418> >() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:215]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4924]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5348]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5328]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1584]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1930]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:747]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:669]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: USER32.dll
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: USER32.dll
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:905]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2788]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\launch.cpp:156]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: KERNEL32.DLL
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: ntdll.dll
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: ntdll.dll
+[2017.03.12-21.21.19:927][112]LogOutputDevice:Error: 
+[2017.03.12-21.21.19:927][112]LogStats:                SubmitErrorReport -  0.000 s
+[2017.03.12-21.21.24:673][112]LogStats:                    SendNewReport -  4.747 s
+[2017.03.12-21.21.24:674][112]LogStats:             FDebug::EnsureFailed -  6.982 s
+[2017.03.12-21.21.24:890][112]LogEditorViewport: Clicking Background
+[2017.03.12-21.22.00:229][184]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.22.00:768][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.22.00:818][205]LogSavePackage: Save=45.93ms
+[2017.03.12-21.22.00:818][205]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMCE62934B43AF13EEAF570DA1F08FFB6A.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.22.00:821][205]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.22.02:719][306]LogSavePackage: Save=90.93ms
+[2017.03.12-21.22.02:719][306]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuFE8308674D5C8C7F87B6C5BCCE606690.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.22.02:720][306]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.22.02:727][306]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.22.39:057][317]LogSavePackage: Save=39.04ms
+[2017.03.12-21.22.39:057][317]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Lobby830E19334020A3F34926D5BB8FFF6694.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap'
+[2017.03.12-21.22.39:060][317]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap
+[2017.03.12-21.22.39:061][317]LogFileHelpers: Saving map 'Lobby' took 0.161
+[2017.03.12-21.22.39:189][317]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Map_Shaun, Actor: /Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun_C_0
+[2017.03.12-21.22.39:796][317]LogSavePackage: Save=623.31ms
+[2017.03.12-21.22.39:796][317]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_Shaun8AFD9C2349443B9FEF528FADF9B453E7.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap'
+[2017.03.12-21.22.39:800][317]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap
+[2017.03.12-21.22.39:806][317]LogFileHelpers: Saving map 'Map_Shaun' took 0.744
+[2017.03.12-21.22.39:929][317]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free, Actor: /Game/ThirdPersonBP/Maps/Template_Free.Template_Free:PersistentLevel.Template_Free_C_1
+[2017.03.12-21.22.40:526][317]LogSavePackage: Save=611.55ms
+[2017.03.12-21.22.40:526][317]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free175767784F8C82E77461DD98B50204DE.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap'
+[2017.03.12-21.22.40:529][317]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap
+[2017.03.12-21.22.40:534][317]LogFileHelpers: Saving map 'Template_Free' took 0.728
+[2017.03.12-21.22.40:659][317]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free2, Actor: /Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2:PersistentLevel.Template_Free2_C_1
+[2017.03.12-21.22.41:262][317]LogSavePackage: Save=618.93ms
+[2017.03.12-21.22.41:262][317]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free28E4F79D44E1542CC025013813F58BADC.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap'
+[2017.03.12-21.22.41:267][317]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap
+[2017.03.12-21.22.41:271][317]LogFileHelpers: Saving map 'Template_Free2' took 0.737
+[2017.03.12-21.22.41:385][317]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_1
+[2017.03.12-21.22.41:514][317]LogSavePackage: Save=140.00ms
+[2017.03.12-21.22.41:514][317]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMapC1D4BFC941C9A7E96A15BEB89938EEFC.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.12-21.22.41:520][317]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.12-21.22.41:523][317]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.251
+[2017.03.12-21.22.41:641][317]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap2, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2:PersistentLevel.ThirdPersonExampleMap2_C_0
+[2017.03.12-21.22.41:776][317]LogSavePackage: Save=147.91ms
+[2017.03.12-21.22.41:776][317]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap2EC77EF8E467A429C48CC0C940C458AC8.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap'
+[2017.03.12-21.22.41:783][317]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap
+[2017.03.12-21.22.41:785][317]LogFileHelpers: Saving map 'ThirdPersonExampleMap2' took 0.262
+[2017.03.12-21.22.41:788][317]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.12-21.22.41:788][317]LightingResults: New page: Lighting Build
+[2017.03.12-21.22.41:789][317]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2017.03.12-21.22.41:789][317]MapCheck: New page: Map Check
+[2017.03.12-21.22.41:789][317]LightingResults: New page: Lighting Build
+[2017.03.12-21.22.43:791][317]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.12-21.22.43:826][317]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.12-21.22.43:899][317]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.919ms to complete.
+[2017.03.12-21.22.43:900][317]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.115
+[2017.03.12-21.22.45:726][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.12-21.22.46:482][431]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart2)
+[2017.03.12-21.31.16:324][115]BlueprintLog: New page: Compile GameInfoInstance
+[2017.03.12-21.31.17:039][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameInfoInstance" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/GameInfoInstance.uasset" SILENT=true
+[2017.03.12-21.31.17:086][137]LogSavePackage: Save=36.85ms
+[2017.03.12-21.31.17:086][137]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/GameInfoInstance85758851411A317A022FBDA3D9F8C03A.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/GameInfoInstance.uasset'
+[2017.03.12-21.31.17:089][137]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/GameInfoInstance.uasset
+[2017.03.12-21.31.23:075][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.31.23:154][488]LogSavePackage: Save=51.12ms
+[2017.03.12-21.31.23:154][488]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMD028288C4673333120D48BA696D4743A.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.31.23:157][488]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.31.23:622][516]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.31.27:007][691]LogSavePackage: Save=144.17ms
+[2017.03.12-21.31.27:007][691]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCThirdPersonExampleMap71A3A64E457B11E194C2C69D9A621429.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.umap'
+[2017.03.12-21.31.27:008][691]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.umap
+[2017.03.12-21.31.27:014][691]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.32.09:823][488]LogAIModule: Creating AISystem for world MainMenu
+[2017.03.12-21.32.11:071][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.32.11:123][488]LogSavePackage: Save=47.41ms
+[2017.03.12-21.32.11:123][488]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMEDD95FF849787DC019495CBCD945C67C.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.32.11:126][488]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.32.11:269][488]LogSavePackage: Save=29.58ms
+[2017.03.12-21.32.11:269][488]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Lobby28C26D6A46BB5C2C5248178EC5E38760.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap'
+[2017.03.12-21.32.11:272][488]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap
+[2017.03.12-21.32.11:274][488]LogFileHelpers: Saving map 'Lobby' took 0.148
+[2017.03.12-21.32.11:394][488]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Map_Shaun, Actor: /Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun_C_1
+[2017.03.12-21.32.11:995][488]LogSavePackage: Save=615.97ms
+[2017.03.12-21.32.11:995][488]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_ShaunE3AB4CCC49FFC4BC8C44438EAC04086C.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap'
+[2017.03.12-21.32.11:999][488]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap
+[2017.03.12-21.32.12:003][488]LogFileHelpers: Saving map 'Map_Shaun' took 0.729
+[2017.03.12-21.32.12:125][488]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free, Actor: /Game/ThirdPersonBP/Maps/Template_Free.Template_Free:PersistentLevel.Template_Free_C_0
+[2017.03.12-21.32.12:705][488]LogSavePackage: Save=595.97ms
+[2017.03.12-21.32.12:705][488]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free5BC2D45C4D50DF9D951A489AA70CDEC8.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap'
+[2017.03.12-21.32.12:709][488]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap
+[2017.03.12-21.32.12:714][488]LogFileHelpers: Saving map 'Template_Free' took 0.711
+[2017.03.12-21.32.12:836][488]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free2, Actor: /Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2:PersistentLevel.Template_Free2_C_0
+[2017.03.12-21.32.13:410][488]LogSavePackage: Save=588.45ms
+[2017.03.12-21.32.13:410][488]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free222F156C7443165167326568B404ECDEF.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap'
+[2017.03.12-21.32.13:414][488]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap
+[2017.03.12-21.32.13:418][488]LogFileHelpers: Saving map 'Template_Free2' took 0.704
+[2017.03.12-21.32.13:651][488]LogSavePackage: Save=138.67ms
+[2017.03.12-21.32.13:651][488]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap2144F2F441804D70F3AEEAA8FAF894F3.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.12-21.32.13:655][488]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.12-21.32.13:686][488]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.267
+[2017.03.12-21.32.13:801][488]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap2, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2:PersistentLevel.ThirdPersonExampleMap2_C_1
+[2017.03.12-21.32.13:923][488]LogSavePackage: Save=132.55ms
+[2017.03.12-21.32.13:923][488]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap21E0E2B33413922C982688899017C60B1.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap'
+[2017.03.12-21.32.13:927][488]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap
+[2017.03.12-21.32.13:928][488]LogFileHelpers: Saving map 'ThirdPersonExampleMap2' took 0.243
+[2017.03.12-21.32.13:929][488]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.12-21.32.13:930][488]LightingResults: New page: Lighting Build
+[2017.03.12-21.32.13:930][488]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.03.12-21.32.13:931][488]MapCheck: New page: Map Check
+[2017.03.12-21.32.13:931][488]LightingResults: New page: Lighting Build
+[2017.03.12-21.32.15:223][488]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.12-21.32.15:255][488]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.12-21.32.15:327][488]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.983ms to complete.
+[2017.03.12-21.32.15:327][488]LogFileHelpers: Loading map 'MainMenu' took 1.398
+[2017.03.12-21.32.16:274][532]LogSavePackage: Save=93.00ms
+[2017.03.12-21.32.16:274][532]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/MainMenuF194188A4C4FABFFF4C1F98B7FEC1DB5.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap'
+[2017.03.12-21.32.16:275][532]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/MainMenu.umap
+[2017.03.12-21.32.18:760][611]LogSavePackage: Save=24.07ms
+[2017.03.12-21.32.18:760][611]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Lobby523F1D1A4480415865BC0F8901EE8C09.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap'
+[2017.03.12-21.32.18:763][611]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap
+[2017.03.12-21.32.18:765][611]LogFileHelpers: Saving map 'Lobby' took 0.125
+[2017.03.12-21.32.18:878][611]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Map_Shaun, Actor: /Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun_C_0
+[2017.03.12-21.32.19:443][611]LogSavePackage: Save=579.66ms
+[2017.03.12-21.32.19:443][611]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_ShaunF4B8CF9D460189ECBD9842B66D71A80D.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap'
+[2017.03.12-21.32.19:446][611]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap
+[2017.03.12-21.32.19:452][611]LogFileHelpers: Saving map 'Map_Shaun' took 0.685
+[2017.03.12-21.32.19:563][611]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free, Actor: /Game/ThirdPersonBP/Maps/Template_Free.Template_Free:PersistentLevel.Template_Free_C_1
+[2017.03.12-21.32.20:137][611]LogSavePackage: Save=588.64ms
+[2017.03.12-21.32.20:138][611]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free1593A84C42BA74C43EF36C9D446D2872.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap'
+[2017.03.12-21.32.20:141][611]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap
+[2017.03.12-21.32.20:148][611]LogFileHelpers: Saving map 'Template_Free' took 0.694
+[2017.03.12-21.32.20:259][611]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free2, Actor: /Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2:PersistentLevel.Template_Free2_C_1
+[2017.03.12-21.32.20:828][611]LogSavePackage: Save=582.69ms
+[2017.03.12-21.32.20:828][611]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free2DAE46ECF436897CBF4D980B9E522B161.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap'
+[2017.03.12-21.32.20:832][611]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap
+[2017.03.12-21.32.20:838][611]LogFileHelpers: Saving map 'Template_Free2' took 0.689
+[2017.03.12-21.32.20:946][611]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap2, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2:PersistentLevel.ThirdPersonExampleMap2_C_0
+[2017.03.12-21.32.21:070][611]LogSavePackage: Save=135.19ms
+[2017.03.12-21.32.21:070][611]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap22B54075740490C9833090999258C0748.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap'
+[2017.03.12-21.32.21:074][611]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap
+[2017.03.12-21.32.21:077][611]LogFileHelpers: Saving map 'ThirdPersonExampleMap2' took 0.236
+[2017.03.12-21.32.26:324][906]LogSavePackage: Save=96.96ms
+[2017.03.12-21.32.26:324][906]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu9B6DD2E6444AC0BF2D6F348C31DD79E9.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.32.26:326][906]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.32.26:330][906]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.33.21:398][505]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.33.42:015][732]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.33.47:151][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.33.47:214][947]LogSavePackage: Save=58.27ms
+[2017.03.12-21.33.47:214][947]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMF595A20B4E801396223235ABD717A0C8.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.33.47:217][947]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.33.47:357][947]LogSavePackage: Save=109.18ms
+[2017.03.12-21.33.47:357][947]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuE495BBC24FFDB1A0CA044DAEA666504F.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.33.47:358][947]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.33.47:362][947]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.34.49:587][856]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.34.50:608][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.34.50:669][908]LogSavePackage: Save=56.69ms
+[2017.03.12-21.34.50:669][908]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMBA73B73545FDCF0B9187B28A9A6E01EA.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.34.50:672][908]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.34.52:404][999]LogSavePackage: Save=92.08ms
+[2017.03.12-21.34.52:404][999]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuCBB9F11D4C5490F2911CA7BEB9EDE1B7.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.34.52:405][999]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.34.52:409][999]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.35.21:322][904]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.35.22:269][961]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.35.22:819][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.35.22:868][985]LogSavePackage: Save=44.92ms
+[2017.03.12-21.35.22:868][985]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM82D08DFD48526999BF511E8D255659FD.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.35.22:871][985]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.35.23:807][ 28]LogSavePackage: Save=96.53ms
+[2017.03.12-21.35.23:807][ 28]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuF1E5DE8845D4FAE67C5DBD80E9884ABD.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.35.23:808][ 28]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.35.23:812][ 28]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.35.52:992][ 51]Cmd: TRANSACTION UNDO
+[2017.03.12-21.35.52:992][ 51]LogEditorTransaction: Undo Change String Pin Value
+[2017.03.12-21.35.56:974][264]Cmd: TRANSACTION UNDO
+[2017.03.12-21.35.56:974][264]LogEditorTransaction: Undo Create Pin Link
+[2017.03.12-21.35.59:224][388]Cmd: TRANSACTION UNDO
+[2017.03.12-21.35.59:224][388]LogEditorTransaction: Undo Delete current selection
+[2017.03.12-21.37.49:514][139]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.37.50:143][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.37.50:198][166]LogSavePackage: Save=45.71ms
+[2017.03.12-21.37.50:198][166]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMB437D1104BE6A69C3B77ECA2C6B99A3B.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.37.50:201][166]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.40.01:837][569]Cmd: TRANSACTION UNDO
+[2017.03.12-21.40.01:838][569]LogEditorTransaction: Undo Delete current selection
+[2017.03.12-21.40.02:985][630]Cmd: TRANSACTION UNDO
+[2017.03.12-21.40.02:985][630]LogEditorTransaction: Undo Edit Use Seamless Travel
+[2017.03.12-21.42.32:343][937]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainMenu' took 0.018
+[2017.03.12-21.42.32:363][937]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobbyGM] ([1] browsable assets)...
+[2017.03.12-21.42.32:363][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobbyGM]
+[2017.03.12-21.42.32:363][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.03.12-21.42.32:413][937]LogSavePackage: Save=44.07ms
+[2017.03.12-21.42.32:413][937]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM_Auto1A539CC6C451EAB40DADD08B1CB62A884.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto1.uasset'
+[2017.03.12-21.42.32:414][937]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/LobbyGM_Auto1.uasset
+[2017.03.12-21.42.32:414][937]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.03.12-21.50.53:770][549]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
+[2017.03.12-21.53.00:847][864]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.53.01:465][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.53.01:519][884]LogSavePackage: Save=45.29ms
+[2017.03.12-21.53.01:519][884]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM67FBB948462B7419E506A99F1246E160.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.53.01:523][884]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.53.03:670][998]LogSavePackage: Save=91.85ms
+[2017.03.12-21.53.03:670][998]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu0AD0EAC04A778F34BC03F2B1F8A5F400.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.53.03:672][998]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.53.03:678][998]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.54.03:899][452]BlueprintLog: New page: Compile LobbyGM
+[2017.03.12-21.54.04:609][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.54.04:661][485]LogSavePackage: Save=45.97ms
+[2017.03.12-21.54.04:661][485]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGMDCF124D84FECAE0BC338D4A3A6276050.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.54.04:664][485]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.54.05:755][537]LogSavePackage: Save=92.91ms
+[2017.03.12-21.54.05:755][537]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu28B0BC8144DBF68189D23F9A4700822C.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.54.05:757][537]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.54.05:762][537]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.54.55:684][220]LogSavePackage: Save=94.05ms
+[2017.03.12-21.54.55:684][220]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu81E7F83A4E053DCDF9B65CB159CEB095.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap'
+[2017.03.12-21.54.55:685][220]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCMainMenu.umap
+[2017.03.12-21.54.55:690][220]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-21.56.00:230][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.56.00:282][843]LogSavePackage: Save=47.19ms
+[2017.03.12-21.56.00:282][843]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM960EB9744F9EAFFE35D178935AB5C573.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.56.00:283][843]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.56.07:368][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.56.07:417][268]LogSavePackage: Save=45.27ms
+[2017.03.12-21.56.07:417][268]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM0199F8594044B16A951BEFA777A823F7.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.56.07:418][268]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.56.07:518][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.56.07:567][274]LogSavePackage: Save=45.04ms
+[2017.03.12-21.56.07:567][274]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGME39159D74B64DC490E3BDC81E5FAE255.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.56.07:568][274]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.56.07:686][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.56.07:734][281]LogSavePackage: Save=44.18ms
+[2017.03.12-21.56.07:734][281]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM2EB5513F486CFDFEF98AB796E66DA7F5.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.56.07:736][281]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.56.07:985][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.56.08:036][296]LogSavePackage: Save=46.28ms
+[2017.03.12-21.56.08:036][296]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM6C41130B4E8EEDB4E55FD4BFE45871D3.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.56.08:037][296]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.56.08:320][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LobbyGM" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset" SILENT=true
+[2017.03.12-21.56.08:368][313]LogSavePackage: Save=44.18ms
+[2017.03.12-21.56.08:368][313]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyGM2AE52A0B4CDEE3284D952080B3A9E12C.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset'
+[2017.03.12-21.56.08:369][313]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/LobbyGM.uasset
+[2017.03.12-21.56.19:908][884]LogSavePackage: Save=47.69ms
+[2017.03.12-21.56.19:908][884]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/LobbyC293DDCF4580E6147FBA4FB32224F640.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap'
+[2017.03.12-21.56.19:911][884]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Lobby.umap
+[2017.03.12-21.56.19:913][884]LogFileHelpers: Saving map 'Lobby' took 0.156
+[2017.03.12-21.56.20:048][884]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Map_Shaun, Actor: /Game/ThirdPersonBP/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun_C_1
+[2017.03.12-21.56.20:665][884]LogSavePackage: Save=634.58ms
+[2017.03.12-21.56.20:665][884]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_Shaun4E50817648C43B42C2DFFD8E72B8DC42.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap'
+[2017.03.12-21.56.20:669][884]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Map_Shaun.umap
+[2017.03.12-21.56.20:677][884]LogFileHelpers: Saving map 'Map_Shaun' took 0.762
+[2017.03.12-21.56.20:800][884]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free, Actor: /Game/ThirdPersonBP/Maps/Template_Free.Template_Free:PersistentLevel.Template_Free_C_0
+[2017.03.12-21.56.21:400][884]LogSavePackage: Save=615.77ms
+[2017.03.12-21.56.21:401][884]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free84A0B0904C13BF880CC5D0B43BC089E0.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap'
+[2017.03.12-21.56.21:404][884]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free.umap
+[2017.03.12-21.56.21:415][884]LogFileHelpers: Saving map 'Template_Free' took 0.736
+[2017.03.12-21.56.21:539][884]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Template_Free2, Actor: /Game/ThirdPersonBP/Maps/Template_Free2.Template_Free2:PersistentLevel.Template_Free2_C_0
+[2017.03.12-21.56.22:162][884]LogSavePackage: Save=638.18ms
+[2017.03.12-21.56.22:162][884]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Template_Free288E1592B46704DB50E84E4945B264C4C.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap'
+[2017.03.12-21.56.22:165][884]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/Template_Free2.umap
+[2017.03.12-21.56.22:178][884]LogFileHelpers: Saving map 'Template_Free2' took 0.761
+[2017.03.12-21.56.22:311][884]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap2, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap2.ThirdPersonExampleMap2:PersistentLevel.ThirdPersonExampleMap2_C_1
+[2017.03.12-21.56.22:446][884]LogSavePackage: Save=147.34ms
+[2017.03.12-21.56.22:446][884]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/ThirdPersonExampleMap2EA378A204B72AF2643821FA13B0BF655.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap'
+[2017.03.12-21.56.22:451][884]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap2.umap
+[2017.03.12-21.56.22:455][884]LogFileHelpers: Saving map 'ThirdPersonExampleMap2' took 0.275
+[2017.03.12-21.56.22:899][885]Cmd: QUIT_EDITOR
+[2017.03.12-21.56.22:951][885]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.12-21.56.22:984][885]LogExit: Preparing to exit.
+[2017.03.12-21.56.23:339][885]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/' was aborted.
+[2017.03.12-21.56.23:486][885]LogExit: Editor shut down
+[2017.03.12-21.56.23:487][885]LogExit: Transaction tracking system shut down
+[2017.03.12-21.56.23:825][885]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.12-21.56.23:825][885]LogExit: Object subsystem successfully closed.
+[2017.03.12-21.56.23:848][885]LogD3D11RHI: Shutdown
+[2017.03.12-21.56.23:848][885]LogD3D11RHI: CleanupD3DDevice
+[2017.03.12-21.56.23:946][885]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (240)
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module BlueprintGraph (239)
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (238)
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module StatsViewer (237)
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (236)
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module CrashTracker (235)
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module SceneOutliner (234)
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module WidgetCarousel (233)
+[2017.03.12-21.56.23:953][885]LogModuleManager: Shutting down and abandoning module AddContentDialog (232)
+[2017.03.12-21.56.23:954][885]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/4.13/FeaturePacks/' was aborted.
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module GameplayTags (231)
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module EditorWidgets (230)
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module CollectionManager (229)
+[2017.03.12-21.56.23:960][885]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Collections/' was aborted.
+[2017.03.12-21.56.23:960][885]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Developers/Connor/Collections/' was aborted.
+[2017.03.12-21.56.23:960][885]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Collections/' was aborted.
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module FoliageEdit (228)
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module LandscapeEditor (227)
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (226)
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module ActorPickerMode (225)
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module GeometryMode (224)
+[2017.03.12-21.56.23:960][885]LogModuleManager: Shutting down and abandoning module TextureAlignMode (223)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module BspMode (222)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module HardwareSurvey (221)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (220)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module SequenceRecorder (219)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module AutomationWorker (218)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (217)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module PlacementMode (216)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (215)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (214)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (213)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (212)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (211)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module Media (210)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (209)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (208)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module CharacterAI (207)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module SmartSnapping (206)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module SessionServices (205)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module ViewportSnapping (204)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module ViewportInteraction (203)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module LogVisualizer (202)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (201)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module IntroTutorials (200)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (199)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (198)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (197)
+[2017.03.12-21.56.23:961][885]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module NiagaraEditor (192)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module MergeActors (191)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module SizeMap (190)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module TreeMap (189)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module ReferenceViewer (188)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module LocalizationService (187)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (186)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module HardwareTargeting (185)
+[2017.03.12-21.56.24:174][885]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (184)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module UndoHistory (183)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module UserFeedback (182)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module XmlParser (181)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module Blutility (180)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (179)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (178)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module InputBindingEditor (177)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
+[2017.03.12-21.56.24:175][885]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
+[2017.03.12-21.56.24:218][885]LogModuleManager: Shutting down and abandoning module AutomationController (169)
+[2017.03.12-21.56.24:218][885]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
+[2017.03.12-21.56.24:218][885]LogModuleManager: Shutting down and abandoning module Layers (167)
+[2017.03.12-21.56.24:218][885]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
+[2017.03.12-21.56.24:218][885]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
+[2017.03.12-21.56.24:218][885]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
+[2017.03.12-21.56.24:219][885]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
+[2017.03.12-21.56.24:219][885]LogModuleManager: Shutting down and abandoning module Persona (162)
+[2017.03.12-21.56.24:219][885]LogModuleManager: Shutting down and abandoning module Kismet (161)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module Toolbox (158)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module OutputLog (155)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module GammaUI (154)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module Documentation (153)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module PortalServices (149)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module AIModule (144)
+[2017.03.12-21.56.24:228][885]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module SubstanceEditor (141)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module SlateRemote (140)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module SteamVRController (139)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module SteamVR (138)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (137)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (136)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module OculusLibrary (135)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module OculusInput (134)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (133)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module CableComponent (132)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (131)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (130)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module HTML5Networking (129)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (128)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module GeometryCache (127)
+[2017.03.12-21.56.24:287][885]LogModuleManager: Shutting down and abandoning module AlembicLibrary (126)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module AlembicImporter (125)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module SuperSearch (124)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (123)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (122)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module PluginBrowser (121)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (120)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module EpicSurvey (119)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module DesktopPlatform (118)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (117)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module UObjectPlugin (116)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (115)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (114)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module SourceControl (113)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module GitSourceControl (112)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (111)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (110)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (109)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module MeshPaint (108)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (107)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module HotReload (105)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module MainFrame (104)
+[2017.03.12-21.56.24:288][885]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
+[2017.03.12-21.56.24:290][885]LogModuleManager: Shutting down and abandoning module ContentBrowser (102)
+[2017.03.12-21.56.24:291][885]LogModuleManager: Shutting down and abandoning module Paper2DEditor (101)
+[2017.03.12-21.56.24:291][885]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
+[2017.03.12-21.56.24:392][885]LogModuleManager: Shutting down and abandoning module TcpMessaging (99)
+[2017.03.12-21.56.24:492][885]LogModuleManager: Shutting down and abandoning module SubstanceCore (98)
+[2017.03.12-21.56.24:492][885]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (97)
+[2017.03.12-21.56.24:492][885]LogModuleManager: Shutting down and abandoning module Paper2D (96)
+[2017.03.12-21.56.24:492][885]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (95)
+[2017.03.12-21.56.24:492][885]LogModuleManager: Shutting down and abandoning module WmfMedia (94)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module MediaAssets (93)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (92)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (91)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module VREditor (90)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (89)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module PropertyEditor (88)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (87)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module FunctionalTesting (86)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (85)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module Sequencer (84)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (83)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module MessageLog (82)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module AssetTools (81)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module UMGEditor (80)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module UMG (79)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module SlateReflector (78)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module Slate (77)
+[2017.03.12-21.56.24:493][885]LogModuleManager: Shutting down and abandoning module EditorStyle (76)
+[2017.03.12-21.56.24:496][885]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (75)
+[2017.03.12-21.56.24:496][885]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
+[2017.03.12-21.56.24:496][885]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
+[2017.03.12-21.56.24:496][885]LogModuleManager: Shutting down and abandoning module Networking (72)
+[2017.03.12-21.56.24:496][885]LogModuleManager: Shutting down and abandoning module Core (71)
+[2017.03.12-21.56.24:496][885]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (70)
+[2017.03.12-21.56.24:496][885]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.12-21.56.24:496][885]LogDirectoryWatcher: A directory notification for '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/' was aborted.
+[2017.03.12-21.56.24:497][885]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.12-21.56.24:501][885]LogModuleManager: Shutting down and abandoning module AssetRegistry (69)
+[2017.03.12-21.56.24:702][885]LogModuleManager: Shutting down and abandoning module KismetCompiler (68)
+[2017.03.12-21.56.24:702][885]LogModuleManager: Shutting down and abandoning module PhysXFormats (67)
+[2017.03.12-21.56.24:702][885]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.03.12-21.56.24:702][885]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.03.12-21.56.24:774][885]LogDerivedDataCache: Shutdown
+[2017.03.12-21.56.24:774][885]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.03.12-21.56.24:774][885]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.03.12-21.56.24:774][885]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.03.12-21.56.24:774][885]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.03.12-21.56.24:774][885]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.03.12-21.56.24:774][885]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.03.12-21.56.24:774][885]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.03.12-21.56.24:774][885]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module InputCore (28)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Settings (27)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module GearVR (25)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module Voice (21)
+[2017.03.12-21.56.24:775][885]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.03.12-21.56.24:775][885]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.03.12-21.56.24:776][885]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.12-21.56.24:776][885]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.12-21.56.24:776][885]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.12-21.56.24:776][885]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3150120E-40DE-F922-D8E9-01978D12E3A6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=4b9972bd4ce3693f1c40f48e45651904%7Cd95bbae5a2c34cf6b3073801ef7200b6%7Ca979dc9b-9d08-4556-ac9a-aeddded5a6c4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.12-21.56.24:781][885]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.12-21.56.24:781][885]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.12-21.56.24:781][885]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.12-21.56.24:781][885]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.12-21.56.24:781][885]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.12-21.56.24:794][885]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.12-21.56.24:796][885]LogExit: Exiting.
+[2017.03.12-21.56.24:818][885]Log file closed, 03/12/17 21:56:24
