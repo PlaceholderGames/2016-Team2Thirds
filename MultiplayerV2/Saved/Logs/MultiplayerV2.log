@@ -1,98 +1,98 @@
-﻿Log file open, 03/16/17 21:55:48
+﻿Log file open, 03/17/17 22:44:46
 LogInit:Display: Running engine for game: MultiplayerV2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1214486946) SRandInit(-1214486946).
+LogInit:Display: RandInit(1244351631) SRandInit(1244351631).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.069469
-LogPluginManager: Loaded Plugin Paper2D, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
-LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
-LogPluginManager: Loaded Plugin BlankPlugin, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
-LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin GitSourceControl, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
-LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
-LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
-LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
-LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
-LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin EpicSurvey, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
-LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
-LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
-LogPluginManager: Loaded Plugin PluginBrowser, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
-LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
-LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
-LogPluginManager: Loaded Plugin AlembicImporter, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
-LogPluginManager: Loaded Plugin BlueprintStats, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
-LogPluginManager: Loaded Plugin CharacterAI, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
-LogPluginManager: Loaded Plugin CodeEditor, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
-LogPluginManager: Loaded Plugin CodeView, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
-LogPluginManager: Loaded Plugin HTML5Networking, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
-LogPluginManager: Loaded Plugin LiveEditor, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
-LogPluginManager: Loaded Plugin OSVR, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
-LogPluginManager: Loaded Plugin Phya, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
-LogPluginManager: Loaded Plugin SignificanceManager, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
-LogPluginManager: Loaded Plugin SimpleHMD, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
-LogPluginManager: Loaded Plugin StereoPanorama, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
-LogPluginManager: Loaded Plugin StructBox, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
-LogPluginManager: Loaded Plugin Substance, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
-LogPluginManager: Loaded Plugin AndroidMedia, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
-LogPluginManager: Loaded Plugin AvfMedia, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
-LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
-LogPluginManager: Loaded Plugin WmfMedia, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
-LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
-LogPluginManager: Loaded Plugin TcpMessaging, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
-LogPluginManager: Loaded Plugin UdpMessaging, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
-LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
-LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
-LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
-LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
-LogPluginManager: Loaded Plugin OnlineFramework, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
-LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
-LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
-LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
-LogPluginManager: Loaded Plugin Apsalar, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
-LogPluginManager: Loaded Plugin FileLogging, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
-LogPluginManager: Loaded Plugin Flurry, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
-LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
-LogPluginManager: Loaded Plugin CableComponent, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
-LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
-LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin GearVR, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
-LogPluginManager: Loaded Plugin GoogleVRController, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
-LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
-LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin LeapMotion, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
-LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin LiveEditorListenServer, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
-LogPluginManager: Loaded Plugin OculusAudio, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
-LogPluginManager: Loaded Plugin OculusInput, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
-LogPluginManager: Loaded Plugin OculusLibrary, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
-LogPluginManager: Loaded Plugin OculusRift, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
-LogPluginManager: Loaded Plugin Oodle, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
-LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
-LogPluginManager: Loaded Plugin SoundMod, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
-LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
-LogPluginManager: Loaded Plugin SteamController, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
-LogPluginManager: Loaded Plugin SteamVR, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
-LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
-LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
-LogPluginManager: Loaded Plugin SlateRemote, From D:/Program Files/Unreal/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogStats: Stats thread started at 0.075343
+LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Unreal/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Unreal/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Unreal/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Unreal/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Unreal/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Unreal/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Unreal/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From D:/Unreal/UE_4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Unreal/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Unreal/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Unreal/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Unreal/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Unreal/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Unreal/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Unreal/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Unreal/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Unreal/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Unreal/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Unreal/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Unreal/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Unreal/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Unreal/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Unreal/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Unreal/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Unreal/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Unreal/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Unreal/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Unreal/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Unreal/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Unreal/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Unreal/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Unreal/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with WinSSL
@@ -108,13 +108,13 @@ LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogModuleManager:Warning: No filename provided for module OnlineSubsystemSteam
-LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'D:/Program Files/Unreal/Epic Games/4.13/Engine/Binaries/Win64/' was not found.
+LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'D:/Unreal/UE_4.13/Engine/Binaries/Win64/' was not found.
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogVoice:Warning: Failed to initialize voice interface
-LogInit: Build: ++UE4+Release-4.13-CL-3142249
-LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
 LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
-LogInit: Net CL: 3142249
+LogInit: Net CL: 3172292
 LogDevObjectVersion: Number of dev versions registered: 13
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
 LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
@@ -129,418 +129,634 @@ LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
 LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
 LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
 LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
-LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.13
-LogInit: Command line:  
-LogInit: Base directory: D:/Program Files/Unreal/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/UE_4.13/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.03.16-21.55.48:733][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.16-21.55.48:733][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.03.16-21.55.48:795][  0]LogInit: Computer: KIERAN-PC
-[2017.03.16-21.55.48:795][  0]LogInit: User: Kieran
-[2017.03.16-21.55.48:795][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.03.16-21.55.48:795][  0]LogInit: High frequency timer resolution =3.903988 MHz
-[2017.03.16-21.55.48:796][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2017.03.16-21.55.48:796][  0]LogMemory: Platform Memory Stats for Windows
-[2017.03.16-21.55.48:796][  0]LogMemory: Process Physical Memory: 259.48 MB used, 259.48 MB peak
-[2017.03.16-21.55.48:796][  0]LogMemory: Process Virtual Memory: 260.36 MB used, 260.36 MB peak
-[2017.03.16-21.55.48:796][  0]LogMemory: Physical Memory: 5829.30 MB used, 24517.86 MB total
-[2017.03.16-21.55.48:796][  0]LogMemory: Virtual Memory: 625.81 MB used, 134217728.00 MB total
-[2017.03.16-21.55.48:820][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2017.03.16-21.55.49:263][  0]LogD3D11RHI: D3D11 adapters:
-[2017.03.16-21.55.49:290][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.03.16-21.55.49:290][  0]LogD3D11RHI:       4058/0/12258 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.03.16-21.55.49:291][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.03.16-21.55.49:291][  0]LogD3D11RHI:       0/0/12258 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.03.16-21.55.49:291][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.03.16-21.55.49:295][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.03.16-21.55.49:295][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.03.16-21.55.49:295][  0]LogWindows: EnumDisplayDevices:
-[2017.03.16-21.55.49:295][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2017.03.16-21.55.49:295][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.03.16-21.55.49:295][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.03.16-21.55.49:295][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.03.16-21.55.49:295][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.03.16-21.55.49:295][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.03.16-21.55.49:295][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
-[2017.03.16-21.55.49:295][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.03.16-21.55.49:295][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.03.16-21.55.49:306][  0]LogD3D11RHI: Async texture creation enabled
-[2017.03.16-21.55.49:314][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.03.16-21.55.49:315][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/10108/).
-[2017.03.16-21.55.49:315][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kieran/AppData/Local/Temp/UnrealShaderWorkingDir/AC904ED943D72F400A37FA80B24E931A/'.
-[2017.03.16-21.55.49:315][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.03.16-21.55.50:072][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.03.16-21.55.50:079][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.03.16-21.55.50:086][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.03.16-21.55.50:093][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.03.16-21.55.50:101][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.03.16-21.55.50:107][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.03.16-21.55.50:113][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.03.16-21.55.50:118][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.03.16-21.55.50:124][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.03.16-21.55.50:130][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.03.16-21.55.50:135][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.03.16-21.55.50:147][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.03.16-21.55.50:147][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.03.16-21.55.50:147][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.03.16-21.55.50:166][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.03.16-21.55.50:171][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.03.16-21.55.50:177][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.03.16-21.55.50:182][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.03.16-21.55.50:187][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.03.16-21.55.50:192][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.03.16-21.55.50:193][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.03.16-21.55.50:252][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.03.16-21.55.50:304][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/Kieran/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.03.16-21.55.50:304][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kieran/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.03.16-21.55.50:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.03.16-21.55.50:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.03.16-21.55.50:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.03.16-21.55.50:304][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.03.16-21.55.50:317][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.03.16-21.55.50:330][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kieran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.03.16-21.55.50:484][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.16-21.55.50:486][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.03.16-21.55.50:559][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.03.16-21.55.50:559][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.03.16-21.55.50:559][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.03.16-21.55.51:755][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.03.16-21.55.51:998][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2011542088
-[2017.03.16-21.55.52:031][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
-[2017.03.16-21.55.54:985][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 2.951741 seconds
-[2017.03.16-21.55.54:995][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2017.03.16-21.55.54:995][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
-[2017.03.16-21.55.54:995][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.03.16-21.55.55:188][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.16-21.55.55:188][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.16-21.55.55:661][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2017.03.16-21.55.55:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.03.16-21.55.55:687][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.03.16-21.55.56:123][  0]SourceControl: Info Source control is disabled
-[2017.03.16-21.55.56:124][  0]SourceControl: Info Source control is disabled
-[2017.03.16-21.55.56:132][  0]SourceControl: Info Source control is disabled
-[2017.03.16-21.55.56:140][  0]SourceControl: Info Source control is disabled
-[2017.03.16-21.55.56:398][  0]LogEngine: Initializing Engine...
-[2017.03.16-21.55.56:399][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.03.16-21.55.56:501][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.03.16-21.55.56:509][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.16-21.55.56:520][  0]LogInit: FAudioDevice initialized.
-[2017.03.16-21.55.56:548][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/Kieran/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.03.16-21.55.56:553][  0]LogInit: Texture streaming: Enabled
-[2017.03.16-21.55.56:574][  0]LogInit: Transaction tracking system initialized
-[2017.03.16-21.55.56:591][  0]BlueprintLog: New page: Editor Load
-[2017.03.16-21.55.56:752][  0]LocalizationService: Info Localization service is disabled
-[2017.03.16-21.55.56:885][  0]LogConsoleResponse:Display: 
-[2017.03.16-21.55.57:006][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.03.16-21.55.57:006][  0]LogCook:Display: Mobile HDR setting 1
-[2017.03.16-21.55.57:123][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/' took 0.04s
-[2017.03.16-21.55.57:123][  0]SourceControl: Info Source control is disabled
-[2017.03.16-21.56.12:247][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.16-21.56.12:258][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.16-21.56.15:167][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.16-21.56.19:770][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.16-21.56.19:771][  0]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.16-21.56.19:772][  0]LightingResults: New page: Lighting Build
-[2017.03.16-21.56.19:775][  0]MapCheck: New page: Map Check
-[2017.03.16-21.56.19:775][  0]LightingResults: New page: Lighting Build
-[2017.03.16-21.56.20:333][  0]LogAIModule: Creating AISystem for world MainMenu
-[2017.03.16-21.56.20:334][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.16-21.56.20:335][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.16-21.56.20:390][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.35ms to complete.
-[2017.03.16-21.56.20:390][  0]LogFileHelpers: Loading map 'MainMenu' took 0.619
-[2017.03.16-21.56.20:454][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_22f4_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_c20_0///####STATCAT_Advanced####
-[2017.03.16-21.56.20:455][  0]LogCollectionManager: Loaded 0 collections in 0.002704 seconds
-[2017.03.16-21.56.20:503][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Collections/' took 0.01s
-[2017.03.16-21.56.20:503][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Developers/Kieran/Collections/' took 0.01s
-[2017.03.16-21.56.20:503][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Collections/' took 0.01s
-[2017.03.16-21.56.20:503][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.03.16-21.56.20:511][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2156 classes and 421 folders.
-[2017.03.16-21.56.20:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.03.16-21.56.20:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.03.16-21.56.20:514][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2017.03.16-21.56.20:518][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.03.16-21.56.20:545][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.03.16-21.56.20:549][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.03.16-21.56.20:590][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.03.16-21.56.20:596][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.03.16-21.56.20:622][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.03.16-21.56.20:622][  0]LogLoad: (Engine Initialization) Total time: 37.50 seconds
-[2017.03.16-21.56.20:622][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.25 seconds
-[2017.03.16-21.56.20:622][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.03.16-21.56.20:622][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.03.16-21.56.20:632][  0]LogOcInput: OculusInput pre-init called
-[2017.03.16-21.56.20:653][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.03.16-21.56.20:774][  0]LogRenderer: Reallocating scene render targets to support 1124x612 (Frame:2).
-[2017.03.16-21.56.20:905][  1]LogAssetRegistry: Asset discovery search completed in 28.8957 seconds
-[2017.03.16-21.56.20:905][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.03.16-21.56.20:906][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
-[2017.03.16-21.56.35:740][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2017.03.16-21.56.36:645][750]LogSavePackage: Save=827.44ms
-[2017.03.16-21.56.36:645][750]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuE1D7FDF14BF6D8D2172D90A893071A5A.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
-[2017.03.16-21.56.36:703][750]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
-[2017.03.16-21.56.36:737][750]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.03.16-21.57.58:535][970]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
-[2017.03.16-21.58.33:204][ 19]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.16-21.58.33:541][ 20]Cmd: QUIT_EDITOR
-[2017.03.16-21.58.33:753][ 20]LogExit: Preparing to exit.
-[2017.03.16-21.58.34:999][ 20]LogExit: Editor shut down
-[2017.03.16-21.58.35:000][ 20]LogExit: Transaction tracking system shut down
-[2017.03.16-21.58.35:126][ 20]LogObj: Freed 0b from 0 cluster array pools.
-[2017.03.16-21.58.35:126][ 20]LogExit: Object subsystem successfully closed.
-[2017.03.16-21.58.35:135][ 20]LogD3D11RHI: Shutdown
-[2017.03.16-21.58.35:135][ 20]LogD3D11RHI: CleanupD3DDevice
-[2017.03.16-21.58.35:183][ 20]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.03.16-21.58.35:209][ 20]LogModuleManager: Shutting down and abandoning module BlueprintGraph (239)
-[2017.03.16-21.58.35:209][ 20]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (238)
-[2017.03.16-21.58.35:216][ 20]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (237)
-[2017.03.16-21.58.35:216][ 20]LogModuleManager: Shutting down and abandoning module CrashTracker (236)
-[2017.03.16-21.58.35:216][ 20]LogModuleManager: Shutting down and abandoning module SceneOutliner (235)
-[2017.03.16-21.58.35:217][ 20]LogModuleManager: Shutting down and abandoning module WidgetCarousel (234)
-[2017.03.16-21.58.35:217][ 20]LogModuleManager: Shutting down and abandoning module AddContentDialog (233)
-[2017.03.16-21.58.35:217][ 20]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Unreal/Epic Games/4.13/FeaturePacks/' was aborted.
-[2017.03.16-21.58.35:218][ 20]LogModuleManager: Shutting down and abandoning module GameplayTags (232)
-[2017.03.16-21.58.35:218][ 20]LogModuleManager: Shutting down and abandoning module EditorWidgets (231)
-[2017.03.16-21.58.35:218][ 20]LogModuleManager: Shutting down and abandoning module CollectionManager (230)
-[2017.03.16-21.58.35:218][ 20]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Collections/' was aborted.
-[2017.03.16-21.58.35:219][ 20]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Developers/Kieran/Collections/' was aborted.
-[2017.03.16-21.58.35:220][ 20]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Collections/' was aborted.
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module StatsViewer (229)
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module FoliageEdit (228)
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module LandscapeEditor (227)
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (226)
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module ActorPickerMode (225)
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module GeometryMode (224)
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module TextureAlignMode (223)
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module BspMode (222)
-[2017.03.16-21.58.35:221][ 20]LogModuleManager: Shutting down and abandoning module HardwareSurvey (221)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (220)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module SequenceRecorder (219)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module AutomationWorker (218)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (217)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module PlacementMode (216)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (215)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (214)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (213)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (212)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (211)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module Media (210)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (209)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (208)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module CharacterAI (207)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module SmartSnapping (206)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module SessionServices (205)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module ViewportSnapping (204)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module ViewportInteraction (203)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module LogVisualizer (202)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (201)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module IntroTutorials (200)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (199)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (198)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (197)
-[2017.03.16-21.58.35:222][ 20]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module NiagaraEditor (192)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module MergeActors (191)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module SizeMap (190)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module TreeMap (189)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module ReferenceViewer (188)
-[2017.03.16-21.58.35:860][ 20]LogModuleManager: Shutting down and abandoning module LocalizationService (187)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (186)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module HardwareTargeting (185)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (184)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module UndoHistory (183)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module UserFeedback (182)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module XmlParser (181)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module Blutility (180)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (179)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (178)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module InputBindingEditor (177)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
-[2017.03.16-21.58.35:861][ 20]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
-[2017.03.16-21.58.35:862][ 20]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
-[2017.03.16-21.58.35:862][ 20]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
-[2017.03.16-21.58.35:862][ 20]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
-[2017.03.16-21.58.35:862][ 20]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module AutomationController (169)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module Layers (167)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module Persona (162)
-[2017.03.16-21.58.35:905][ 20]LogModuleManager: Shutting down and abandoning module Kismet (161)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module Toolbox (158)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module OutputLog (155)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module GammaUI (154)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module Documentation (153)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module Niagara (152)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module PortalServices (149)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module AIModule (144)
-[2017.03.16-21.58.35:924][ 20]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module SubstanceEditor (141)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module SlateRemote (140)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module SteamVRController (139)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module SteamVR (138)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (137)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (136)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module OculusLibrary (135)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module OculusInput (134)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (133)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module CableComponent (132)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (131)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (130)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module HTML5Networking (129)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (128)
-[2017.03.16-21.58.36:083][ 20]LogModuleManager: Shutting down and abandoning module GeometryCache (127)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module AlembicLibrary (126)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module AlembicImporter (125)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module SuperSearch (124)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (123)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (122)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module PluginBrowser (121)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (120)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module EpicSurvey (119)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module DesktopPlatform (118)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (117)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module UObjectPlugin (116)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (115)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (114)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module SourceControl (113)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module GitSourceControl (112)
-[2017.03.16-21.58.36:084][ 20]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (111)
-[2017.03.16-21.58.36:085][ 20]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (110)
-[2017.03.16-21.58.36:085][ 20]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (109)
-[2017.03.16-21.58.36:085][ 20]LogModuleManager: Shutting down and abandoning module MeshPaint (108)
-[2017.03.16-21.58.36:085][ 20]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (107)
-[2017.03.16-21.58.36:085][ 20]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
-[2017.03.16-21.58.36:085][ 20]LogModuleManager: Shutting down and abandoning module HotReload (105)
-[2017.03.16-21.58.36:087][ 20]LogModuleManager: Shutting down and abandoning module MainFrame (104)
-[2017.03.16-21.58.36:087][ 20]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
-[2017.03.16-21.58.36:089][ 20]LogModuleManager: Shutting down and abandoning module ContentBrowser (102)
-[2017.03.16-21.58.36:091][ 20]LogModuleManager: Shutting down and abandoning module Paper2DEditor (101)
-[2017.03.16-21.58.36:091][ 20]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
-[2017.03.16-21.58.36:193][ 20]LogModuleManager: Shutting down and abandoning module TcpMessaging (99)
-[2017.03.16-21.58.36:293][ 20]LogModuleManager: Shutting down and abandoning module SubstanceCore (98)
-[2017.03.16-21.58.36:293][ 20]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (97)
-[2017.03.16-21.58.36:293][ 20]LogModuleManager: Shutting down and abandoning module Paper2D (96)
-[2017.03.16-21.58.36:293][ 20]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (95)
-[2017.03.16-21.58.36:293][ 20]LogModuleManager: Shutting down and abandoning module WmfMedia (94)
-[2017.03.16-21.58.36:293][ 20]LogModuleManager: Shutting down and abandoning module MediaAssets (93)
-[2017.03.16-21.58.36:293][ 20]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (92)
-[2017.03.16-21.58.36:293][ 20]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (91)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module VREditor (90)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (89)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module PropertyEditor (88)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (87)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module FunctionalTesting (86)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (85)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module Sequencer (84)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (83)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module MessageLog (82)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module AssetTools (81)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module UMGEditor (80)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module UMG (79)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module SlateReflector (78)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module Slate (77)
-[2017.03.16-21.58.36:294][ 20]LogModuleManager: Shutting down and abandoning module EditorStyle (76)
-[2017.03.16-21.58.36:298][ 20]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (75)
-[2017.03.16-21.58.36:298][ 20]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
-[2017.03.16-21.58.36:298][ 20]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
-[2017.03.16-21.58.36:298][ 20]LogModuleManager: Shutting down and abandoning module Networking (72)
-[2017.03.16-21.58.36:298][ 20]LogModuleManager: Shutting down and abandoning module Core (71)
-[2017.03.16-21.58.36:298][ 20]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (70)
-[2017.03.16-21.58.36:298][ 20]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.03.16-21.58.36:298][ 20]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/' was aborted.
-[2017.03.16-21.58.36:316][ 20]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.03.16-21.58.36:317][ 20]LogModuleManager: Shutting down and abandoning module AssetRegistry (69)
-[2017.03.16-21.58.41:893][ 20]LogModuleManager: Shutting down and abandoning module KismetCompiler (68)
-[2017.03.16-21.58.41:893][ 20]LogModuleManager: Shutting down and abandoning module PhysXFormats (67)
-[2017.03.16-21.58.41:893][ 20]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.03.16-21.58.41:893][ 20]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.03.16-21.58.41:954][ 20]LogDerivedDataCache: Shutdown
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.03.16-21.58.41:954][ 20]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
-[2017.03.16-21.58.41:955][ 20]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
-[2017.03.16-21.58.41:956][ 20]LogModuleManager: Shutting down and abandoning module InputCore (28)
-[2017.03.16-21.58.41:956][ 20]LogModuleManager: Shutting down and abandoning module Settings (27)
-[2017.03.16-21.58.41:956][ 20]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2017.03.16-21.58.41:956][ 20]LogModuleManager: Shutting down and abandoning module GearVR (25)
-[2017.03.16-21.58.41:956][ 20]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
-[2017.03.16-21.58.41:956][ 20]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
-[2017.03.16-21.58.41:956][ 20]LogModuleManager: Shutting down and abandoning module Voice (21)
-[2017.03.16-21.58.41:956][ 20]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2017.03.16-21.58.41:956][ 20]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.03.16-21.58.41:957][ 20]LogOnline:Display: Unloading online subsystem: NULL
-[2017.03.16-21.58.41:958][ 20]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.03.16-21.58.41:958][ 20]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.03.16-21.58.41:958][ 20]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20BBD69D-46AC-848E-F103-D786A79996AF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=367184494aaa1020dcdc859de6e98855%7C60da38c6d16241a5acdb9f3769ddff9a%7Cfe43f326-a832-41bf-b4a9-268ae4fb87ef&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.03.16-21.58.41:990][ 20]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.03.16-21.58.41:991][ 20]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.03.16-21.58.41:991][ 20]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.03.16-21.58.41:991][ 20]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.03.16-21.58.41:991][ 20]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.03.16-21.58.41:996][ 20]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.03.16-21.58.42:001][ 20]LogExit: Exiting.
-[2017.03.16-21.58.42:006][ 20]Log file closed, 03/16/17 21:58:42
+[2017.03.17-22.44.47:275][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.17-22.44.47:275][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.17-22.44.47:821][  0]LogInit: Computer: MSI
+[2017.03.17-22.44.47:821][  0]LogInit: User: KieranClarke
+[2017.03.17-22.44.47:821][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.17-22.44.47:821][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2017.03.17-22.44.47:822][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.17-22.44.47:822][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.17-22.44.47:822][  0]LogMemory: Process Physical Memory: 257.94 MB used, 257.94 MB peak
+[2017.03.17-22.44.47:822][  0]LogMemory: Process Virtual Memory: 260.21 MB used, 260.21 MB peak
+[2017.03.17-22.44.47:822][  0]LogMemory: Physical Memory: 3745.96 MB used, 8070.60 MB total
+[2017.03.17-22.44.47:822][  0]LogMemory: Virtual Memory: 625.21 MB used, 134217728.00 MB total
+[2017.03.17-22.44.48:265][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.03.17-22.44.48:964][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.17-22.44.48:991][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.03.17-22.44.48:991][  0]LogD3D11RHI:       2018/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.17-22.44.48:999][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.03.17-22.44.48:999][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.17-22.44.49:001][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.17-22.44.49:001][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.17-22.44.49:001][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.17-22.44.49:005][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.17-22.44.49:005][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.03.17-22.44.49:005][  0]LogWindows: EnumDisplayDevices:
+[2017.03.17-22.44.49:005][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.03.17-22.44.49:006][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.17-22.44.49:006][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.17-22.44.49:006][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.17-22.44.49:006][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.03.17-22.44.49:006][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.17-22.44.49:006][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.17-22.44.49:006][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.17-22.44.49:022][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.17-22.44.49:032][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.17-22.44.49:032][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/9404/).
+[2017.03.17-22.44.49:032][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KIERAN~1/AppData/Local/Temp/UnrealShaderWorkingDir/60B769F24F7EC37079B35A899144B0D6/'.
+[2017.03.17-22.44.49:032][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.17-22.44.49:947][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.17-22.44.49:954][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.17-22.44.49:961][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.17-22.44.49:968][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.17-22.44.49:976][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.17-22.44.49:986][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.17-22.44.49:991][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.17-22.44.49:997][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.17-22.44.50:003][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.17-22.44.50:010][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.17-22.44.50:017][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.17-22.44.50:029][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.17-22.44.50:029][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.17-22.44.50:030][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.17-22.44.50:048][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.17-22.44.50:054][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.17-22.44.50:060][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.17-22.44.50:066][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.17-22.44.50:072][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.17-22.44.50:078][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.17-22.44.50:078][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.17-22.44.50:127][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.17-22.44.50:204][  0]LogDerivedDataCache: Loaded boot cache 0.08s 62MB C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.17-22.44.50:204][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.03.17-22.44.50:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.17-22.44.50:205][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.17-22.44.50:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.17-22.44.50:205][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.17-22.44.50:221][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.17-22.44.50:234][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.17-22.44.50:418][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.17-22.44.50:420][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.17-22.44.50:538][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.17-22.44.50:538][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.17-22.44.50:538][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.17-22.44.50:793][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.17-22.44.51:113][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2979046007
+[2017.03.17-22.44.51:150][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2017.03.17-22.44.53:107][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 1.956124 seconds
+[2017.03.17-22.44.53:120][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.03.17-22.44.53:120][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2017.03.17-22.44.53:120][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.17-22.44.53:306][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.17-22.44.53:306][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.17-22.44.53:881][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.03.17-22.44.53:887][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.17-22.44.53:903][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.17-22.44.56:125][  0]SourceControl: Info Source control is disabled
+[2017.03.17-22.44.56:126][  0]SourceControl: Info Source control is disabled
+[2017.03.17-22.44.56:132][  0]SourceControl: Info Source control is disabled
+[2017.03.17-22.44.56:137][  0]SourceControl: Info Source control is disabled
+[2017.03.17-22.44.56:469][  0]LogEngine: Initializing Engine...
+[2017.03.17-22.44.56:469][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.17-22.44.56:603][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.17-22.44.56:620][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.17-22.44.56:776][  0]LogInit: FAudioDevice initialized.
+[2017.03.17-22.44.56:817][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.17-22.44.56:825][  0]LogInit: Texture streaming: Enabled
+[2017.03.17-22.44.56:844][  0]LogInit: Transaction tracking system initialized
+[2017.03.17-22.44.56:856][  0]BlueprintLog: New page: Editor Load
+[2017.03.17-22.44.58:971][  0]LocalizationService: Info Localization service is disabled
+[2017.03.17-22.44.59:477][  0]LogConsoleResponse:Display: 
+[2017.03.17-22.44.59:917][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.17-22.44.59:917][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.17-22.45.00:028][  0]LogFileCache: Scanning file cache for directory 'F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/' took 0.34s
+[2017.03.17-22.45.00:028][  0]SourceControl: Info Source control is disabled
+[2017.03.17-22.45.00:028][  0]Cmd: MAP LOAD FILE="F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.17-22.45.00:049][  0]LightingResults: New page: Lighting Build
+[2017.03.17-22.45.00:050][  0]MapCheck: New page: Map Check
+[2017.03.17-22.45.00:050][  0]LightingResults: New page: Lighting Build
+[2017.03.17-22.45.03:207][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.03.17-22.45.03:209][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.17-22.45.03:210][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.17-22.45.03:241][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.655ms to complete.
+[2017.03.17-22.45.03:241][  0]LogFileHelpers: Loading map 'MainMenu' took 3.213
+[2017.03.17-22.45.03:500][  0]LogCollectionManager: Loaded 0 collections in 0.000745 seconds
+[2017.03.17-22.45.03:540][  0]LogFileCache: Scanning file cache for directory 'F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Collections/' took 0.01s
+[2017.03.17-22.45.03:540][  0]LogFileCache: Scanning file cache for directory 'F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Developers/KieranClarke/Collections/' took 0.01s
+[2017.03.17-22.45.03:540][  0]LogFileCache: Scanning file cache for directory 'F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Collections/' took 0.01s
+[2017.03.17-22.45.03:540][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.03.17-22.45.03:551][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2156 classes and 421 folders.
+[2017.03.17-22.45.03:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.17-22.45.03:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.17-22.45.03:554][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2017.03.17-22.45.03:557][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.17-22.45.03:901][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.17-22.45.03:916][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.17-22.45.03:937][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.17-22.45.03:943][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.17-22.45.03:970][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.17-22.45.03:970][  0]LogLoad: (Engine Initialization) Total time: 21.29 seconds
+[2017.03.17-22.45.03:970][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.39 seconds
+[2017.03.17-22.45.03:970][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.17-22.45.03:987][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.17-22.45.03:988][  0]LogOcInput: OculusInput pre-init called
+[2017.03.17-22.45.04:006][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.17-22.45.04:289][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.03.17-22.45.04:418][  2]LogAssetRegistry: Asset discovery search completed in 13.2903 seconds
+[2017.03.17-22.45.04:418][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.03.17-22.45.04:418][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.03.17-22.45.19:222][538]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.17-22.45.19:235][538]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0036.56] Compile of LobbyPC successful, but with 1 Warning(s) [in 34 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.03.17-22.45.19:236][538]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0036.56] Compile of LobbyPC successful, but with 2 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.03.17-22.45.19:237][538]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0036.56] Compile of LobbyPC successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.03.17-22.45.19:423][538]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.17-22.45.19:435][538]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0036.76] Compile of LobbyPC successful, but with 1 Warning(s) [in 35 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.03.17-22.45.19:436][538]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0036.76] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.03.17-22.45.19:437][538]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0036.76] Compile of LobbyPC successful, but with 3 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.03.17-22.45.20:741][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall'
+[2017.03.17-22.45.20:741][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_ArchWall02.uasset.
+[2017.03.17-22.45.20:741][538]LoadErrors:Error: Error /Game/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_ArchWall02 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall
+[2017.03.17-22.45.20:742][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall'
+[2017.03.17-22.45.20:742][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_ArchWall02.uasset.
+[2017.03.17-22.45.20:744][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall'
+[2017.03.17-22.45.20:744][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_ArchWall03.uasset.
+[2017.03.17-22.45.20:744][538]LoadErrors:Error: Error /Game/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_ArchWall03 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall
+[2017.03.17-22.45.20:744][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall'
+[2017.03.17-22.45.20:744][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_ArchWall03.uasset.
+[2017.03.17-22.45.20:746][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.20:746][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall01.uasset.
+[2017.03.17-22.45.20:746][538]LoadErrors:Error: Error /Game/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall01 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02
+[2017.03.17-22.45.20:747][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.20:747][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall01.uasset.
+[2017.03.17-22.45.20:749][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.20:749][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall05.uasset.
+[2017.03.17-22.45.20:749][538]LoadErrors:Error: Error /Game/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall05 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02
+[2017.03.17-22.45.20:749][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.20:749][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall05.uasset.
+[2017.03.17-22.45.20:751][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.20:751][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall06.uasset.
+[2017.03.17-22.45.20:751][538]LoadErrors:Error: Error /Game/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall06 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02
+[2017.03.17-22.45.20:752][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.20:752][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_Brickwall06.uasset.
+[2017.03.17-22.45.20:754][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01'
+[2017.03.17-22.45.20:754][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_TileFloor02.uasset.
+[2017.03.17-22.45.20:754][538]LoadErrors:Error: Error /Game/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_TileFloor02 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01
+[2017.03.17-22.45.20:754][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01'
+[2017.03.17-22.45.20:755][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_TileFloor02.uasset.
+[2017.03.17-22.45.20:757][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01'
+[2017.03.17-22.45.20:757][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_TileFloor_Stair01.uasset.
+[2017.03.17-22.45.20:757][538]LoadErrors:Error: Error /Game/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_TileFloor_Stair01 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01
+[2017.03.17-22.45.20:757][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01'
+[2017.03.17-22.45.20:757][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/CastleRequired/CastleTexture/CastleMeshes/SM_FlameDungeon_TileFloor_Stair01.uasset.
+[2017.03.17-22.45.20:766][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava'
+[2017.03.17-22.45.20:766][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/Lava/SM_Dungeon_Pipes_Lava01.uasset.
+[2017.03.17-22.45.20:766][538]LoadErrors:Error: Error /Game/Fire_Map/Lava/SM_Dungeon_Pipes_Lava01 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava
+[2017.03.17-22.45.20:766][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava'
+[2017.03.17-22.45.20:766][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/Lava/SM_Dungeon_Pipes_Lava01.uasset.
+[2017.03.17-22.45.21:737][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava'
+[2017.03.17-22.45.21:737][538]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava.M_Dungeon_Pipes_Lava Referenced by SM_Dungeon_Pipes_Lava01
+[2017.03.17-22.45.21:737][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_Dungeon_Pipes_Lava' while loading NULL.
+[2017.03.17-22.45.21:739][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01'
+[2017.03.17-22.45.21:739][538]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01.M_FlameDungeon_Floor01 Referenced by SM_FlameDungeon_TileFloor_Stair01
+[2017.03.17-22.45.21:739][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01' while loading NULL.
+[2017.03.17-22.45.21:739][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01'
+[2017.03.17-22.45.21:739][538]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01.M_FlameDungeon_Floor01 Referenced by SM_FlameDungeon_TileFloor02
+[2017.03.17-22.45.21:739][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Floor01' while loading NULL.
+[2017.03.17-22.45.21:740][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.21:740][538]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02.M_FlameDungeon_Wall02 Referenced by SM_FlameDungeon_Brickwall06
+[2017.03.17-22.45.21:740][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading NULL.
+[2017.03.17-22.45.21:740][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.21:740][538]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02.M_FlameDungeon_Wall02 Referenced by SM_FlameDungeon_Brickwall05
+[2017.03.17-22.45.21:740][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading NULL.
+[2017.03.17-22.45.21:741][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02'
+[2017.03.17-22.45.21:741][538]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02.M_FlameDungeon_Wall02 Referenced by SM_FlameDungeon_Brickwall01
+[2017.03.17-22.45.21:741][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall02' while loading NULL.
+[2017.03.17-22.45.21:741][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall'
+[2017.03.17-22.45.21:741][538]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall.M_FlameDungeon_Wall Referenced by SM_FlameDungeon_ArchWall03
+[2017.03.17-22.45.21:742][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall' while loading NULL.
+[2017.03.17-22.45.21:742][538]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall'
+[2017.03.17-22.45.21:742][538]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall.M_FlameDungeon_Wall Referenced by SM_FlameDungeon_ArchWall02
+[2017.03.17-22.45.21:742][538]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Materials/M_FlameDungeon_Wall' while loading NULL.
+[2017.03.17-22.45.29:572][538]LogAIModule: Creating AISystem for world Map_Shaun
+[2017.03.17-22.45.29:840][538]Cmd: MAP LOAD FILE="F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.17-22.45.29:840][538]LightingResults: New page: Lighting Build
+[2017.03.17-22.45.29:842][538]LoadErrors: New page: Loading map: Map_Shaun.umap
+[2017.03.17-22.45.29:842][538]MapCheck: New page: Map Check
+[2017.03.17-22.45.29:842][538]LightingResults: New page: Lighting Build
+[2017.03.17-22.45.30:224][538]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.17-22.45.30:524][538]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.17-22.45.30:591][538]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.49ms to complete.
+[2017.03.17-22.45.30:591][538]LogFileHelpers: Loading map 'Map_Shaun' took 0.752
+[2017.03.17-22.46.10:991][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2017.03.17-22.46.12:555][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2017.03.17-22.47.04:992][838]MapCheck: New page: Map Check
+[2017.03.17-22.47.05:160][838]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.17-22.47.05:160][838]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.17-22.47.06:443][838]LogEditorServer: Cleared 6 NULL BSP materials after rebuild.
+[2017.03.17-22.47.06:483][838]LightingResults: New page: Lighting Build - 17 Mar 2017 22:47:06
+[2017.03.17-22.47.07:191][838]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.17-22.47.07:305][838]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.17-22.47.07:321][838]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.17-22.47.08:343][838]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.17-22.47.08:343][838]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9404
+[2017.03.17-22.47.11:120][838]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.17-22.47.11:121][838]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.17-22.47.11:121][838]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.17-22.47.11:121][838]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.17-22.47.11:121][838]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.17-22.47.11:504][838]LogEditorBuildUtils: Build time 0:06
+[2017.03.17-22.47.13:391][904]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Deco_Pipe, compiling. 
+[2017.03.17-22.47.13:399][904]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Deco_Pipe, compiling. 
+[2017.03.17-22.47.13:417][905]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Dungeon_Pipe_FlowingLava, compiling. 
+[2017.03.17-22.47.13:424][905]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Dungeon_Pipe_FlowingLava, compiling. 
+[2017.03.17-22.48.09:088][  3]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:088][  3]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:088][  3]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:088][  3]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:088][  3]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:088][  3]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:279][ 10]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:279][ 10]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:279][ 10]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:279][ 10]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:445][ 15]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:445][ 15]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:509][ 18]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:509][ 18]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:581][ 19]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:581][ 19]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:638][ 20]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.09:638][ 20]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:879][ 34]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall03 Object has overlapping UVs.
+[2017.03.17-22.48.09:879][ 34]LightingResults: Info SM_FlameDungeon_ArchWall03 Lightmap UV are overlapping by 57.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.09:879][ 34]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall03 Object has overlapping UVs.
+[2017.03.17-22.48.09:879][ 34]LightingResults: Info SM_FlameDungeon_ArchWall03 Lightmap UV are overlapping by 57.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:029][ 43]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.10:029][ 43]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:118][ 48]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.10:118][ 48]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:214][ 54]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.10:214][ 54]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:350][ 62]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.10:350][ 62]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:472][ 69]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.10:472][ 69]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:659][ 80]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall03 Object has overlapping UVs.
+[2017.03.17-22.48.10:659][ 80]LightingResults: Info SM_FlameDungeon_ArchWall03 Lightmap UV are overlapping by 57.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:729][ 84]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.10:729][ 84]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:869][ 92]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.10:892][ 93]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.10:981][ 98]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.10:981][ 98]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.11:089][104]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.11:089][104]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.11:192][110]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.11:192][110]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.11:213][111]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.11:213][111]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.11:278][115]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.11:299][116]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.11:352][119]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.11:352][119]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.11:460][124]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.11:460][124]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.13:770][261]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall03 Object has overlapping UVs.
+[2017.03.17-22.48.13:771][261]LightingResults: Info SM_FlameDungeon_ArchWall03 Lightmap UV are overlapping by 57.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.22:119][756]LightingResults:Warning: Warning SM_FlameDungeon_ArchWall02 Object has overlapping UVs.
+[2017.03.17-22.48.22:119][756]LightingResults: Info SM_FlameDungeon_ArchWall02 Lightmap UV are overlapping by 38.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.17-22.48.59:349][967]LightingResults:Warning: Warning ship_engine_StaticMesh Object has wrapping UVs.
+[2017.03.17-22.48.59:349][967]LightingResults:Warning: Warning ship_engine_StaticMesh Object has wrapping UVs.
+[2017.03.17-22.48.59:432][968]LightingResults:Warning: Warning ship_engine_StaticMesh Object has wrapping UVs.
+[2017.03.17-22.48.59:571][972]Job is a success!
+[2017.03.17-22.49.00:916][973]LogMaterial:Warning: Material /Game/Fire_Map/CastleRequired/Env_Fire_deco/Textures/T_Env_Fire_Cliffs_TilingStone_02_Mat.T_Env_Fire_Cliffs_TilingStone_02_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.03.17-22.49.00:919][973]LogMaterial: Missing cached shader map for material T_Env_Fire_Cliffs_TilingStone_02_Mat, compiling. 
+[2017.03.17-22.49.01:125][973]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error shipinteriorlight2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error shipinteriorlight Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error PointLight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error PointLight18 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error shipinteriorlight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error shipinteriorlight9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error shipinteriorlight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error PointLight17 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error PointLight13 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error shipinteriorlight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error shipinteriorlight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error shipinteriorlight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:169][973]LightingResults:Error: Error PointLight12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight4_6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight11 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error goodGuyfinishLight Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error engineflamelight Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error engineflamelight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight10 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight16 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight15 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error PointLight14 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.01:170][973]LightingResults:Error: Error engineflamelight2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2017.03.17-22.49.05:426][973]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2017.03.17-22.49.05:427][973]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2017.03.17-22.49.06:685][973]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2017.03.17-22.49.06:799][973]Lightmass on MSI: 1:46 min total, 1.52 sec importing, 846 ms setup, 15.9 sec photons, 1:28 min processing, 0 ms extra exporting [1477/1477 mappings]. Threads: 10:17 min total, 8:00 min processing.
+[2017.03.17-22.49.06:945][973]LogStaticLightingSystem: Illumination: 2:00 min (4.25 sec encoding lightmaps, 1.28 sec encoding shadowmaps)
+[2017.03.17-22.49.06:945][973]LogStaticLightingSystem: Lightmap texture memory:  20.7 MB (18.7 MB streaming, 2.0 MB non-streaming), 46 textures
+[2017.03.17-22.49.06:945][973]LogStaticLightingSystem: Shadowmap texture memory: 29.6 MB (27.0 MB streaming, 2.7 MB non-streaming), 17 textures
+[2017.03.17-22.49.07:161][974]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.17-22.49.07:162][974]MapCheck: New page: Map_Shaun - 17 Mar 2017 22:49:07
+[2017.03.17-22.49.07:236][974]MapCheck:Warning: Warning Cube2 Cube2 is in the same location as Cube3 
+[2017.03.17-22.49.07:236][974]MapCheck:Warning: Warning Cube3 Cube3 is in the same location as Cube2 
+[2017.03.17-22.49.07:236][974]MapCheck:Warning: Warning SM_Dungeon_Pipes_Lava01_8 Static mesh actor has NULL StaticMesh property 
+[2017.03.17-22.49.07:236][974]MapCheck:Warning: Warning SM_Dungeon_Pipes_Lava01_8 Static mesh actor has NULL StaticMesh property 
+[2017.03.17-22.49.07:236][974]MapCheck:Warning: Warning SM_Dungeon_Pipes_Lava2 Static mesh actor has NULL StaticMesh property 
+[2017.03.17-22.49.07:236][974]MapCheck:Warning: Warning SM_Dungeon_Pipes_Lava2 Static mesh actor has NULL StaticMesh property 
+[2017.03.17-22.49.07:237][974]MapCheck:Warning: Warning SM_Dungeon_Pipes_Lava3 Static mesh actor has NULL StaticMesh property 
+[2017.03.17-22.49.07:237][974]MapCheck:Warning: Warning SM_Dungeon_Pipes_Lava3 Static mesh actor has NULL StaticMesh property 
+[2017.03.17-22.49.07:237][974]MapCheck:Warning: Warning SM_FlameDungeon_Brickwall27 SM_FlameDungeon_Brickwall27 is in the same location as SM_FlameDungeon_Brickwall29_46 
+[2017.03.17-22.49.07:237][974]MapCheck:Warning: Warning SM_FlameDungeon_Brickwall29_46 SM_FlameDungeon_Brickwall29_46 is in the same location as SM_FlameDungeon_Brickwall27 
+[2017.03.17-22.49.07:324][974]MapCheck: Info Map check complete: 0 Error(s), 10 Warning(s), took 162.797ms to complete.
+[2017.03.17-22.51.42:868][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (door..ish3)
+[2017.03.17-22.53.01:814][969]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst'
+[2017.03.17-22.53.01:814][969]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Jagged_Rock_2.uasset.
+[2017.03.17-22.53.01:814][969]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/SM_Env_Fire_Jagged_Rock_2 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst
+[2017.03.17-22.53.01:815][969]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst'
+[2017.03.17-22.53.01:815][969]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Jagged_Rock_2.uasset.
+[2017.03.17-22.53.01:816][969]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst'
+[2017.03.17-22.53.01:816][969]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst.M_Fire_Cliffs_TilingStone_01_inst Referenced by SM_Env_Fire_Jagged_Rock_2
+[2017.03.17-22.53.01:816][969]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst' while loading NULL.
+[2017.03.17-22.53.02:093][979]LogActorFactory: Actor Factory created SM_Env_Fire_Jagged_Rock_2
+[2017.03.17-22.53.02:923][ 28]LogActorFactory: Actor Factory created SM_Env_Fire_Jagged_Rock_2
+[2017.03.17-22.53.53:471][  2]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_D'
+[2017.03.17-22.53.53:471][  2]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_D' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/M_Fire_DirtRock.uasset.
+[2017.03.17-22.53.53:471][  2]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/M_Fire_DirtRock : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_D
+[2017.03.17-22.53.53:472][  2]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_N'
+[2017.03.17-22.53.53:472][  2]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_N' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/M_Fire_DirtRock.uasset.
+[2017.03.17-22.53.53:472][  2]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/M_Fire_DirtRock : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_N
+[2017.03.17-22.53.53:472][  2]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_D'
+[2017.03.17-22.53.53:472][  2]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_D' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/M_Fire_DirtRock.uasset.
+[2017.03.17-22.53.53:472][  2]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_N'
+[2017.03.17-22.53.53:472][  2]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_N' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/M_Fire_DirtRock.uasset.
+[2017.03.17-22.53.53:473][  2]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_D'
+[2017.03.17-22.53.53:473][  2]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_D.T_Fire_Cliffs_TilingStone_02_D Referenced by MaterialExpressionTextureSample_0
+[2017.03.17-22.53.53:473][  2]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_D' while loading NULL.
+[2017.03.17-22.53.53:473][  2]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_N'
+[2017.03.17-22.53.53:473][  2]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_N.T_Fire_Cliffs_TilingStone_02_N Referenced by MaterialExpressionTextureSample_1
+[2017.03.17-22.53.53:473][  2]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Textures/T_Fire_Cliffs_TilingStone_02_N' while loading NULL.
+[2017.03.17-22.53.53:475][  2]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.53.53:763][  2]LogMaterial:Warning: Failed to compile Material /Game/Fire_Map/PossibleCaves/M_Fire_DirtRock.M_Fire_DirtRock for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.17-22.53.53:763][  2]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.17-22.53.55:037][ 76]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.53.55:037][ 76]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Fire_DirtRock for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.17-22.53.55:037][ 76]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.17-22.53.55:210][ 76]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.53.55:211][ 76]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Fire_DirtRock for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.17-22.53.55:211][ 76]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.17-22.53.55:211][ 76]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.17-22.53.55:240][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.03.17-22.53.55:242][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.03.17-22.53.55:245][ 76]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2017.03.17-22.54.15:278][163]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.54.15:278][163]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Fire_DirtRock for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.17-22.54.15:278][163]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.17-22.54.15:278][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.17-22.54.15:308][163]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.03.17-22.54.30:708][ 11]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.54.30:717][ 11]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.17-22.54.30:748][ 11]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.03.17-22.54.31:781][ 42]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2017.03.17-22.54.31:781][ 42]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.17-22.54.31:781][ 42]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.03.17-22.54.37:626][355]LogMaterialEditor: Applying material M_Fire_DirtRock
+[2017.03.17-22.54.38:015][355]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.54.38:033][355]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.17-22.54.38:071][355]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.54.38:127][355]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.54.38:165][355]LogMaterial: 0.02 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.17-22.54.40:640][453]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2017.03.17-22.54.40:640][453]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.17-22.54.40:640][453]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.03.17-22.54.57:982][466]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst'
+[2017.03.17-22.54.57:983][466]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Jagged_Rock_3.uasset.
+[2017.03.17-22.54.57:983][466]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/SM_Env_Fire_Jagged_Rock_3 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst
+[2017.03.17-22.54.57:983][466]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst'
+[2017.03.17-22.54.57:983][466]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Jagged_Rock_3.uasset.
+[2017.03.17-22.54.57:984][466]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst'
+[2017.03.17-22.54.57:984][466]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst.M_Fire_Cliffs_TilingStone_01_inst Referenced by SM_Env_Fire_Jagged_Rock_3
+[2017.03.17-22.54.57:985][466]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Background/Materials/M_Fire_Cliffs_TilingStone_01_inst' while loading NULL.
+[2017.03.17-22.54.58:219][479]LogActorFactory: Actor Factory created SM_Env_Fire_Jagged_Rock_3
+[2017.03.17-22.54.58:911][520]LogActorFactory: Actor Factory created SM_Env_Fire_Jagged_Rock_3
+[2017.03.17-22.55.17:811][634]Cmd: EDIT COPY
+[2017.03.17-22.55.18:395][669]Cmd: EDIT PASTE
+[2017.03.17-22.55.32:336][480]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.55.32:336][480]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_02b.uasset.
+[2017.03.17-22.55.32:336][480]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_02b : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall
+[2017.03.17-22.55.32:336][480]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.55.32:336][480]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_02b.uasset.
+[2017.03.17-22.55.32:337][480]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.55.32:337][480]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall.M_Env_Fire_Cliffs_TilingCliffWall Referenced by SM_Env_Fire_Cliffs_CliffWall_02b
+[2017.03.17-22.55.32:337][480]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading NULL.
+[2017.03.17-22.55.32:458][486]LogActorFactory: Actor Factory created SM_Env_Fire_Cliffs_CliffWall_02b
+[2017.03.17-22.55.33:635][556]LogActorFactory: Actor Factory created SM_Env_Fire_Cliffs_CliffWall_02b
+[2017.03.17-22.55.48:671][436]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.55.48:672][436]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_05b.uasset.
+[2017.03.17-22.55.48:672][436]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_05b : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall
+[2017.03.17-22.55.48:672][436]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.55.48:672][436]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_05b.uasset.
+[2017.03.17-22.55.48:673][436]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.55.48:673][436]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall.M_Env_Fire_Cliffs_TilingCliffWall Referenced by SM_Env_Fire_Cliffs_CliffWall_05b
+[2017.03.17-22.55.48:674][436]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading NULL.
+[2017.03.17-22.55.48:763][440]LogActorFactory: Actor Factory created SM_Env_Fire_Cliffs_CliffWall_05b
+[2017.03.17-22.55.49:408][478]LogActorFactory: Actor Factory created SM_Env_Fire_Cliffs_CliffWall_05b
+[2017.03.17-22.56.19:098][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_02b)
+[2017.03.17-22.57.13:768][470]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.57.13:768][470]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_05a.uasset.
+[2017.03.17-22.57.13:768][470]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_05a : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall
+[2017.03.17-22.57.13:768][470]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.57.13:768][470]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/SM_Env_Fire_Cliffs_CliffWall_05a.uasset.
+[2017.03.17-22.57.13:769][470]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall'
+[2017.03.17-22.57.13:769][470]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall.M_Env_Fire_Cliffs_TilingCliffWall Referenced by SM_Env_Fire_Cliffs_CliffWall_05a
+[2017.03.17-22.57.13:769][470]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Rocky/Materials/M_Env_Fire_Cliffs_TilingCliffWall' while loading NULL.
+[2017.03.17-22.57.13:923][478]LogActorFactory: Actor Factory created SM_Env_Fire_Cliffs_CliffWall_05a
+[2017.03.17-22.57.14:765][528]LogActorFactory: Actor Factory created SM_Env_Fire_Cliffs_CliffWall_05a
+[2017.03.17-22.57.46:631][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05b)
+[2017.03.17-22.57.47:729][481]Cmd: DELETE
+[2017.03.17-22.57.47:729][481]Cmd: ACTOR DELETE
+[2017.03.17-22.57.47:731][481]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.17-22.57.48:037][481]LogEditorActor: Deleted 1 Actors (0.309 secs)
+[2017.03.17-22.57.56:807][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05a)
+[2017.03.17-22.57.58:005][ 75]Cmd: EDIT COPY
+[2017.03.17-22.58.00:206][207]Cmd: EDIT PASTE
+[2017.03.17-22.58.01:449][279]Cmd: TRANSACTION UNDO
+[2017.03.17-22.58.01:449][279]LogEditorTransaction: Undo Paste
+[2017.03.17-22.58.01:479][279]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-22.58.01:488][279]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.17-22.58.02:672][326]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2017.03.17-22.58.02:672][326]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.17-22.58.02:672][326]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.03.17-22.58.02:838][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05a)
+[2017.03.17-22.58.08:664][665]Cmd: EDIT COPY
+[2017.03.17-22.58.08:941][681]Cmd: EDIT PASTE
+[2017.03.17-22.58.40:050][541]Cmd: DELETE
+[2017.03.17-22.58.40:050][541]Cmd: ACTOR DELETE
+[2017.03.17-22.58.40:053][541]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.17-22.58.40:068][541]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.03.17-22.58.40:458][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05a)
+[2017.03.17-22.58.40:538][567]Cmd: DELETE
+[2017.03.17-22.58.40:538][567]Cmd: ACTOR DELETE
+[2017.03.17-22.58.40:541][567]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.17-22.58.40:556][567]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.03.17-22.58.50:956][186]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed'
+[2017.03.17-22.58.50:956][186]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/Env_Fire_NordRock01.uasset.
+[2017.03.17-22.58.50:956][186]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/Env_Fire_NordRock01 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed
+[2017.03.17-22.58.50:956][186]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed'
+[2017.03.17-22.58.50:956][186]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/Env_Fire_NordRock01.uasset.
+[2017.03.17-22.58.50:957][186]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed'
+[2017.03.17-22.58.50:957][186]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed.M_Env_Fire_Nordheed Referenced by Env_Fire_NordRock01
+[2017.03.17-22.58.50:957][186]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed' while loading NULL.
+[2017.03.17-22.58.51:107][194]LogActorFactory: Actor Factory created Env_Fire_NordRock01
+[2017.03.17-22.58.51:545][220]LogActorFactory: Actor Factory created Env_Fire_NordRock01
+[2017.03.17-22.58.56:949][540]Cmd: DELETE
+[2017.03.17-22.58.56:949][540]Cmd: ACTOR DELETE
+[2017.03.17-22.58.56:952][540]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.17-22.58.56:967][540]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.03.17-22.59.21:457][  0]LogActorFactory: Actor Factory created Env_Fire_NordRock01
+[2017.03.17-22.59.21:885][ 25]LogActorFactory: Actor Factory created Env_Fire_NordRock01
+[2017.03.17-22.59.34:098][748]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed'
+[2017.03.17-22.59.34:099][748]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/Env_Fire_NordRock02.uasset.
+[2017.03.17-22.59.34:099][748]LoadErrors:Error: Error /Game/Fire_Map/PossibleCaves/Env_Fire_NordRock02 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed
+[2017.03.17-22.59.34:099][748]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed'
+[2017.03.17-22.59.34:099][748]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed' while loading F:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Fire_Map/PossibleCaves/Env_Fire_NordRock02.uasset.
+[2017.03.17-22.59.34:100][748]LogLinker:Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed'
+[2017.03.17-22.59.34:100][748]LoadErrors: Info Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed.M_Env_Fire_Nordheed Referenced by Env_Fire_NordRock02
+[2017.03.17-22.59.34:100][748]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Materials/M_Env_Fire_Nordheed' while loading NULL.
+[2017.03.17-22.59.34:185][752]LogActorFactory: Actor Factory created Env_Fire_NordRock02
+[2017.03.17-22.59.34:545][773]LogActorFactory: Actor Factory created Env_Fire_NordRock02
+[2017.03.17-22.59.41:978][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Jagged_Rock_2)
+[2017.03.17-22.59.42:462][233]Cmd: EDIT COPY
+[2017.03.17-22.59.43:899][319]Cmd: EDIT PASTE
+[2017.03.17-23.00.17:511][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock01)
+[2017.03.17-23.00.56:528][607]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Env_Fire_NordRock01)
+[2017.03.17-23.00.57:772][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock01)
+[2017.03.17-23.01.18:236][870]Cmd: EDIT COPY
+[2017.03.17-23.01.18:736][900]Cmd: EDIT PASTE
+[2017.03.17-23.02.03:610][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock02)
+[2017.03.17-23.03.19:427][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock2)
+[2017.03.17-23.03.20:229][139]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Env_Fire_NordRock01)
+[2017.03.17-23.04.09:269][ 46]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_gravel)
+[2017.03.17-23.04.09:688][ 68]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_gravel)
+[2017.03.17-23.04.54:184][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock2)
+[2017.03.17-23.05.15:673][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock5)
+[2017.03.17-23.06.27:519][241]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2017.03.17-23.07.44:704][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock6)
+[2017.03.17-23.07.49:302][899]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape_gravel)
+[2017.03.17-23.07.50:494][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock6)
+[2017.03.17-23.09.01:087][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock5)
+[2017.03.17-23.11.18:737][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock4)
+[2017.03.17-23.11.46:000][936]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Env_Fire_NordRock4)
+[2017.03.17-23.11.46:839][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock4)
+[2017.03.17-23.12.07:975][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock4)
+[2017.03.17-23.12.34:161][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock10)
+[2017.03.17-23.12.39:769][115]Cmd: TRANSACTION UNDO
+[2017.03.17-23.12.39:769][115]LogEditorTransaction: Undo Move Actors
+[2017.03.17-23.12.39:772][115]LogMaterial: Missing cached shader map for material M_Fire_DirtRock, compiling. 
+[2017.03.17-23.12.39:782][115]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.17-23.12.40:932][161]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2017.03.17-23.12.40:932][161]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.17-23.12.40:932][161]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.03.17-23.14.52:233][162]LogActorFactory: Actor Factory created Env_Fire_NordRock02
+[2017.03.17-23.14.53:011][208]LogActorFactory: Actor Factory created Env_Fire_NordRock02
+[2017.03.17-23.15.23:779][ 17]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Env_Fire_Jagged_Rock_4)
+[2017.03.17-23.15.24:655][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock15)
+[2017.03.17-23.15.36:959][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock15)
+[2017.03.17-23.15.37:031][785]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.17-23.15.50:137][564]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape_gravel)
+[2017.03.17-23.15.50:949][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock15)
+[2017.03.17-23.16.51:203][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock01)
+[2017.03.17-23.17.18:670][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock2)
+[2017.03.17-23.17.19:076][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock2)
+[2017.03.17-23.17.20:848][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock18)
+[2017.03.17-23.18.15:295][138]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Env_Fire_NordRock19)
+[2017.03.17-23.18.16:682][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock19)
+[2017.03.17-23.18.32:703][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock18)
+[2017.03.17-23.18.54:263][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock19)
+[2017.03.17-23.19.15:969][713]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape_gravel)
+[2017.03.17-23.19.16:866][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock20)
+[2017.03.17-23.19.17:547][762]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Env_Fire_NordRock21)
+[2017.03.17-23.19.40:129][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock23)
+[2017.03.17-23.20.07:544][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Env_Fire_NordRock23)
+[2017.03.17-23.20.08:294][773]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Env_Fire_NordRock22)
+[2017.03.17-23.20.22:097][591]LogEditorVie
