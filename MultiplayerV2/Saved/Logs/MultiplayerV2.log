@@ -1,9 +1,9 @@
-﻿Log file open, 05/04/17 23:27:15
+﻿Log file open, 05/05/17 12:10:12
 LogInit:Display: Running engine for game: MultiplayerV2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(741482983) SRandInit(741482983).
+LogInit:Display: RandInit(741412616) SRandInit(741412616).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.068734
+LogStats: Stats thread started at 0.125675
 LogPluginManager: Loaded Plugin Paper2D, From D:/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From D:/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -138,481 +138,532 @@ LogInit: Base directory: D:/Epic Games/4.13/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.04-22.27.15:557][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.04-22.27.15:557][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.04-22.27.15:569][  0]LogInit: Computer: CONNORPAGE
-[2017.05.04-22.27.15:569][  0]LogInit: User: Connor
-[2017.05.04-22.27.15:569][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.05.04-22.27.15:569][  0]LogInit: High frequency timer resolution =2.533208 MHz
-[2017.05.04-22.27.15:569][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.05.04-22.27.15:569][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.04-22.27.15:569][  0]LogMemory: Process Physical Memory: 258.51 MB used, 258.51 MB peak
-[2017.05.04-22.27.15:569][  0]LogMemory: Process Virtual Memory: 260.45 MB used, 260.45 MB peak
-[2017.05.04-22.27.15:569][  0]LogMemory: Physical Memory: 4052.42 MB used, 8109.73 MB total
-[2017.05.04-22.27.15:569][  0]LogMemory: Virtual Memory: 626.28 MB used, 134217728.00 MB total
-[2017.05.04-22.27.15:926][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2017.05.04-22.27.16:656][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.04-22.27.17:277][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2017.05.04-22.27.17:277][  0]LogD3D11RHI:       3040/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.05.04-22.27.17:285][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.05.04-22.27.17:285][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.05.04-22.27.17:286][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.04-22.27.17:286][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.04-22.27.17:286][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.04-22.27.17:292][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.04-22.27.17:292][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.04-22.27.17:292][  0]LogWindows: EnumDisplayDevices:
-[2017.05.04-22.27.17:292][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.05.04-22.27.17:292][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.05.04-22.27.17:292][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.05.04-22.27.17:292][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.05.04-22.27.17:292][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2017.05.04-22.27.17:292][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.05.04-22.27.17:292][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.05.04-22.27.17:292][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.04-22.27.17:871][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.04-22.27.17:914][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.05.04-22.27.17:915][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/6368/).
-[2017.05.04-22.27.17:915][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Connor/AppData/Local/Temp/UnrealShaderWorkingDir/2738F331465463005CAEA3A35D9611FB/'.
-[2017.05.04-22.27.17:915][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.04-22.27.18:880][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.04-22.27.18:889][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.04-22.27.18:896][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.04-22.27.18:906][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.04-22.27.18:913][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.04-22.27.18:922][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.04-22.27.18:928][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.04-22.27.18:936][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.04-22.27.18:943][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.04-22.27.18:949][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.04-22.27.18:956][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.04-22.27.18:970][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.04-22.27.18:970][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.04-22.27.18:971][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.04-22.27.18:990][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.04-22.27.18:996][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.04-22.27.19:003][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.04-22.27.19:009][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.04-22.27.19:016][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.04-22.27.19:023][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.04-22.27.19:023][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.04-22.27.19:099][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.04-22.27.19:186][  0]LogDerivedDataCache: Loaded boot cache 0.09s 62MB C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.05.04-22.27.19:186][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.05.04-22.27.19:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.04-22.27.19:186][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.04-22.27.19:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.04-22.27.19:186][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.04-22.27.19:204][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.04-22.27.19:216][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Connor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.04-22.27.19:445][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.04-22.27.19:451][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.04-22.27.19:546][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.05.04-22.27.19:546][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.04-22.27.19:546][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.05.04-22.27.19:619][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.04-22.27.19:976][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2011542088
-[2017.05.04-22.27.20:015][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
-[2017.05.04-22.27.20:053][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.033845 seconds
-[2017.05.04-22.27.20:058][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2017.05.04-22.27.20:058][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
-[2017.05.04-22.27.20:058][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.04-22.27.20:265][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.04-22.27.20:265][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.04-22.27.21:038][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2017.05.04-22.27.21:050][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.04-22.27.21:073][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.04-22.27.21:320][  0]SourceControl: Info Source control is disabled
-[2017.05.04-22.27.21:321][  0]SourceControl: Info Source control is disabled
-[2017.05.04-22.27.21:333][  0]SourceControl: Info Source control is disabled
-[2017.05.04-22.27.21:343][  0]SourceControl: Info Source control is disabled
-[2017.05.04-22.27.21:673][  0]LogEngine: Initializing Engine...
-[2017.05.04-22.27.21:674][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.04-22.27.21:825][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.04-22.27.21:833][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.05.04-22.27.21:845][  0]LogInit: FAudioDevice initialized.
-[2017.05.04-22.27.21:892][  0]LogDerivedDataCache: Saved boot cache 0.05s 62MB C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.05.04-22.27.21:907][  0]LogInit: Texture streaming: Enabled
-[2017.05.04-22.27.21:930][  0]LogInit: Transaction tracking system initialized
-[2017.05.04-22.27.21:948][  0]BlueprintLog: New page: Editor Load
-[2017.05.04-22.27.22:009][  0]LocalizationService: Info Localization service is disabled
-[2017.05.04-22.27.22:087][  0]LogConsoleResponse:Display: 
-[2017.05.04-22.27.22:190][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.04-22.27.22:190][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.04-22.27.22:371][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/' took 0.02s
-[2017.05.04-22.27.22:371][  0]SourceControl: Info Source control is disabled
-[2017.05.04-22.27.22:371][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.04-22.27.22:372][  0]LightingResults: New page: Lighting Build
-[2017.05.04-22.27.22:373][  0]MapCheck: New page: Map Check
-[2017.05.04-22.27.22:373][  0]LightingResults: New page: Lighting Build
-[2017.05.04-22.27.23:007][  0]LogAIModule: Creating AISystem for world MainMenu
-[2017.05.04-22.27.23:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.04-22.27.23:008][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.04-22.27.23:060][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.5ms to complete.
-[2017.05.04-22.27.23:060][  0]LogFileHelpers: Loading map 'MainMenu' took 0.689
-[2017.05.04-22.27.23:176][  0]LogCollectionManager: Loaded 0 collections in 0.001283 seconds
-[2017.05.04-22.27.23:216][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Collections/' took 0.01s
-[2017.05.04-22.27.23:216][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Developers/Connor/Collections/' took 0.01s
-[2017.05.04-22.27.23:216][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Collections/' took 0.01s
-[2017.05.04-22.27.23:216][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.05.04-22.27.23:226][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2156 classes and 421 folders.
-[2017.05.04-22.27.23:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.04-22.27.23:229][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.04-22.27.23:229][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
-[2017.05.04-22.27.23:234][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.05.04-22.27.23:293][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.05.04-22.27.23:300][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.05.04-22.27.23:357][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.04-22.27.23:365][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.05.04-22.27.23:392][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.05.04-22.27.23:393][  0]LogLoad: (Engine Initialization) Total time: 8.84 seconds
-[2017.05.04-22.27.23:393][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.31 seconds
-[2017.05.04-22.27.23:393][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.05.04-22.27.23:393][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.05.04-22.27.23:410][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.04-22.27.23:410][  0]LogOcInput: OculusInput pre-init called
-[2017.05.04-22.27.23:429][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.05.04-22.27.23:623][  0]LogRenderer: Reallocating scene render targets to support 1056x576 (Frame:2).
-[2017.05.04-22.27.23:728][  2]LogAssetRegistry: Asset discovery search completed in 3.7358 seconds
-[2017.05.04-22.27.23:729][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.05.04-22.27.23:729][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
-[2017.05.04-22.27.26:990][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.05.04-22.27.27:098][187]LogSavePackage: Save=58.81ms
-[2017.05.04-22.27.27:098][187]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/MainMenuFDFE44EB4841D6D5BCC0FFBD3087BDC5.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap'
-[2017.05.04-22.27.27:100][187]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap
-[2017.05.04-22.27.38:388][802]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
-[2017.05.04-22.27.38:399][802]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0023.85] Compile of LobbyPC successful, but with 1 Warning(s) [in 33 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.04-22.27.38:400][802]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0023.85] Compile of LobbyPC successful, but with 2 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.04-22.27.38:400][802]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0023.85] Compile of LobbyPC successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.04-22.27.38:473][802]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
-[2017.05.04-22.27.38:484][802]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0023.93] Compile of LobbyPC successful, but with 1 Warning(s) [in 33 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.04-22.27.38:484][802]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0023.93] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.04-22.27.38:486][802]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0023.93] Compile of LobbyPC successful, but with 3 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.04-22.27.38:624][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
-[2017.05.04-22.27.38:624][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
-[2017.05.04-22.27.38:624][802]LoadErrors:Error: Error /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark
-[2017.05.04-22.27.38:624][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
-[2017.05.04-22.27.38:624][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
-[2017.05.04-22.27.38:624][802]LoadErrors:Error: Error /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N
-[2017.05.04-22.27.38:624][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
-[2017.05.04-22.27.38:625][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
-[2017.05.04-22.27.38:625][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
-[2017.05.04-22.27.38:625][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
-[2017.05.04-22.27.38:725][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
-[2017.05.04-22.27.38:725][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01.uasset.
-[2017.05.04-22.27.38:725][802]LoadErrors:Error: Error /Game/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01 : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf
-[2017.05.04-22.27.38:725][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
-[2017.05.04-22.27.38:725][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01.uasset.
-[2017.05.04-22.27.38:766][802]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
-[2017.05.04-22.27.38:767][802]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
-[2017.05.04-22.27.38:767][802]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
-[2017.05.04-22.27.38:771][802]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0024.22] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 7 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.27.38:771][802]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0024.22] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.27.38:771][802]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0024.22] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.27.39:049][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
-[2017.05.04-22.27.39:049][802]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N.T_Env_Ice_Tree_Bark_N Referenced by MaterialExpressionTextureSample_2
-[2017.05.04-22.27.39:049][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading NULL.
-[2017.05.04-22.27.39:049][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
-[2017.05.04-22.27.39:049][802]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark.T_Env_Ice_Tree_Bark Referenced by MaterialExpressionTextureSample_3
-[2017.05.04-22.27.39:049][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading NULL.
-[2017.05.04-22.27.39:067][802]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
-[2017.05.04-22.27.39:067][802]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf.M_ENV_Ice_Foliage_PineLeaf Referenced by SM_ENV_Ice_Foliage_PineTree_01
-[2017.05.04-22.27.39:067][802]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading NULL.
-[2017.05.04-22.27.39:533][802]LogMaterial: Missing cached shader map for material M_Env_Ice_Tree_POI_Bark, compiling. 
-[2017.05.04-22.27.39:534][802]LogMaterial:Warning: Failed to compile Material /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.M_Env_Ice_Tree_POI_Bark for platform PCD3D_SM5, Default Material will be used in game.
-[2017.05.04-22.27.39:534][802]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
-[2017.05.04-22.27.39:946][802]LogAIModule: Creating AISystem for world Map_Shaun
-[2017.05.04-22.27.40:103][802]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.04-22.27.40:104][802]LightingResults: New page: Lighting Build
-[2017.05.04-22.27.40:104][802]LoadErrors: New page: Loading map: Map_Shaun.umap
-[2017.05.04-22.27.40:105][802]MapCheck: New page: Map Check
-[2017.05.04-22.27.40:105][802]LightingResults: New page: Lighting Build
-[2017.05.04-22.27.40:415][802]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.04-22.27.40:453][802]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.04-22.27.40:541][802]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.746ms to complete.
-[2017.05.04-22.27.40:542][802]LogFileHelpers: Loading map 'Map_Shaun' took 0.440
-[2017.05.04-22.28.01:541][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Shaun" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.05.04-22.28.01:859][  2]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
-[2017.05.04-22.28.01:860][  2]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
-[2017.05.04-22.28.01:860][  2]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
-[2017.05.04-22.28.02:112][  2]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0047.56] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 517 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.28.02:112][  2]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0047.56] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.28.02:112][  2]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0047.56] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.28.02:113][  2]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0047.56] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.28.02:113][  2]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0047.56] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.28.02:113][  2]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0047.56] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
-[2017.05.04-22.28.04:650][  2]LogSavePackage: Save=3064.44ms
-[2017.05.04-22.28.04:650][  2]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_ShaunF61AD0534F6FB8EE65545FA2D08772E5.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap'
-[2017.05.04-22.28.04:656][  2]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap
-[2017.05.04-22.28.10:830][358]LogAIModule: Creating AISystem for world MainMenu
-[2017.05.04-22.28.10:849][358]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.04-22.28.10:849][358]LightingResults: New page: Lighting Build
-[2017.05.04-22.28.10:851][358]LoadErrors: New page: Loading map: MainMenu.umap
-[2017.05.04-22.28.10:873][358]MapCheck: New page: Map Check
-[2017.05.04-22.28.10:873][358]LightingResults: New page: Lighting Build
-[2017.05.04-22.28.10:973][358]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.04-22.28.11:010][358]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.04-22.28.11:094][358]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.515ms to complete.
-[2017.05.04-22.28.11:095][358]LogFileHelpers: Loading map 'MainMenu' took 0.247
-[2017.05.04-22.28.12:949][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.05.04-22.28.13:028][465]LogSavePackage: Save=66.89ms
-[2017.05.04-22.28.13:028][465]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/MainMenu9A15EA1640E50266D6CCE3A8A279907B.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap'
-[2017.05.04-22.28.13:029][465]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap
-[2017.05.04-22.28.14:304][533]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.04-22.28.14:518][534]Cmd: QUIT_EDITOR
-[2017.05.04-22.28.14:567][534]LogExit: Preparing to exit.
-[2017.05.04-22.28.15:217][534]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/' was aborted.
-[2017.05.04-22.28.15:256][534]LogExit: Editor shut down
-[2017.05.04-22.28.15:256][534]LogExit: Transaction tracking system shut down
-[2017.05.04-22.28.15:396][534]LogObj: Freed 0b from 0 cluster array pools.
-[2017.05.04-22.28.15:396][534]LogExit: Object subsystem successfully closed.
-[2017.05.04-22.28.15:416][534]LogD3D11RHI: Shutdown
-[2017.05.04-22.28.15:416][534]LogD3D11RHI: CleanupD3DDevice
-[2017.05.04-22.28.15:496][534]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.05.04-22.28.15:502][534]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (237)
-[2017.05.04-22.28.15:502][534]LogModuleManager: Shutting down and abandoning module CrashTracker (236)
-[2017.05.04-22.28.15:502][534]LogModuleManager: Shutting down and abandoning module SceneOutliner (235)
-[2017.05.04-22.28.15:502][534]LogModuleManager: Shutting down and abandoning module WidgetCarousel (234)
-[2017.05.04-22.28.15:502][534]LogModuleManager: Shutting down and abandoning module AddContentDialog (233)
-[2017.05.04-22.28.15:502][534]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/4.13/FeaturePacks/' was aborted.
-[2017.05.04-22.28.15:503][534]LogModuleManager: Shutting down and abandoning module GameplayTags (232)
-[2017.05.04-22.28.15:503][534]LogModuleManager: Shutting down and abandoning module EditorWidgets (231)
-[2017.05.04-22.28.15:503][534]LogModuleManager: Shutting down and abandoning module CollectionManager (230)
-[2017.05.04-22.28.15:503][534]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Collections/' was aborted.
-[2017.05.04-22.28.15:503][534]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Developers/Connor/Collections/' was aborted.
-[2017.05.04-22.28.15:503][534]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Collections/' was aborted.
-[2017.05.04-22.28.15:503][534]LogModuleManager: Shutting down and abandoning module StatsViewer (229)
-[2017.05.04-22.28.15:503][534]LogModuleManager: Shutting down and abandoning module FoliageEdit (228)
-[2017.05.04-22.28.15:503][534]LogModuleManager: Shutting down and abandoning module LandscapeEditor (227)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (226)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module ActorPickerMode (225)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module GeometryMode (224)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module TextureAlignMode (223)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module BspMode (222)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module HardwareSurvey (221)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (220)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module SequenceRecorder (219)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module AutomationWorker (218)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (217)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module PlacementMode (216)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (215)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (214)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (213)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (212)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (211)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module Media (210)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (209)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (208)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module CharacterAI (207)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module SmartSnapping (206)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module SessionServices (205)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module ViewportSnapping (204)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module ViewportInteraction (203)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module LogVisualizer (202)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (201)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module IntroTutorials (200)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (199)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (198)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (197)
-[2017.05.04-22.28.15:504][534]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module NiagaraEditor (192)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module MergeActors (191)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module SizeMap (190)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module TreeMap (189)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module ReferenceViewer (188)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module LocalizationService (187)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (186)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module HardwareTargeting (185)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (184)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module UndoHistory (183)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module UserFeedback (182)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module XmlParser (181)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module Blutility (180)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (179)
-[2017.05.04-22.28.16:076][534]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (178)
-[2017.05.04-22.28.16:077][534]LogModuleManager: Shutting down and abandoning module InputBindingEditor (177)
-[2017.05.04-22.28.16:077][534]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
-[2017.05.04-22.28.16:077][534]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
-[2017.05.04-22.28.16:077][534]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
-[2017.05.04-22.28.16:077][534]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
-[2017.05.04-22.28.16:077][534]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
-[2017.05.04-22.28.16:077][534]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
-[2017.05.04-22.28.16:077][534]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module AutomationController (169)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module Layers (167)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module Persona (162)
-[2017.05.04-22.28.16:119][534]LogModuleManager: Shutting down and abandoning module Kismet (161)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module Toolbox (158)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module OutputLog (155)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module GammaUI (154)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module Documentation (153)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module Niagara (152)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module PortalServices (149)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module AIModule (144)
-[2017.05.04-22.28.16:121][534]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
-[2017.05.04-22.28.16:195][534]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
-[2017.05.04-22.28.16:195][534]LogModuleManager: Shutting down and abandoning module SubstanceEditor (141)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module SlateRemote (140)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module SteamVRController (139)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module SteamVR (138)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (137)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (136)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module OculusLibrary (135)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module OculusInput (134)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (133)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module CableComponent (132)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (131)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (130)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module HTML5Networking (129)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (128)
-[2017.05.04-22.28.16:209][534]LogModuleManager: Shutting down and abandoning module GeometryCache (127)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module AlembicLibrary (126)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module AlembicImporter (125)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module SuperSearch (124)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (123)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (122)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module PluginBrowser (121)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (120)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module EpicSurvey (119)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module DesktopPlatform (118)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (117)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module UObjectPlugin (116)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (115)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (114)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module SourceControl (113)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module GitSourceControl (112)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (111)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (110)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (109)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module MeshPaint (108)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (107)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module HotReload (105)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module MainFrame (104)
-[2017.05.04-22.28.16:210][534]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
-[2017.05.04-22.28.16:211][534]LogModuleManager: Shutting down and abandoning module ContentBrowser (102)
-[2017.05.04-22.28.16:212][534]LogModuleManager: Shutting down and abandoning module Paper2DEditor (101)
-[2017.05.04-22.28.16:212][534]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
-[2017.05.04-22.28.16:312][534]LogModuleManager: Shutting down and abandoning module TcpMessaging (99)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module SubstanceCore (98)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (97)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module Paper2D (96)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (95)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module WmfMedia (94)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module MediaAssets (93)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (92)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (91)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module VREditor (90)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (89)
-[2017.05.04-22.28.16:412][534]LogModuleManager: Shutting down and abandoning module PropertyEditor (88)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (87)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module FunctionalTesting (86)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (85)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module Sequencer (84)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (83)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module MessageLog (82)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module AssetTools (81)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module UMGEditor (80)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module UMG (79)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module SlateReflector (78)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module Slate (77)
-[2017.05.04-22.28.16:413][534]LogModuleManager: Shutting down and abandoning module EditorStyle (76)
-[2017.05.04-22.28.16:416][534]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (75)
-[2017.05.04-22.28.16:416][534]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
-[2017.05.04-22.28.16:416][534]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
-[2017.05.04-22.28.16:416][534]LogModuleManager: Shutting down and abandoning module Networking (72)
-[2017.05.04-22.28.16:416][534]LogModuleManager: Shutting down and abandoning module Core (71)
-[2017.05.04-22.28.16:416][534]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (70)
-[2017.05.04-22.28.16:417][534]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.05.04-22.28.16:417][534]LogDirectoryWatcher: A directory notification for '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/' was aborted.
-[2017.05.04-22.28.16:417][534]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.05.04-22.28.16:417][534]LogModuleManager: Shutting down and abandoning module AssetRegistry (69)
-[2017.05.04-22.28.16:523][534]LogModuleManager: Shutting down and abandoning module KismetCompiler (68)
-[2017.05.04-22.28.16:523][534]LogModuleManager: Shutting down and abandoning module PhysXFormats (67)
-[2017.05.04-22.28.16:523][534]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.05.04-22.28.16:523][534]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.05.04-22.28.16:753][534]LogDerivedDataCache: Shutdown
-[2017.05.04-22.28.16:753][534]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.05.04-22.28.16:753][534]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.05.04-22.28.16:753][534]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.05.04-22.28.16:753][534]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.05.04-22.28.16:753][534]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.05.04-22.28.16:753][534]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.05.04-22.28.16:753][534]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.05.04-22.28.16:753][534]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module InputCore (28)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Settings (27)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module GearVR (25)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module Voice (21)
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2017.05.04-22.28.16:754][534]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.05.04-22.28.16:754][534]LogOnline:Display: Unloading online subsystem: NULL
-[2017.05.04-22.28.16:754][534]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.05.04-22.28.16:754][534]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.05.04-22.28.16:754][534]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD8363654-40B3-24BA-BFDA-889F077FA5D8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=4b9972bd4ce3693f1c40f48e45651904%7Cd95bbae5a2c34cf6b3073801ef7200b6%7Ca979dc9b-9d08-4556-ac9a-aeddded5a6c4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.05.04-22.28.16:756][534]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.05.04-22.28.16:756][534]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.05.04-22.28.16:757][534]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.05.04-22.28.16:758][534]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.05.04-22.28.16:758][534]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.05.04-22.28.16:758][534]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.05.04-22.28.16:759][534]LogExit: Exiting.
-[2017.05.04-22.28.16:760][534]Log file closed, 05/04/17 23:28:16
+[2017.05.05-11.10.12:461][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.05-11.10.12:461][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.05-11.10.12:484][  0]LogInit: Computer: CONNORPAGE
+[2017.05.05-11.10.12:484][  0]LogInit: User: Connor
+[2017.05.05-11.10.12:484][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.05-11.10.12:484][  0]LogInit: High frequency timer resolution =2.533208 MHz
+[2017.05.05-11.10.12:484][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.05-11.10.12:484][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.05-11.10.12:484][  0]LogMemory: Process Physical Memory: 258.44 MB used, 258.44 MB peak
+[2017.05.05-11.10.12:484][  0]LogMemory: Process Virtual Memory: 260.27 MB used, 260.27 MB peak
+[2017.05.05-11.10.12:484][  0]LogMemory: Physical Memory: 4267.40 MB used, 8109.73 MB total
+[2017.05.05-11.10.12:484][  0]LogMemory: Virtual Memory: 625.28 MB used, 134217728.00 MB total
+[2017.05.05-11.10.12:903][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.05.05-11.10.15:584][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.05-11.10.16:144][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.05.05-11.10.16:144][  0]LogD3D11RHI:       3040/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.05-11.10.16:149][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.05-11.10.16:149][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.05-11.10.16:150][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.05-11.10.16:150][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.05-11.10.16:150][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.05-11.10.16:155][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.05-11.10.16:155][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.05-11.10.16:155][  0]LogWindows: EnumDisplayDevices:
+[2017.05.05-11.10.16:155][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.05-11.10.16:155][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.05-11.10.16:155][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.05-11.10.16:155][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.05-11.10.16:155][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.05.05-11.10.16:155][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.05-11.10.16:155][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.05-11.10.16:155][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.05-11.10.16:680][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.05-11.10.16:728][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.05-11.10.16:728][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/2384/).
+[2017.05.05-11.10.16:729][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Connor/AppData/Local/Temp/UnrealShaderWorkingDir/B17A461E488E48B55FBFD9893F15143A/'.
+[2017.05.05-11.10.16:752][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.05-11.10.19:157][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.05-11.10.19:164][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.05-11.10.19:171][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.05-11.10.19:178][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.05-11.10.19:185][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.05-11.10.19:246][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.05-11.10.19:269][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.05-11.10.19:294][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.05-11.10.19:314][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.05-11.10.19:324][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.05-11.10.19:334][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.05-11.10.19:366][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.05-11.10.19:366][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.05-11.10.19:367][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.05-11.10.19:471][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.05-11.10.19:477][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.05-11.10.19:483][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.05-11.10.19:489][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.05-11.10.19:495][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.05-11.10.19:514][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.05-11.10.19:514][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.05-11.10.20:428][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.05-11.10.20:770][  0]LogDerivedDataCache: Loaded boot cache 0.34s 62MB C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.05-11.10.20:770][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.05.05-11.10.20:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.05-11.10.20:770][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.05-11.10.20:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.05-11.10.20:770][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.05-11.10.20:862][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.05-11.10.20:875][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Connor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.05-11.10.30:950][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.05-11.10.31:112][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.05-11.10.31:713][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.05-11.10.31:713][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.05-11.10.31:713][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.05.05-11.10.33:553][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.05-11.10.37:487][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2011542088
+[2017.05.05-11.10.37:676][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.05.05-11.10.37:804][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.092951 seconds
+[2017.05.05-11.10.37:866][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.05.05-11.10.37:867][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2017.05.05-11.10.37:867][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.05-11.10.41:185][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.05-11.10.41:185][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.05-11.10.48:395][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.05.05-11.10.48:438][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.05-11.10.48:474][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.05-11.10.50:102][  0]SourceControl: Info Source control is disabled
+[2017.05.05-11.10.50:116][  0]SourceControl: Info Source control is disabled
+[2017.05.05-11.10.50:161][  0]SourceControl: Info Source control is disabled
+[2017.05.05-11.10.50:189][  0]SourceControl: Info Source control is disabled
+[2017.05.05-11.10.52:049][  0]LogEngine: Initializing Engine...
+[2017.05.05-11.10.52:075][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.05-11.10.53:094][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.05-11.10.53:407][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.05-11.10.53:420][  0]LogInit: FAudioDevice initialized.
+[2017.05.05-11.10.53:457][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/Connor/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.05-11.10.53:468][  0]LogInit: Texture streaming: Enabled
+[2017.05.05-11.10.53:659][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.05-11.10.53:949][  0]LogInit: Transaction tracking system initialized
+[2017.05.05-11.10.55:713][  0]BlueprintLog: New page: Editor Load
+[2017.05.05-11.10.58:785][  0]LocalizationService: Info Localization service is disabled
+[2017.05.05-11.11.00:112][  0]LogConsoleResponse:Display: 
+[2017.05.05-11.11.02:508][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/' took 0.02s
+[2017.05.05-11.11.02:508][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.05-11.11.02:508][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.05-11.11.05:611][  0]SourceControl: Info Source control is disabled
+[2017.05.05-11.11.05:683][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.05-11.11.05:750][  0]LightingResults: New page: Lighting Build
+[2017.05.05-11.11.06:277][  0]MapCheck: New page: Map Check
+[2017.05.05-11.11.06:277][  0]LightingResults: New page: Lighting Build
+[2017.05.05-11.11.11:698][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.05-11.11.12:186][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.05-11.11.12:307][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.05-11.11.12:409][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.657ms to complete.
+[2017.05.05-11.11.12:409][  0]LogFileHelpers: Loading map 'MainMenu' took 6.745
+[2017.05.05-11.11.16:134][  0]LogCollectionManager: Loaded 0 collections in 0.001335 seconds
+[2017.05.05-11.11.16:484][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Collections/' took 0.01s
+[2017.05.05-11.11.16:484][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Developers/Connor/Collections/' took 0.01s
+[2017.05.05-11.11.16:484][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Collections/' took 0.01s
+[2017.05.05-11.11.16:484][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.05.05-11.11.16:600][  0]LogContentBrowser: Native class hierarchy populated in 0.0853 seconds. Added 2156 classes and 421 folders.
+[2017.05.05-11.11.16:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.05-11.11.16:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2017.05.05-11.11.16:792][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2017.05.05-11.11.16:882][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.05-11.11.19:305][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.05-11.11.19:503][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.05.05-11.11.22:319][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.05-11.11.22:711][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.05-11.11.22:969][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.05.05-11.11.22:969][  0]LogLoad: (Engine Initialization) Total time: 73.84 seconds
+[2017.05.05-11.11.22:969][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.01 seconds
+[2017.05.05-11.11.22:983][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.05-11.11.22:983][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.05-11.11.23:046][  0]LogOcInput: OculusInput pre-init called
+[2017.05.05-11.11.23:596][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.05-11.11.25:219][  0]LogRenderer: Reallocating scene render targets to support 1056x576 (Frame:2).
+[2017.05.05-11.11.26:455][  4]LogAssetRegistry: Asset discovery search completed in 48.8012 seconds
+[2017.05.05-11.11.26:465][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.05.05-11.11.26:465][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.010456 seconds (updated 0 objects)
+[2017.05.05-11.16.39:585][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Connor/Desktop/green nebula.dds)
+[2017.05.05-11.16.39:685][800]LogTexture:Display: Building textures: green_nebula (AutoDXT)
+[2017.05.05-11.16.55:757][274]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.05-11.17.21:286][610]LogTexture:Display: Building textures: green_nebula (BGRA8)
+[2017.05.05-11.17.29:033][610]LogMaterial: 0.01 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2017.05.05-11.17.39:793][249]LogTexture:Display: Building textures: green_nebula (BGRA8)
+[2017.05.05-11.17.43:047][435]LogMaterial: 0.00 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2017.05.05-11.17.48:798][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/green_nebula" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Textures/green_nebula.uasset" SILENT=true
+[2017.05.05-11.17.49:081][775]LogSavePackage: Save=265.33ms
+[2017.05.05-11.17.49:081][775]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/green_nebula411F025B4AFCC9FDCB18248B8B3E5BFC.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Textures/green_nebula.uasset'
+[2017.05.05-11.17.49:099][775]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Textures/green_nebula.uasset
+[2017.05.05-11.17.59:511][388]LogMaterial: Missing cached shader map for material skynebula, compiling. 
+[2017.05.05-11.17.59:535][388]LogMaterial:Warning: Failed to compile Material /Engine/Transient.skynebula for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.05-11.17.59:535][388]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Textures/Nebula_.Nebula_
+[2017.05.05-11.18.00:084][388]LogMaterial: Missing cached shader map for material skynebula, compiling. 
+[2017.05.05-11.18.00:084][388]LogMaterial:Warning: Failed to compile Material /Engine/Transient.skynebula for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.05-11.18.00:084][388]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Textures/Nebula_.Nebula_
+[2017.05.05-11.18.00:084][388]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.05-11.18.00:112][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.05.05-11.18.00:173][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_1, compiling. 
+[2017.05.05-11.18.00:179][388]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Textures/Nebula_.Nebula_
+[2017.05.05-11.18.23:960][729]LogMaterial: Missing cached shader map for material skynebula2, compiling. 
+[2017.05.05-11.18.23:960][729]LogMaterial:Warning: Failed to compile Material /Game/Textures/skynebula2.skynebula2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.05-11.18.23:960][729]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Textures/Nebula_.Nebula_
+[2017.05.05-11.18.25:346][812]LogMaterial: Missing cached shader map for material skynebula2, compiling. 
+[2017.05.05-11.18.25:347][812]LogMaterial:Warning: Failed to compile Material /Engine/Transient.skynebula2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.05-11.18.25:347][812]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Textures/Nebula_.Nebula_
+[2017.05.05-11.18.25:387][812]LogMaterial: Missing cached shader map for material skynebula2, compiling. 
+[2017.05.05-11.18.25:387][812]LogMaterial:Warning: Failed to compile Material /Engine/Transient.skynebula2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.05-11.18.25:387][812]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Textures/Nebula_.Nebula_
+[2017.05.05-11.18.25:387][812]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.05-11.18.25:418][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.05.05-11.18.25:425][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_1, compiling. 
+[2017.05.05-11.18.25:427][812]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Textures/Nebula_.Nebula_
+[2017.05.05-11.18.34:204][268]LogMaterial: Missing cached shader map for material skynebula2, compiling. 
+[2017.05.05-11.18.34:225][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.05-11.18.34:249][268]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_1, compiling. 
+[2017.05.05-11.18.34:718][284]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2017.05.05-11.18.34:718][284]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.05-11.18.34:718][284]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.05-11.18.38:020][481]LogMaterialEditor: Saving and Compiling material skynebula2
+[2017.05.05-11.18.38:436][481]LogMaterial: Missing cached shader map for material skynebula2, compiling. 
+[2017.05.05-11.18.38:442][481]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.05-11.18.38:475][481]LogMaterial: Missing cached shader map for material skynebula2, compiling. 
+[2017.05.05-11.18.38:510][481]LogMaterial: Missing cached shader map for material skynebula2, compiling. 
+[2017.05.05-11.18.38:521][481]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.05-11.18.39:500][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/skynebula2" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Textures/skynebula2.uasset" SILENT=true
+[2017.05.05-11.18.39:514][481]LogSavePackage: Save=12.74ms
+[2017.05.05-11.18.39:514][481]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/skynebula24795017F49BA705B9B983586F1454569.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Textures/skynebula2.uasset'
+[2017.05.05-11.18.39:517][481]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Textures/skynebula2.uasset
+[2017.05.05-11.18.39:523][481]MaterialEditorStats: Info Base pass shader without light map: 35 instructions
+[2017.05.05-11.18.39:523][481]MaterialEditorStats: Info Vertex shader: 50 instructions
+[2017.05.05-11.18.39:523][481]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.05-11.18.52:653][101]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.05.05-11.18.52:663][101]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0523.53] Compile of LobbyPC successful, but with 1 Warning(s) [in 32 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-11.18.52:665][101]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0523.53] Compile of LobbyPC successful, but with 2 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-11.18.52:665][101]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0523.53] Compile of LobbyPC successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-11.18.52:731][101]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.05.05-11.18.52:742][101]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0523.61] Compile of LobbyPC successful, but with 1 Warning(s) [in 31 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-11.18.52:742][101]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0523.61] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-11.18.52:743][101]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0523.61] Compile of LobbyPC successful, but with 3 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-11.18.53:143][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
+[2017.05.05-11.18.53:143][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
+[2017.05.05-11.18.53:143][101]LoadErrors:Error: Error /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark
+[2017.05.05-11.18.53:143][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
+[2017.05.05-11.18.53:143][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
+[2017.05.05-11.18.53:143][101]LoadErrors:Error: Error /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N
+[2017.05.05-11.18.53:144][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
+[2017.05.05-11.18.53:144][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
+[2017.05.05-11.18.53:144][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
+[2017.05.05-11.18.53:144][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
+[2017.05.05-11.18.54:398][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
+[2017.05.05-11.18.54:398][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01.uasset.
+[2017.05.05-11.18.54:399][101]LoadErrors:Error: Error /Game/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01 : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf
+[2017.05.05-11.18.54:399][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
+[2017.05.05-11.18.54:399][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01.uasset.
+[2017.05.05-11.18.54:796][101]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.05-11.18.54:797][101]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.05-11.18.54:797][101]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.05-11.18.54:800][101]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0525.67] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 7 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.18.54:801][101]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0525.67] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.18.54:801][101]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0525.67] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.18.55:127][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
+[2017.05.05-11.18.55:127][101]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N.T_Env_Ice_Tree_Bark_N Referenced by MaterialExpressionTextureSample_2
+[2017.05.05-11.18.55:127][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading NULL.
+[2017.05.05-11.18.55:128][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
+[2017.05.05-11.18.55:128][101]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark.T_Env_Ice_Tree_Bark Referenced by MaterialExpressionTextureSample_3
+[2017.05.05-11.18.55:128][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading NULL.
+[2017.05.05-11.18.56:183][101]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
+[2017.05.05-11.18.56:183][101]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf.M_ENV_Ice_Foliage_PineLeaf Referenced by SM_ENV_Ice_Foliage_PineTree_01
+[2017.05.05-11.18.56:183][101]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading NULL.
+[2017.05.05-11.18.56:414][101]LogMaterial: Missing cached shader map for material M_Env_Ice_Tree_POI_Bark, compiling. 
+[2017.05.05-11.18.56:435][101]LogMaterial:Warning: Failed to compile Material /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.M_Env_Ice_Tree_POI_Bark for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.05-11.18.56:435][101]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.05.05-11.18.58:047][101]LogAIModule: Creating AISystem for world Map_Shaun
+[2017.05.05-11.18.59:037][101]Cmd: MAP LOAD FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.05-11.18.59:038][101]LightingResults: New page: Lighting Build
+[2017.05.05-11.18.59:043][101]LoadErrors: New page: Loading map: Map_Shaun.umap
+[2017.05.05-11.18.59:054][101]MapCheck: New page: Map Check
+[2017.05.05-11.18.59:054][101]LightingResults: New page: Lighting Build
+[2017.05.05-11.19.01:616][101]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.05.05-11.19.01:684][101]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.05-11.19.01:769][101]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.968ms to complete.
+[2017.05.05-11.19.01:769][101]LogFileHelpers: Loading map 'Map_Shaun' took 2.746
+[2017.05.05-11.19.08:056][401]LogEditorViewport: Clicking on Actor (LMB): NebSky_C (NebSky2)
+[2017.05.05-11.19.40:419][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Shaun" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.05-11.19.40:967][234]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.05-11.19.40:968][234]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.05-11.19.40:968][234]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.05-11.19.41:432][234]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0572.30] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 765 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.19.41:473][234]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0572.34] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.19.41:506][234]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0572.38] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 33 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.19.41:506][234]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0572.38] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.19.41:506][234]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0572.38] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.19.41:506][234]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0572.38] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.19.44:103][234]LogSavePackage: Save=3444.87ms
+[2017.05.05-11.19.44:103][234]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_Shaun1348AE3746776BDD693BAD985A19F2A9.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap'
+[2017.05.05-11.19.44:113][234]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap
+[2017.05.05-11.21.01:486][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Shaun" FILE="../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.05-11.21.01:523][930]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.05-11.21.01:524][930]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.05-11.21.01:524][930]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.05-11.21.01:781][930]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0652.65] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 264 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.21.01:781][930]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0652.65] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.21.01:781][930]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0652.65] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.21.01:781][930]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0652.65] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.21.01:781][930]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0652.65] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.21.01:781][930]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [0652.65] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.05-11.21.04:289][930]LogSavePackage: Save=2781.57ms
+[2017.05.05-11.21.04:290][930]LogSavePackage: Moving '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Map_Shaun44C05579466ABF1D0581EEB2BDA3DE7D.tmp' to '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap'
+[2017.05.05-11.21.04:295][930]LogSavePackage:Display: Finished SavePackage ../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap
+[2017.05.05-11.21.09:250][206]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.05-11.21.09:659][207]Cmd: QUIT_EDITOR
+[2017.05.05-11.21.10:101][207]LogExit: Preparing to exit.
+[2017.05.05-11.21.11:193][207]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/' was aborted.
+[2017.05.05-11.21.11:450][207]LogExit: Editor shut down
+[2017.05.05-11.21.11:451][207]LogExit: Transaction tracking system shut down
+[2017.05.05-11.21.13:219][207]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.05-11.21.13:220][207]LogExit: Object subsystem successfully closed.
+[2017.05.05-11.21.13:528][207]LogD3D11RHI: Shutdown
+[2017.05.05-11.21.13:528][207]LogD3D11RHI: CleanupD3DDevice
+[2017.05.05-11.21.13:725][207]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.05-11.21.14:501][207]LogModuleManager: Shutting down and abandoning module MaterialEditor (239)
+[2017.05.05-11.21.14:501][207]LogModuleManager: Shutting down and abandoning module TextureEditor (238)
+[2017.05.05-11.21.14:516][207]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (237)
+[2017.05.05-11.21.14:529][207]LogModuleManager: Shutting down and abandoning module CrashTracker (236)
+[2017.05.05-11.21.14:529][207]LogModuleManager: Shutting down and abandoning module SceneOutliner (235)
+[2017.05.05-11.21.14:529][207]LogModuleManager: Shutting down and abandoning module WidgetCarousel (234)
+[2017.05.05-11.21.14:529][207]LogModuleManager: Shutting down and abandoning module AddContentDialog (233)
+[2017.05.05-11.21.14:554][207]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/4.13/FeaturePacks/' was aborted.
+[2017.05.05-11.21.14:557][207]LogModuleManager: Shutting down and abandoning module GameplayTags (232)
+[2017.05.05-11.21.14:557][207]LogModuleManager: Shutting down and abandoning module EditorWidgets (231)
+[2017.05.05-11.21.14:557][207]LogModuleManager: Shutting down and abandoning module CollectionManager (230)
+[2017.05.05-11.21.14:561][207]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Collections/' was aborted.
+[2017.05.05-11.21.14:561][207]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Developers/Connor/Collections/' was aborted.
+[2017.05.05-11.21.14:562][207]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Unreal Projects/Team2Thirds/MultiplayerV2/Saved/Collections/' was aborted.
+[2017.05.05-11.21.14:562][207]LogModuleManager: Shutting down and abandoning module StatsViewer (229)
+[2017.05.05-11.21.14:576][207]LogModuleManager: Shutting down and abandoning module FoliageEdit (228)
+[2017.05.05-11.21.14:582][207]LogModuleManager: Shutting down and abandoning module LandscapeEditor (227)
+[2017.05.05-11.21.14:593][207]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (226)
+[2017.05.05-11.21.14:593][207]LogModuleManager: Shutting down and abandoning module ActorPickerMode (225)
+[2017.05.05-11.21.14:593][207]LogModuleManager: Shutting down and abandoning module GeometryMode (224)
+[2017.05.05-11.21.14:593][207]LogModuleManager: Shutting down and abandoning module TextureAlignMode (223)
+[2017.05.05-11.21.14:593][207]LogModuleManager: Shutting down and abandoning module BspMode (222)
+[2017.05.05-11.21.14:606][207]LogModuleManager: Shutting down and abandoning module HardwareSurvey (221)
+[2017.05.05-11.21.14:607][207]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (220)
+[2017.05.05-11.21.14:607][207]LogModuleManager: Shutting down and abandoning module SequenceRecorder (219)
+[2017.05.05-11.21.14:629][207]LogModuleManager: Shutting down and abandoning module AutomationWorker (218)
+[2017.05.05-11.21.14:644][207]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (217)
+[2017.05.05-11.21.14:644][207]LogModuleManager: Shutting down and abandoning module PlacementMode (216)
+[2017.05.05-11.21.14:665][207]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (215)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (214)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (213)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (212)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (211)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module Media (210)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (209)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (208)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module CharacterAI (207)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module SmartSnapping (206)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module SessionServices (205)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module ViewportSnapping (204)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module ViewportInteraction (203)
+[2017.05.05-11.21.14:671][207]LogModuleManager: Shutting down and abandoning module LogVisualizer (202)
+[2017.05.05-11.21.14:683][207]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (201)
+[2017.05.05-11.21.14:696][207]LogModuleManager: Shutting down and abandoning module IntroTutorials (200)
+[2017.05.05-11.21.14:708][207]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (199)
+[2017.05.05-11.21.14:708][207]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (198)
+[2017.05.05-11.21.14:721][207]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (197)
+[2017.05.05-11.21.14:721][207]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
+[2017.05.05-11.21.15:401][207]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
+[2017.05.05-11.21.15:413][207]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
+[2017.05.05-11.21.15:414][207]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
+[2017.05.05-11.21.15:414][207]LogModuleManager: Shutting down and abandoning module NiagaraEditor (192)
+[2017.05.05-11.21.15:440][207]LogModuleManager: Shutting down and abandoning module MergeActors (191)
+[2017.05.05-11.21.15:451][207]LogModuleManager: Shutting down and abandoning module SizeMap (190)
+[2017.05.05-11.21.15:461][207]LogModuleManager: Shutting down and abandoning module TreeMap (189)
+[2017.05.05-11.21.15:468][207]LogModuleManager: Shutting down and abandoning module ReferenceViewer (188)
+[2017.05.05-11.21.15:468][207]LogModuleManager: Shutting down and abandoning module LocalizationService (187)
+[2017.05.05-11.21.15:475][207]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (186)
+[2017.05.05-11.21.15:489][207]LogModuleManager: Shutting down and abandoning module HardwareTargeting (185)
+[2017.05.05-11.21.15:500][207]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (184)
+[2017.05.05-11.21.15:512][207]LogModuleManager: Shutting down and abandoning module UndoHistory (183)
+[2017.05.05-11.21.15:518][207]LogModuleManager: Shutting down and abandoning module UserFeedback (182)
+[2017.05.05-11.21.15:518][207]LogModuleManager: Shutting down and abandoning module XmlParser (181)
+[2017.05.05-11.21.15:518][207]LogModuleManager: Shutting down and abandoning module Blutility (180)
+[2017.05.05-11.21.15:522][207]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (179)
+[2017.05.05-11.21.15:533][207]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (178)
+[2017.05.05-11.21.15:533][207]LogModuleManager: Shutting down and abandoning module InputBindingEditor (177)
+[2017.05.05-11.21.15:556][207]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
+[2017.05.05-11.21.15:556][207]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
+[2017.05.05-11.21.15:570][207]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
+[2017.05.05-11.21.15:587][207]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
+[2017.05.05-11.21.15:605][207]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
+[2017.05.05-11.21.15:612][207]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
+[2017.05.05-11.21.15:612][207]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
+[2017.05.05-11.21.15:691][207]LogModuleManager: Shutting down and abandoning module AutomationController (169)
+[2017.05.05-11.21.15:703][207]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
+[2017.05.05-11.21.15:715][207]LogModuleManager: Shutting down and abandoning module Layers (167)
+[2017.05.05-11.21.15:730][207]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
+[2017.05.05-11.21.15:730][207]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
+[2017.05.05-11.21.15:740][207]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
+[2017.05.05-11.21.15:740][207]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
+[2017.05.05-11.21.15:750][207]LogModuleManager: Shutting down and abandoning module Persona (162)
+[2017.05.05-11.21.15:801][207]LogModuleManager: Shutting down and abandoning module Kismet (161)
+[2017.05.05-11.21.15:815][207]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
+[2017.05.05-11.21.15:816][207]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
+[2017.05.05-11.21.15:839][207]LogModuleManager: Shutting down and abandoning module Toolbox (158)
+[2017.05.05-11.21.15:844][207]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
+[2017.05.05-11.21.15:854][207]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
+[2017.05.05-11.21.15:877][207]LogModuleManager: Shutting down and abandoning module OutputLog (155)
+[2017.05.05-11.21.15:886][207]LogModuleManager: Shutting down and abandoning module GammaUI (154)
+[2017.05.05-11.21.15:897][207]LogModuleManager: Shutting down and abandoning module Documentation (153)
+[2017.05.05-11.21.15:897][207]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2017.05.05-11.21.15:906][207]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
+[2017.05.05-11.21.15:906][207]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2017.05.05-11.21.15:907][207]LogModuleManager: Shutting down and abandoning module PortalServices (149)
+[2017.05.05-11.21.15:907][207]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
+[2017.05.05-11.21.15:907][207]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
+[2017.05.05-11.21.15:907][207]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
+[2017.05.05-11.21.15:918][207]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
+[2017.05.05-11.21.15:925][207]LogModuleManager: Shutting down and abandoning module AIModule (144)
+[2017.05.05-11.21.15:925][207]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
+[2017.05.05-11.21.16:113][207]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
+[2017.05.05-11.21.16:125][207]LogModuleManager: Shutting down and abandoning module SubstanceEditor (141)
+[2017.05.05-11.21.16:142][207]LogModuleManager: Shutting down and abandoning module SlateRemote (140)
+[2017.05.05-11.21.16:142][207]LogModuleManager: Shutting down and abandoning module SteamVRController (139)
+[2017.05.05-11.21.16:142][207]LogModuleManager: Shutting down and abandoning module SteamVR (138)
+[2017.05.05-11.21.16:142][207]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (137)
+[2017.05.05-11.21.16:157][207]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (136)
+[2017.05.05-11.21.16:157][207]LogModuleManager: Shutting down and abandoning module OculusLibrary (135)
+[2017.05.05-11.21.16:157][207]LogModuleManager: Shutting down and abandoning module OculusInput (134)
+[2017.05.05-11.21.16:157][207]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (133)
+[2017.05.05-11.21.16:157][207]LogModuleManager: Shutting down and abandoning module CableComponent (132)
+[2017.05.05-11.21.16:158][207]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (131)
+[2017.05.05-11.21.16:158][207]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (130)
+[2017.05.05-11.21.16:178][207]LogModuleManager: Shutting down and abandoning module HTML5Networking (129)
+[2017.05.05-11.21.16:178][207]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (128)
+[2017.05.05-11.21.16:179][207]LogModuleManager: Shutting down and abandoning module GeometryCache (127)
+[2017.05.05-11.21.16:179][207]LogModuleManager: Shutting down and abandoning module AlembicLibrary (126)
+[2017.05.05-11.21.16:179][207]LogModuleManager: Shutting down and abandoning module AlembicImporter (125)
+[2017.05.05-11.21.16:190][207]LogModuleManager: Shutting down and abandoning module SuperSearch (124)
+[2017.05.05-11.21.16:190][207]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (123)
+[2017.05.05-11.21.16:190][207]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (122)
+[2017.05.05-11.21.16:190][207]LogModuleManager: Shutting down and abandoning module PluginBrowser (121)
+[2017.05.05-11.21.16:201][207]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (120)
+[2017.05.05-11.21.16:217][207]LogModuleManager: Shutting down and abandoning module EpicSurvey (119)
+[2017.05.05-11.21.16:220][207]LogModuleManager: Shutting down and abandoning module DesktopPlatform (118)
+[2017.05.05-11.21.16:232][207]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (117)
+[2017.05.05-11.21.16:235][207]LogModuleManager: Shutting down and abandoning module UObjectPlugin (116)
+[2017.05.05-11.21.16:235][207]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (115)
+[2017.05.05-11.21.16:246][207]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (114)
+[2017.05.05-11.21.16:259][207]LogModuleManager: Shutting down and abandoning module SourceControl (113)
+[2017.05.05-11.21.16:273][207]LogModuleManager: Shutting down and abandoning module GitSourceControl (112)
+[2017.05.05-11.21.16:281][207]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (111)
+[2017.05.05-11.21.16:281][207]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (110)
+[2017.05.05-11.21.16:290][207]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (109)
+[2017.05.05-11.21.16:290][207]LogModuleManager: Shutting down and abandoning module MeshPaint (108)
+[2017.05.05-11.21.16:290][207]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (107)
+[2017.05.05-11.21.16:304][207]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
+[2017.05.05-11.21.16:317][207]LogModuleManager: Shutting down and abandoning module HotReload (105)
+[2017.05.05-11.21.16:317][207]LogModuleManager: Shutting down and abandoning module MainFrame (104)
+[2017.05.05-11.21.16:317][207]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
+[2017.05.05-11.21.16:318][207]LogModuleManager: Shutting down and abandoning module ContentBrowser (102)
+[2017.05.05-11.21.16:319][207]LogModuleManager: Shutting down and abandoning module Paper2DEditor (101)
+[2017.05.05-11.21.16:341][207]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
+[2017.05.05-11.21.16:442][207]LogModuleManager: Shutting down and abandoning module TcpMessaging (99)
+[2017.05.05-11.21.16:553][207]LogModuleManager: Shutting down and abandoning module SubstanceCore (98)
+[2017.05.05-11.21.16:580][207]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (97)
+[2017.05.05-11.21.16:580][207]LogModuleManager: Shutting down and abandoning module Paper2D (96)
+[2017.05.05-11.21.16:599][207]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (95)
+[2017.05.05-11.21.16:607][207]LogModuleManager: Shutting down and abandoning module WmfMedia (94)
+[2017.05.05-11.21.16:618][207]LogModuleManager: Shutting down and abandoning module MediaAssets (93)
+[2017.05.05-11.21.16:618][207]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (92)
+[2017.05.05-11.21.16:618][207]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (91)
+[2017.05.05-11.21.16:624][207]LogModuleManager: Shutting down and abandoning module VREditor (90)
+[2017.05.05-11.21.16:624][207]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (89)
+[2017.05.05-11.21.16:624][207]LogModuleManager: Shutting down and abandoning module PropertyEditor (88)
+[2017.05.05-11.21.16:624][207]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (87)
+[2017.05.05-11.21.16:642][207]LogModuleManager: Shutting down and abandoning module FunctionalTesting (86)
+[2017.05.05-11.21.16:642][207]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (85)
+[2017.05.05-11.21.16:650][207]LogModuleManager: Shutting down and abandoning module Sequencer (84)
+[2017.05.05-11.21.16:678][207]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (83)
+[2017.05.05-11.21.16:679][207]LogModuleManager: Shutting down and abandoning module MessageLog (82)
+[2017.05.05-11.21.16:679][207]LogModuleManager: Shutting down and abandoning module AssetTools (81)
+[2017.05.05-11.21.16:688][207]LogModuleManager: Shutting down and abandoning module UMGEditor (80)
+[2017.05.05-11.21.16:711][207]LogModuleManager: Shutting down and abandoning module UMG (79)
+[2017.05.05-11.21.16:730][207]LogModuleManager: Shutting down and abandoning module SlateReflector (78)
+[2017.05.05-11.21.16:759][207]LogModuleManager: Shutting down and abandoning module Slate (77)
+[2017.05.05-11.21.16:759][207]LogModuleManager: Shutting down and abandoning module EditorStyle (76)
+[2017.05.05-11.21.16:761][207]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (75)
+[2017.05.05-11.21.16:761][207]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
+[2017.05.05-11.21.16:761][207]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
+[2017.05.05-11.21.16:761][207]LogModuleManager: Shutting down and abandoning module Networking (72)
+[2017.05.05-11.21.16:761][207]LogModuleManager: Shutting down and abandoning module Core (71)
+[2017.05.05-11.21.16:761][207]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (70)
+[2017.05.05-11.21.16:761][207]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.05-11.21.16:761][207]LogDirectoryWatcher: A directory notification for '../../../../Unreal Projects/Team2Thirds/MultiplayerV2/Content/' was aborted.
+[2017.05.05-11.21.16:761][207]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.05-11.21.16:762][207]LogModuleManager: Shutting down and abandoning module AssetRegistry (69)
+[2017.05.05-11.21.16:928][207]LogModuleManager: Shutting down and abandoning module KismetCompiler (68)
+[2017.05.05-11.21.16:928][207]LogModuleManager: Shutting down and abandoning module PhysXFormats (67)
+[2017.05.05-11.21.16:928][207]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.05.05-11.21.16:945][207]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.05.05-11.21.16:961][207]LogDerivedDataCache: Shutdown
+[2017.05.05-11.21.16:961][207]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.05.05-11.21.16:971][207]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.05.05-11.21.16:981][207]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.05.05-11.21.16:981][207]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.05.05-11.21.16:986][207]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.05.05-11.21.16:986][207]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.05.05-11.21.16:986][207]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.05.05-11.21.16:986][207]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.05.05-11.21.16:996][207]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.05.05-11.21.16:996][207]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.05.05-11.21.16:996][207]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.05.05-11.21.16:996][207]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.05.05-11.21.16:999][207]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.05.05-11.21.16:999][207]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.05.05-11.21.16:999][207]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.05.05-11.21.16:999][207]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.05.05-11.21.16:999][207]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module InputCore (28)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module Settings (27)
+[2017.05.05-11.21.17:000][207]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2017.05.05-11.21.17:010][207]LogModuleManager: Shutting down and abandoning module GearVR (25)
+[2017.05.05-11.21.17:010][207]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.05.05-11.21.17:010][207]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.05.05-11.21.17:010][207]LogModuleManager: Shutting down and abandoning module Voice (21)
+[2017.05.05-11.21.17:016][207]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.05.05-11.21.17:016][207]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.05.05-11.21.17:039][207]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.05-11.21.17:040][207]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.05.05-11.21.17:040][207]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.05-11.21.17:040][207]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B66066B16-4FEC-6211-0032-348494FFF0FE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=4b9972bd4ce3693f1c40f48e45651904%7Cd95bbae5a2c34cf6b3073801ef7200b6%7Ca979dc9b-9d08-4556-ac9a-aeddded5a6c4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.05-11.21.17:048][207]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.05.05-11.21.17:062][207]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.05.05-11.21.17:062][207]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.05.05-11.21.17:062][207]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.05.05-11.21.17:062][207]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.05.05-11.21.17:069][207]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.05.05-11.21.17:078][207]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.05.05-11.21.17:078][207]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.05.05-11.21.17:078][207]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.05.05-11.21.17:078][207]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.05.05-11.21.17:078][207]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.05.05-11.21.17:078][207]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.05.05-11.21.17:090][207]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.05.05-11.21.17:090][207]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.05.05-11.21.17:101][207]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.05.05-11.21.17:124][207]LogExit: Exiting.
+[2017.05.05-11.21.17:143][207]Log file closed, 05/05/17 12:21:17
