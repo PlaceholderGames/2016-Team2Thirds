@@ -1,9 +1,9 @@
-﻿Log file open, 05/05/17 16:49:37
+﻿Log file open, 05/05/17 16:55:05
 LogInit:Display: Running engine for game: MultiplayerV2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1873962097) SRandInit(-1873962097).
+LogInit:Display: RandInit(-723476260) SRandInit(-723476260).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.069944
+LogStats: Stats thread started at 0.069934
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -133,1535 +133,543 @@ LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.13
-LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMainMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" 
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCLobby -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" 
 LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.05-15.49.38:012][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.05-15.49.38:012][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.05-15.49.38:018][  0]LogInit: Computer: TRJ208-31
-[2017.05.05-15.49.38:018][  0]LogInit: User: 14042568
-[2017.05.05-15.49.38:018][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.05.05-15.49.38:018][  0]LogInit: High frequency timer resolution =3.507705 MHz
-[2017.05.05-15.49.38:018][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
-[2017.05.05-15.49.38:018][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.05-15.49.38:018][  0]LogMemory: Process Physical Memory: 260.27 MB used, 260.27 MB peak
-[2017.05.05-15.49.38:018][  0]LogMemory: Process Virtual Memory: 262.94 MB used, 262.94 MB peak
-[2017.05.05-15.49.38:018][  0]LogMemory: Physical Memory: 6849.17 MB used, 32608.34 MB total
-[2017.05.05-15.49.38:018][  0]LogMemory: Virtual Memory: 601.80 MB used, 8388608.00 MB total
-[2017.05.05-15.49.38:045][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2017.05.05-15.49.38:352][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.05-15.49.38:363][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.05.05-15.49.38:363][  0]LogD3D11RHI:       4007/0/16048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.05.05-15.49.38:372][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.05.05-15.49.38:372][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.05.05-15.49.38:372][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.05-15.49.38:375][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.05-15.49.38:376][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.05-15.49.38:376][  0]LogWindows: EnumDisplayDevices:
-[2017.05.05-15.49.38:376][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.05.05-15.49.38:376][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.05.05-15.49.38:376][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.05.05-15.49.38:376][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.05.05-15.49.38:376][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
-[2017.05.05-15.49.38:376][  0]LogD3D11RHI:      Driver Date: 6-2-2016
-[2017.05.05-15.49.38:376][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.05-15.49.38:382][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.05-15.49.38:396][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.05.05-15.49.38:396][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (F:/My Documents/Year 2/Unreal Projects/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/5716/).
-[2017.05.05-15.49.38:396][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/14042568/AppData/Local/Temp/UnrealShaderWorkingDir/A494D56A4667AFF2A19B61958801A2BD/'.
-[2017.05.05-15.49.38:396][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.05-15.49.39:150][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.05-15.49.39:158][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.05-15.49.39:166][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.05-15.49.39:173][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.05-15.49.39:173][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.05-15.49.39:214][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.05-15.49.39:263][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/14042568/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.05.05-15.49.39:263][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/14042568/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.05.05-15.49.39:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/My Documents/Year 2/Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.05-15.49.39:264][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.05-15.49.39:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/My Documents/Year 2/Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.05-15.49.39:264][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.05-15.49.39:278][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.05-15.49.39:289][  0]LogDerivedDataCache: Using Local data cache path C:/Users/14042568/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.05-15.49.39:422][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2017.05.05-15.49.39:427][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005656 seconds
-[2017.05.05-15.49.39:440][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.05-15.49.39:444][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.05-15.49.39:445][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2017.05.05-15.49.39:551][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.05.05-15.49.39:551][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.05-15.49.39:551][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.05.05-15.49.39:758][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2979046007
-[2017.05.05-15.49.39:885][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.05-15.49.39:885][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.05-15.49.39:926][  0]LogMoviePlayer: Initializing movie player
-[2017.05.05-15.49.40:014][  0]LogWindowsMoviePlayer: Unable to load movie: F:/My Documents/Year 2/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Movies/Default_Startup.mp4
-[2017.05.05-15.49.40:090][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2017.05.05-15.49.40:094][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.05-15.49.40:108][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.05-15.49.40:184][  0]SourceControl: Info Source control is disabled
-[2017.05.05-15.49.40:184][  0]SourceControl: Info Source control is disabled
-[2017.05.05-15.49.40:189][  0]SourceControl: Info Source control is disabled
-[2017.05.05-15.49.40:266][  0]LogUObjectArray: 32799 objects as part of root set at end of initial load.
-[2017.05.05-15.49.40:266][  0]LogUObjectAllocator: 7270496 out of 0 bytes used by permanent object pool.
-[2017.05.05-15.49.40:266][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.05-15.49.40:309][  0]LogEngine: Initializing Engine...
-[2017.05.05-15.49.40:310][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.05-15.49.40:411][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.05-15.49.40:416][  0]LogInit: FAudioDevice initialized.
-[2017.05.05-15.49.40:419][  0]LogInit: Texture streaming: Enabled
-[2017.05.05-15.49.40:733][  0]LogInit:Display: Game Engine Initialized.
-[2017.05.05-15.49.40:753][  0]LogInit:Display: Starting Game.
-[2017.05.05-15.49.40:753][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCMainMenu?Name=Player
-[2017.05.05-15.49.40:753][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCMainMenu?Name=Player
-[2017.05.05-15.49.40:777][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.05-15.49.40:777][  0]LogMemory: Process Physical Memory: 629.19 MB used, 665.46 MB peak
-[2017.05.05-15.49.40:777][  0]LogMemory: Process Virtual Memory: 725.64 MB used, 725.64 MB peak
-[2017.05.05-15.49.40:777][  0]LogMemory: Physical Memory: 7158.46 MB used, 32608.34 MB total
-[2017.05.05-15.49.40:777][  0]LogMemory: Virtual Memory: 1310.44 MB used, 8388608.00 MB total
-[2017.05.05-15.49.40:777][  0]LogMemory: 
-[2017.05.05-15.49.40:777][  0]Allocator Stats for TBB: (not implemented)
-[2017.05.05-15.49.40:791][  0]LogAIModule: Creating AISystem for world MainMenu
-[2017.05.05-15.49.41:327][  0]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2017.05.05-15.49.41:329][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCMainMenu.MainMenu up for play (max tick rate 0) at 2017.05.05-16.49.41
-[2017.05.05-15.49.41:329][  0]LogWorld: Bringing up level for play took: 0.000586
-[2017.05.05-15.49.41:329][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.05.05-15.49.41:330][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.05.05-15.49.41:330][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.05.05-15.49.41:334][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.05.05-15.49.41:334][  0]LogLoad: Took 0.581126 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCMainMenu)
-[2017.05.05-15.49.41:566][  0]LogLoad: (Engine Initialization) Total time: 4.27 seconds
-[2017.05.05-15.49.41:566][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
-[2017.05.05-15.49.41:566][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.05.05-15.49.41:566][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.05.05-15.49.41:583][  0]LogOcInput: OculusInput pre-init called
-[2017.05.05-15.49.41:666][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
-[2017.05.05-15.49.41:719][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
-[2017.05.05-15.49.41:720][  1]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:736][  2]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:757][  3]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:768][  4]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:784][  5]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:800][  6]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:816][  7]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:832][  8]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:848][  9]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:865][ 10]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:881][ 11]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:897][ 12]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:913][ 13]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:929][ 14]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:945][ 15]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:961][ 16]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:978][ 17]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.41:994][ 18]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:010][ 19]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:026][ 20]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:042][ 21]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:058][ 22]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:074][ 23]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:090][ 24]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:107][ 25]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:123][ 26]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:139][ 27]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:155][ 28]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:171][ 29]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:187][ 30]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:203][ 31]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:219][ 32]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:236][ 33]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:252][ 34]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:268][ 35]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:284][ 36]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:300][ 37]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:316][ 38]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:332][ 39]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:348][ 40]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:365][ 41]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:381][ 42]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:397][ 43]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:413][ 44]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:429][ 45]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:445][ 46]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:462][ 47]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:478][ 48]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:494][ 49]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:510][ 50]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:526][ 51]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:542][ 52]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:558][ 53]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:575][ 54]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:591][ 55]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:607][ 56]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:623][ 57]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:639][ 58]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:655][ 59]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:671][ 60]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:687][ 61]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:704][ 62]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:720][ 63]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:736][ 64]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:752][ 65]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:768][ 66]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:784][ 67]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:801][ 68]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:817][ 69]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:833][ 70]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:849][ 71]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:865][ 72]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:881][ 73]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:897][ 74]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:914][ 75]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:930][ 76]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:946][ 77]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:962][ 78]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:978][ 79]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.42:994][ 80]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:010][ 81]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:026][ 82]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:042][ 83]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:058][ 84]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:075][ 85]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:091][ 86]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:107][ 87]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:123][ 88]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:139][ 89]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:155][ 90]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:171][ 91]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:187][ 92]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:204][ 93]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:223][ 94]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:236][ 95]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:252][ 96]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:268][ 97]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:284][ 98]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:300][ 99]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:316][100]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:333][101]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:349][102]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:365][103]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:381][104]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:397][105]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:413][106]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:429][107]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:445][108]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:462][109]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:478][110]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:494][111]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:510][112]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:526][113]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:542][114]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:559][115]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:575][116]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:591][117]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:607][118]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:623][119]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:639][120]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:655][121]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:671][122]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:688][123]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:704][124]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:720][125]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:736][126]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:752][127]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:768][128]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:784][129]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:800][130]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:816][131]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:833][132]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:849][133]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:865][134]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:881][135]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:897][136]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:913][137]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:930][138]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:945][139]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:962][140]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:978][141]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.43:994][142]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:010][143]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:026][144]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:042][145]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:058][146]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:074][147]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:090][148]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:107][149]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:123][150]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:139][151]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:155][152]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:171][153]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:188][154]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:204][155]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:220][156]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:236][157]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:252][158]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:268][159]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:284][160]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:300][161]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:317][162]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:333][163]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:349][164]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:365][165]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:381][166]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:397][167]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:413][168]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:429][169]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:445][170]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:461][171]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:478][172]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:494][173]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:510][174]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:526][175]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:542][176]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:558][177]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:574][178]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:591][179]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:607][180]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:623][181]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:639][182]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:655][183]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:671][184]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:687][185]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:703][186]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:720][187]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:736][188]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:752][189]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:768][190]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:784][191]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:800][192]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:816][193]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:833][194]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:849][195]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:865][196]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:881][197]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:897][198]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:913][199]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:929][200]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:945][201]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:962][202]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:978][203]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.44:994][204]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:010][205]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:026][206]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:042][207]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:058][208]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:074][209]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:091][210]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:107][211]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:123][212]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:139][213]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:156][214]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:172][215]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:188][216]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:204][217]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:220][218]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:236][219]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:252][220]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:268][221]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:284][222]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:300][223]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:316][224]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:333][225]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:349][226]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:365][227]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:381][228]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:397][229]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:413][230]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:429][231]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:445][232]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:462][233]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:478][234]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:494][235]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:510][236]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:526][237]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:542][238]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:558][239]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:575][240]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:591][241]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:607][242]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:623][243]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:639][244]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:655][245]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:671][246]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:687][247]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:703][248]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:720][249]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:736][250]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:752][251]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:768][252]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:784][253]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:800][254]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:816][255]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:832][256]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:849][257]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:865][258]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:881][259]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:897][260]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.45:913][261]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 4017563171
-[2017.05.05-15.49.45:917][261]LogInit: WinSock: I am TRJ208-31 (193.63.128.130:0)
-[2017.05.05-15.49.46:271][261]LogPackageName: SearchForPackageOnDisk took   0.148s to resolve Lobby.umap.
-[2017.05.05-15.49.46:272][261]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
-[2017.05.05-15.49.46:272][261]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.05.05-15.49.46:325][261]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve Lobby.umap.
-[2017.05.05-15.49.46:325][261]LogNet: Browse: /Game/Maps/Lobby?listen
-[2017.05.05-15.49.46:325][261]LogLoad: LoadMap: /Game/Maps/Lobby?listen
-[2017.05.05-15.49.46:353][261]LogMemory: Platform Memory Stats for Windows
-[2017.05.05-15.49.46:353][261]LogMemory: Process Physical Memory: 710.14 MB used, 712.97 MB peak
-[2017.05.05-15.49.46:353][261]LogMemory: Process Virtual Memory: 920.05 MB used, 943.85 MB peak
-[2017.05.05-15.49.46:353][261]LogMemory: Physical Memory: 7229.72 MB used, 32608.34 MB total
-[2017.05.05-15.49.46:353][261]LogMemory: Virtual Memory: 1523.46 MB used, 8388608.00 MB total
-[2017.05.05-15.49.46:353][261]LogMemory: 
-[2017.05.05-15.49.46:353][261]Allocator Stats for TBB: (not implemented)
-[2017.05.05-15.49.46:820][261]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
-[2017.05.05-15.49.46:827][261]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0009.53] Compile of LobbyPC successful, but with 1 Warning(s) [in 16 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.05-15.49.46:828][261]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0009.53] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.05-15.49.46:828][261]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0009.53] Compile of LobbyPC successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.05-15.49.47:035][261]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
-[2017.05.05-15.49.47:043][261]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0009.75] Compile of LobbyPC successful, but with 1 Warning(s) [in 16 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.05-15.49.47:043][261]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0009.75] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.05-15.49.47:044][261]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0009.75] Compile of LobbyPC successful, but with 3 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.05-15.49.47:327][261]LogAIModule: Creating AISystem for world Lobby
-[2017.05.05-15.49.47:327][261]LogWorld: Game class is 'LobbyGM_C'
-[2017.05.05-15.49.47:328][261]LogInit: WinSock: Socket queue 131072 / 131072
-[2017.05.05-15.49.47:328][261]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.05.05-15.49.47:328][261]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2017.05.05-15.49.47:330][261]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2017.05.05-16.49.47
-[2017.05.05-15.49.47:330][261]LogWorld: Bringing up level for play took: 0.000980
-[2017.05.05-15.49.47:339][261]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.05.05-15.49.47:339][261]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.05.05-15.49.47:339][261]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.05.05-15.49.47:339][261]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
-[2017.05.05-15.49.47:350][261]LogVoice:Warning: Failed to initialize voice interface
-[2017.05.05-15.49.47:350][261]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.05.05-15.49.47:350][261]LogLoad: Took 1.024867 seconds to LoadMap(/Game/Maps/Lobby)
-[2017.05.05-15.49.49:294][382]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
-[2017.05.05-15.49.49:851][416]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:859][417]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:875][418]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:891][419]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:908][420]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:924][421]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:940][422]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:956][423]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:972][424]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.49:988][425]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:004][426]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:020][427]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:037][428]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:053][429]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:069][430]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:085][431]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:101][432]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:117][433]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:133][434]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:150][435]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:166][436]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:182][437]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:198][438]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:214][439]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:230][440]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:246][441]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:262][442]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:278][443]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:295][444]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:311][445]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:327][446]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:343][447]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:359][448]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:375][449]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:391][450]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:407][451]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:424][452]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:440][453]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:456][454]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:472][455]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:488][456]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:504][457]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:520][458]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:536][459]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:553][460]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:569][461]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:585][462]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:601][463]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:617][464]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:633][465]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:649][466]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:666][467]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:682][468]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:698][469]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:714][470]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:730][471]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:746][472]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:762][473]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:778][474]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:795][475]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:811][476]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:827][477]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:843][478]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:859][479]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:875][480]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:891][481]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:907][482]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:924][483]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:940][484]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:956][485]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:972][486]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.50:988][487]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:004][488]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:020][489]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:036][490]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:053][491]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:069][492]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:085][493]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:101][494]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:117][495]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:133][496]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:149][497]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:166][498]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:182][499]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:198][500]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:214][501]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:230][502]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:246][503]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:262][504]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:278][505]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:295][506]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:311][507]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:327][508]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:343][509]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:359][510]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:375][511]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:391][512]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:408][513]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:424][514]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:440][515]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:456][516]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:472][517]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:488][518]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:504][519]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:520][520]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:536][521]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:553][522]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:569][523]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:585][524]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:601][525]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:617][526]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:633][527]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:649][528]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:666][529]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:682][530]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:698][531]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:714][532]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:730][533]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:746][534]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:762][535]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:778][536]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:795][537]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:811][538]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:827][539]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:843][540]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:859][541]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:875][542]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:891][543]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:907][544]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:924][545]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:940][546]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:956][547]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:972][548]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.51:988][549]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:004][550]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:020][551]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:036][552]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:053][553]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:069][554]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:085][555]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:101][556]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:117][557]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:133][558]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:149][559]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:166][560]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:182][561]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:198][562]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:214][563]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:230][564]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:246][565]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:262][566]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:278][567]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:295][568]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:311][569]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:327][570]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:343][571]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:359][572]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:375][573]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:391][574]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:408][575]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:424][576]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:440][577]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:456][578]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:472][579]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:488][580]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:504][581]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:520][582]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:537][583]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:553][584]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:569][585]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:585][586]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:601][587]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:617][588]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:633][589]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:649][590]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:666][591]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:682][592]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:698][593]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:714][594]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:730][595]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:746][596]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:762][597]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:778][598]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:795][599]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:811][600]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:827][601]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:843][602]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:859][603]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:875][604]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:891][605]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:908][606]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:924][607]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:940][608]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:956][609]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:972][610]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.52:988][611]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:004][612]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:020][613]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:037][614]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:053][615]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:069][616]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:085][617]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:101][618]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:117][619]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:133][620]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:149][621]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:166][622]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:182][623]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:198][624]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:214][625]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:230][626]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:246][627]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:262][628]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:278][629]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:295][630]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:311][631]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:327][632]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:343][633]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:359][634]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:375][635]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:391][636]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:408][637]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:424][638]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:440][639]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:456][640]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:472][641]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:488][642]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:504][643]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:520][644]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:537][645]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:553][646]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:569][647]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:585][648]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:601][649]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:617][650]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:633][651]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:649][652]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:666][653]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:682][654]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:698][655]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:714][656]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:730][657]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:746][658]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:762][659]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:778][660]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:795][661]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:811][662]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:827][663]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:843][664]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:859][665]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:875][666]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:891][667]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:908][668]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:924][669]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:940][670]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:956][671]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:972][672]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.53:988][673]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:004][674]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:020][675]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:037][676]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:053][677]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:069][678]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:085][679]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:101][680]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:117][681]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:133][682]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:149][683]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:166][684]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:182][685]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:198][686]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:214][687]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:230][688]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:246][689]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:262][690]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:279][691]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:295][692]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:311][693]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:327][694]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:343][695]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:359][696]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:375][697]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:391][698]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:408][699]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:424][700]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:440][701]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:456][702]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:472][703]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:488][704]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:504][705]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:520][706]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:537][707]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:553][708]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:569][709]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:585][710]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:601][711]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:617][712]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:633][713]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:650][714]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:666][715]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:682][716]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:698][717]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:714][718]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:730][719]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:746][720]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:762][721]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:779][722]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:795][723]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:811][724]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:827][725]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:843][726]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:859][727]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:875][728]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:891][729]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:908][730]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:924][731]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:940][732]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:956][733]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:972][734]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.54:988][735]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:004][736]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:021][737]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:037][738]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:053][739]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:069][740]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:085][741]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:101][742]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:117][743]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:133][744]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:150][745]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:166][746]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:182][747]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:198][748]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:214][749]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:230][750]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:246][751]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:262][752]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:279][753]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:295][754]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:311][755]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:327][756]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:343][757]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:359][758]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:375][759]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:392][760]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:408][761]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:424][762]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:440][763]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:456][764]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:472][765]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:488][766]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:504][767]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:521][768]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:537][769]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:553][770]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:569][771]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:585][772]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:601][773]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:617][774]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:633][775]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:650][776]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:666][777]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:682][778]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:698][779]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:714][780]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:730][781]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:746][782]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:762][783]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:779][784]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:795][785]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:811][786]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:827][787]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:843][788]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:859][789]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:875][790]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:891][791]LogHandshake: SendConnectChallenge. Timestamp: 9.994469, Cookie: 160122216081112211018216100054125114246034067023244093158080
-[2017.05.05-15.49.55:892][791]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:907][792]LogNet: Server accepting post-challenge connection from: 193.63.128.132:58601
-[2017.05.05-15.49.55:907][792]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.05.05-15.49.55:908][792]LogNet: NotifyAcceptedConnection: Name: Lobby, TimeStamp: 05/05/17 16:49:55, [UNetConnection] RemoteAddr: 193.63.128.132:58601, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2017.05.05-15.49.55:908][792]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 193.63.128.132:58601, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2017.05.05-15.49.55:908][792]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:924][793]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:940][794]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:956][795]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:972][796]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.55:988][797]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:004][798]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:021][799]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:037][800]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:053][801]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:069][802]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:085][803]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:101][804]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:117][805]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Lobby.Lobby: Accepted
-[2017.05.05-15.49.56:117][805]LogNet: Remote platform little endian=1
-[2017.05.05-15.49.56:117][805]LogNet: This platform little endian=1
-[2017.05.05-15.49.56:118][805]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:133][806]LogNet: Login request: /Game/Maps/MainMenu?Name=TRJ208-32-C779BB014A64138D8875E58CF8D96F86 userId: TRJ208-32-C779BB014A64138D8875E58CF8D96F86
-[2017.05.05-15.49.56:134][806]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:149][807]LogNet: Client netspeed is 10000
-[2017.05.05-15.49.56:150][807]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:166][808]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:182][809]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:198][810]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:214][811]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:230][812]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:246][813]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:262][814]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:279][815]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:295][816]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:311][817]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:327][818]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:343][819]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:359][820]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:375][821]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:392][822]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:408][823]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:424][824]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:440][825]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:456][826]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:472][827]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:488][828]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:504][829]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:521][830]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:537][831]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:553][832]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:569][833]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:585][834]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:601][835]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:617][836]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:633][837]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:650][838]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:666][839]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:682][840]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:698][841]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:714][842]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:730][843]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:746][844]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:762][845]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:779][846]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:795][847]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:811][848]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:827][849]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:843][850]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:859][851]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:875][852]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:892][853]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:908][854]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:924][855]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:940][856]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:956][857]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:972][858]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.56:988][859]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:004][860]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:021][861]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:037][862]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:053][863]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:069][864]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:085][865]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:101][866]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:117][867]LogNet: Join request: /Game/Maps/MainMenu?Name=TRJ208-32-C779BB014A64138D8875E58CF8D96F86?SplitscreenCount=1
-[2017.05.05-15.49.57:124][867]LogNet: Join succeeded: TRJ208-32-C779BB014A
-[2017.05.05-15.49.57:124][867]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:133][868]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:150][869]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:170][870]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:182][871]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:198][872]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:214][873]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:230][874]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:246][875]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:263][876]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:279][877]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:295][878]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:311][879]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:327][880]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:343][881]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:359][882]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:375][883]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:392][884]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:408][885]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:424][886]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:440][887]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:456][888]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:473][889]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:488][890]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:504][891]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:521][892]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:537][893]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:553][894]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:569][895]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:585][896]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:601][897]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:617][898]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:633][899]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:650][900]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:666][901]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:682][902]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:698][903]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:714][904]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:730][905]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:746][906]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:763][907]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:779][908]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:795][909]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:811][910]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:827][911]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:843][912]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:859][913]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:875][914]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:892][915]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:908][916]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:924][917]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:940][918]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:957][919]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:972][920]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.57:989][921]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:004][922]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:021][923]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:037][924]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:053][925]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:069][926]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:085][927]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:101][928]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:118][929]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:134][930]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:150][931]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:166][932]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:182][933]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:198][934]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:214][935]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:230][936]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:247][937]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:263][938]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:279][939]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:295][940]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:311][941]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:327][942]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:343][943]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:359][944]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:376][945]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:392][946]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:408][947]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:424][948]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:440][949]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:456][950]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:472][951]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:488][952]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:505][953]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:521][954]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:537][955]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:553][956]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:569][957]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:585][958]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:601][959]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:617][960]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:634][961]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:650][962]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:666][963]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:682][964]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:698][965]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:714][966]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:730][967]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:746][968]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:763][969]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:779][970]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:795][971]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:811][972]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:827][973]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:843][974]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:859][975]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:875][976]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:892][977]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:908][978]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:924][979]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:940][980]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:956][981]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:972][982]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.58:989][983]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:005][984]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:021][985]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:037][986]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:053][987]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:069][988]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:085][989]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:101][990]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:118][991]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:134][992]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:150][993]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:166][994]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:182][995]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:198][996]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:214][997]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:230][998]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:247][999]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:263][  0]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:279][  1]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:295][  2]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:311][  3]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:327][  4]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:343][  5]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:359][  6]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:376][  7]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:392][  8]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:408][  9]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:424][ 10]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:440][ 11]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:456][ 12]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:472][ 13]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:488][ 14]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:505][ 15]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:521][ 16]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:537][ 17]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:553][ 18]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:569][ 19]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:585][ 20]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:601][ 21]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:617][ 22]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:634][ 23]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:650][ 24]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:666][ 25]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:682][ 26]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:698][ 27]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:714][ 28]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:730][ 29]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:746][ 30]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:763][ 31]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:779][ 32]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:795][ 33]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:811][ 34]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:827][ 35]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:843][ 36]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:859][ 37]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:875][ 38]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:892][ 39]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:908][ 40]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:924][ 41]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:940][ 42]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:956][ 43]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:972][ 44]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.49.59:989][ 45]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:005][ 46]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:021][ 47]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:037][ 48]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:053][ 49]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:069][ 50]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:085][ 51]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:101][ 52]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:118][ 53]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:134][ 54]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:150][ 55]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:166][ 56]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:182][ 57]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:198][ 58]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:214][ 59]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:230][ 60]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:247][ 61]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:263][ 62]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:279][ 63]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:295][ 64]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:311][ 65]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:327][ 66]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:343][ 67]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:359][ 68]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:376][ 69]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:392][ 70]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:408][ 71]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:429][ 72]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:440][ 73]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:456][ 74]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:472][ 75]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:489][ 76]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:505][ 77]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:521][ 78]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:537][ 79]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:553][ 80]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:569][ 81]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:585][ 82]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:601][ 83]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:618][ 84]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:634][ 85]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:650][ 86]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:666][ 87]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:682][ 88]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:698][ 89]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:714][ 90]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:730][ 91]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:747][ 92]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:763][ 93]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:779][ 94]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:795][ 95]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:811][ 96]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:827][ 97]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:843][ 98]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:859][ 99]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:876][100]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:892][101]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:908][102]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:924][103]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:940][104]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:956][105]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:972][106]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.00:988][107]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:005][108]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:021][109]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:037][110]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:053][111]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:069][112]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:085][113]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:102][114]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:117][115]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:134][116]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:150][117]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:166][118]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:182][119]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:198][120]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:214][121]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:231][122]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:246][123]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:263][124]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:279][125]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:295][126]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:311][127]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:327][128]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:343][129]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:360][130]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:376][131]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:392][132]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:408][133]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:424][134]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:440][135]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:456][136]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:472][137]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:489][138]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:505][139]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:521][140]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:537][141]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:553][142]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:569][143]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:585][144]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:601][145]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:618][146]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:634][147]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:650][148]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:666][149]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:682][150]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:698][151]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:714][152]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:730][153]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:747][154]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:763][155]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:779][156]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:795][157]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:811][158]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:827][159]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:843][160]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:859][161]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:876][162]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:892][163]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:908][164]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:924][165]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:940][166]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:956][167]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:973][168]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.01:989][169]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:005][170]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:021][171]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:037][172]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:053][173]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:069][174]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:085][175]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:102][176]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:117][177]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:134][178]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:150][179]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:166][180]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:182][181]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:198][182]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:214][183]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:231][184]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:246][185]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:263][186]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:279][187]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:295][188]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:311][189]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:327][190]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:343][191]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:360][192]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:376][193]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:392][194]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:408][195]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:424][196]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:440][197]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:456][198]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:472][199]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:488][200]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:504][201]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:521][202]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:537][203]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:553][204]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:569][205]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:585][206]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:601][207]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:618][208]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:634][209]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:650][210]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:666][211]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:682][212]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:698][213]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:714][214]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:730][215]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:747][216]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:762][217]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:779][218]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:795][219]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:811][220]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:827][221]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:843][222]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:859][223]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:875][224]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:891][225]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:908][226]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:924][227]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:940][228]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:956][229]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:972][230]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.02:988][231]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:005][232]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:020][233]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:037][234]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:053][235]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:069][236]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:085][237]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:101][238]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:117][239]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:134][240]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:150][241]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:166][242]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:182][243]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:198][244]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:214][245]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:231][246]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:246][247]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:263][248]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:279][249]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:295][250]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:311][251]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:327][252]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:343][253]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:359][254]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:375][255]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:392][256]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:408][257]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:424][258]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:440][259]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:456][260]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:472][261]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:489][262]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:505][263]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:521][264]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:537][265]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:553][266]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:569][267]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:585][268]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:601][269]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:617][270]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:633][271]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:650][272]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:666][273]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:682][274]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:698][275]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:714][276]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:730][277]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:747][278]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:763][279]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:779][280]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:795][281]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:811][282]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:827][283]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:844][284]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:859][285]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:876][286]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:892][287]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:908][288]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:924][289]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:940][290]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:956][291]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:973][292]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.03:988][293]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:005][294]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:021][295]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:037][296]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:053][297]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:069][298]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:085][299]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:102][300]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:118][301]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:134][302]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:150][303]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:166][304]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:182][305]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:198][306]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:214][307]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:231][308]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:247][309]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:263][310]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:279][311]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:295][312]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:311][313]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:327][314]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:343][315]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:359][316]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:375][317]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:392][318]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:408][319]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:424][320]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:440][321]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:456][322]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:472][323]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:489][324]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:504][325]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:521][326]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:537][327]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:553][328]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:569][329]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:585][330]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:601][331]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:618][332]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:634][333]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:650][334]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:666][335]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:682][336]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:698][337]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:714][338]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:730][339]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:747][340]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:762][341]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:779][342]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:795][343]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:811][344]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:827][345]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:843][346]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:859][347]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:876][348]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:892][349]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:908][350]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:924][351]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:940][352]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:956][353]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:972][354]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.04:988][355]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:005][356]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:020][357]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:037][358]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:053][359]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:069][360]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:085][361]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:101][362]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:117][363]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:134][364]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:150][365]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:166][366]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:182][367]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:198][368]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:214][369]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:230][370]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:246][371]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:263][372]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:279][373]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:295][374]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:311][375]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:327][376]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:343][377]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:359][378]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:375][379]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:392][380]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:408][381]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
-[2017.05.05-15.50.05:408][381]Closing by request
-[2017.05.05-15.50.05:408][381]LogWindows: FPlatformMisc::RequestExit(0)
-[2017.05.05-15.50.05:413][382]LogMoviePlayer: Shutting down movie player
-[2017.05.05-15.50.06:311][382]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2017.05.05-15.50.06:311][382]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2017.05.05-15.50.06:312][382]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 193.63.128.132:58601, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: LobbyPC_C_1, Owner: LobbyPC_C_1
-[2017.05.05-15.50.06:312][382]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 193.63.128.132:58601, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: LobbyPC_C_1, Owner: LobbyPC_C_1, Channels: 10, Time: 2017.05.05-15.50.06
-[2017.05.05-15.50.06:312][382]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 193.63.128.132:58601, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: LobbyPC_C_1, Owner: LobbyPC_C_1
-[2017.05.05-15.50.06:312][382]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2017.05.05-15.50.06:313][382]LogOnline:Warning: NULL: Can't destroy a null online session (Game)
-[2017.05.05-15.50.06:348][382]LogExit: Preparing to exit.
-[2017.05.05-15.50.07:256][382]LogExit: Game engine shut down
-[2017.05.05-15.50.07:362][382]LogObj: Freed 0b from 0 cluster array pools.
-[2017.05.05-15.50.07:362][382]LogExit: Object subsystem successfully closed.
-[2017.05.05-15.50.07:376][382]LogD3D11RHI: Shutdown
-[2017.05.05-15.50.07:376][382]LogD3D11RHI: CleanupD3DDevice
-[2017.05.05-15.50.07:405][382]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (122)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module SequenceRecorder (121)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module AutomationController (120)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module AutomationWorker (119)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module GameplayDebugger (118)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module AITestSuite (117)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module AIModule (116)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (115)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (114)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module Media (113)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (112)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module CharacterAI (111)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module SessionServices (110)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (109)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module Niagara (108)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module PortalServices (106)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module PortalRpc (105)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module MessagingRpc (104)
-[2017.05.05-15.50.07:409][382]LogModuleManager: Shutting down and abandoning module ProfilerService (103)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module TaskGraph (102)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module SlateRemote (101)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module SteamVRController (100)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module SteamVR (99)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (98)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module OculusLibrary (97)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module OculusInput (96)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (95)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module CableComponent (94)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (93)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module HTML5Networking (92)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module HotReload (89)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module SourceControl (85)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
-[2017.05.05-15.50.07:521][382]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
-[2017.05.05-15.50.07:621][382]LogModuleManager: Shutting down and abandoning module TcpMessaging (82)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module SubstanceCore (81)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (80)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module WmfMedia (77)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module MediaAssets (76)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (75)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (74)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module VREditor (73)
-[2017.05.05-15.50.08:094][382]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (72)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module PropertyEditor (71)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (70)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module FunctionalTesting (69)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (68)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (66)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module MessageLog (65)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module AssetTools (64)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module UMGEditor (63)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module UMG (62)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module SlateReflector (61)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module Slate (60)
-[2017.05.05-15.50.08:095][382]LogModuleManager: Shutting down and abandoning module EditorStyle (59)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module Messaging (58)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (57)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (56)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module XAudio2 (55)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module Networking (54)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module Core (53)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module KismetCompiler (52)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module PhysXFormats (51)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module MeshUtilities (50)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module AssetRegistry (49)
-[2017.05.05-15.50.08:096][382]LogModuleManager: Shutting down and abandoning module DerivedDataCache (48)
-[2017.05.05-15.50.08:279][382]LogDerivedDataCache: Shutdown
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (47)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module ImageWrapper (39)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (38)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (37)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (33)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (32)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (31)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (30)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module InputCore (28)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module Settings (27)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module GearVR (25)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module Voice (21)
-[2017.05.05-15.50.08:279][382]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2017.05.05-15.50.08:279][382]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.05.05-15.50.08:280][382]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.05.05-15.50.08:280][382]LogOnline:Display: Unloading online subsystem: NULL
-[2017.05.05-15.50.08:280][382]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.05.05-15.50.08:310][382]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.05.05-15.50.08:310][382]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.05.05-15.50.08:310][382]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.05.05-15.50.08:310][382]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.05.05-15.50.08:310][382]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.05.05-15.50.08:311][382]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.05.05-15.50.08:311][382]LogExit: Exiting.
-[2017.05.05-15.50.08:313][382]Log file closed, 05/05/17 16:50:08
+[2017.05.05-15.55.05:971][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.05-15.55.05:971][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.05-15.55.05:978][  0]LogInit: Computer: TRJ208-31
+[2017.05.05-15.55.05:978][  0]LogInit: User: 14042568
+[2017.05.05-15.55.05:978][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.05-15.55.05:978][  0]LogInit: High frequency timer resolution =3.507705 MHz
+[2017.05.05-15.55.05:979][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2017.05.05-15.55.05:979][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.05-15.55.05:979][  0]LogMemory: Process Physical Memory: 260.40 MB used, 260.40 MB peak
+[2017.05.05-15.55.05:979][  0]LogMemory: Process Virtual Memory: 262.93 MB used, 262.93 MB peak
+[2017.05.05-15.55.05:979][  0]LogMemory: Physical Memory: 7164.00 MB used, 32608.34 MB total
+[2017.05.05-15.55.05:979][  0]LogMemory: Virtual Memory: 601.80 MB used, 8388608.00 MB total
+[2017.05.05-15.55.06:005][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.05.05-15.55.06:329][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.05-15.55.06:340][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.05.05-15.55.06:340][  0]LogD3D11RHI:       4007/0/16048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.05-15.55.06:347][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.05-15.55.06:347][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.05-15.55.06:347][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.05-15.55.06:352][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.05-15.55.06:352][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.05-15.55.06:352][  0]LogWindows: EnumDisplayDevices:
+[2017.05.05-15.55.06:352][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.05.05-15.55.06:352][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.05-15.55.06:352][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.05-15.55.06:352][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.05-15.55.06:352][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.05-15.55.06:352][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.05-15.55.06:352][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.05-15.55.06:352][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2017.05.05-15.55.06:352][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.05.05-15.55.06:353][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.05.05-15.55.06:353][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.05-15.55.06:353][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.05.05-15.55.06:353][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
+[2017.05.05-15.55.06:353][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2017.05.05-15.55.06:353][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.05-15.55.06:358][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.05-15.55.06:371][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.05-15.55.06:371][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (F:/My Documents/Year 2/Unreal Projects/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/6076/).
+[2017.05.05-15.55.06:371][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/14042568/AppData/Local/Temp/UnrealShaderWorkingDir/F4B0B26E4585606EAEC18E808EE1E6E2/'.
+[2017.05.05-15.55.06:371][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.05-15.55.07:133][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.05-15.55.07:141][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.05-15.55.07:149][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.05-15.55.07:155][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.05-15.55.07:155][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.05-15.55.07:197][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.05-15.55.07:247][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/14042568/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.05-15.55.07:247][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/14042568/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.05.05-15.55.07:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/My Documents/Year 2/Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.05-15.55.07:248][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.05-15.55.07:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/My Documents/Year 2/Unreal Projects/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.05-15.55.07:248][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.05-15.55.07:262][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.05-15.55.07:273][  0]LogDerivedDataCache: Using Local data cache path C:/Users/14042568/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.05-15.55.07:401][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.05.05-15.55.07:406][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.004665 seconds
+[2017.05.05-15.55.07:419][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.05-15.55.07:423][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.05-15.55.07:423][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.05.05-15.55.07:530][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.05-15.55.07:530][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.05-15.55.07:530][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.05.05-15.55.07:739][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2979046007
+[2017.05.05-15.55.07:865][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.05-15.55.07:865][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.05-15.55.07:907][  0]LogMoviePlayer: Initializing movie player
+[2017.05.05-15.55.08:013][  0]LogWindowsMoviePlayer: Unable to load movie: F:/My Documents/Year 2/Unreal Projects/Team2Thirds/MultiplayerV2/Content/Movies/Default_Startup.mp4
+[2017.05.05-15.55.08:102][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.05.05-15.55.08:106][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.05-15.55.08:121][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.05-15.55.08:189][  0]SourceControl: Info Source control is disabled
+[2017.05.05-15.55.08:189][  0]SourceControl: Info Source control is disabled
+[2017.05.05-15.55.08:196][  0]SourceControl: Info Source control is disabled
+[2017.05.05-15.55.08:274][  0]LogUObjectArray: 32799 objects as part of root set at end of initial load.
+[2017.05.05-15.55.08:274][  0]LogUObjectAllocator: 7270496 out of 0 bytes used by permanent object pool.
+[2017.05.05-15.55.08:274][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.05-15.55.08:317][  0]LogEngine: Initializing Engine...
+[2017.05.05-15.55.08:318][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.05-15.55.08:418][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.05-15.55.08:422][  0]LogInit: FAudioDevice initialized.
+[2017.05.05-15.55.08:426][  0]LogInit: Texture streaming: Enabled
+[2017.05.05-15.55.08:743][  0]LogInit:Display: Game Engine Initialized.
+[2017.05.05-15.55.08:763][  0]LogInit:Display: Starting Game.
+[2017.05.05-15.55.08:763][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCLobby?Name=Player
+[2017.05.05-15.55.08:763][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCLobby?Name=Player
+[2017.05.05-15.55.08:787][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.05-15.55.08:787][  0]LogMemory: Process Physical Memory: 637.41 MB used, 665.47 MB peak
+[2017.05.05-15.55.08:787][  0]LogMemory: Process Virtual Memory: 724.12 MB used, 724.13 MB peak
+[2017.05.05-15.55.08:787][  0]LogMemory: Physical Memory: 7476.70 MB used, 32608.34 MB total
+[2017.05.05-15.55.08:787][  0]LogMemory: Virtual Memory: 1309.06 MB used, 8388608.00 MB total
+[2017.05.05-15.55.08:787][  0]LogMemory: 
+[2017.05.05-15.55.08:787][  0]Allocator Stats for TBB: (not implemented)
+[2017.05.05-15.55.09:133][  0]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.05.05-15.55.09:141][  0]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0003.86] Compile of LobbyPC successful, but with 1 Warning(s) [in 17 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-15.55.09:142][  0]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0003.86] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-15.55.09:142][  0]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0003.86] Compile of LobbyPC successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-15.55.09:356][  0]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.05.05-15.55.09:364][  0]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0004.08] Compile of LobbyPC successful, but with 1 Warning(s) [in 17 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-15.55.09:364][  0]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0004.08] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-15.55.09:366][  0]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0004.08] Compile of LobbyPC successful, but with 3 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.05-15.55.09:653][  0]LogAIModule: Creating AISystem for world Lobby
+[2017.05.05-15.55.09:653][  0]LogWorld: Game class is 'LobbyGM_C'
+[2017.05.05-15.55.09:656][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCLobby.Lobby up for play (max tick rate 0) at 2017.05.05-16.55.09
+[2017.05.05-15.55.09:656][  0]LogWorld: Bringing up level for play took: 0.001404
+[2017.05.05-15.55.09:668][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-15.55.09:668][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-15.55.09:668][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-15.55.09:668][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-15.55.09:668][  0]LogLoad: Took 0.905027 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCLobby)
+[2017.05.05-15.55.09:895][  0]LogLoad: (Engine Initialization) Total time: 4.61 seconds
+[2017.05.05-15.55.09:895][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.57 seconds
+[2017.05.05-15.55.09:895][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.05-15.55.09:895][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.05-15.55.09:912][  0]LogOcInput: OculusInput pre-init called
+[2017.05.05-15.55.10:001][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2017.05.05-15.55.10:063][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2017.05.05-15.55.18:791][542]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.05-15.55.19:349][576]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:356][577]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:371][578]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:387][579]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:404][580]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:420][581]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:436][582]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:452][583]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:468][584]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:484][585]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:500][586]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:516][587]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:533][588]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:549][589]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:565][590]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:581][591]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:597][592]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:613][593]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:629][594]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:645][595]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:662][596]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:678][597]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:694][598]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:710][599]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:726][600]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:742][601]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:758][602]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:775][603]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:791][604]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:807][605]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:823][606]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:839][607]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:855][608]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:871][609]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:887][610]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:904][611]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:920][612]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:936][613]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:952][614]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:968][615]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.19:984][616]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:000][617]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:017][618]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:033][619]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:049][620]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:065][621]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:081][622]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:097][623]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:113][624]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:129][625]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:146][626]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:162][627]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:178][628]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:194][629]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:210][630]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:226][631]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:242][632]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:258][633]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:275][634]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:291][635]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:307][636]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:323][637]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:339][638]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:355][639]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:371][640]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:388][641]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:404][642]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:420][643]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:436][644]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:452][645]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:468][646]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:484][647]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:500][648]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:517][649]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:533][650]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:549][651]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:565][652]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:581][653]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:597][654]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:613][655]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:629][656]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:646][657]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:662][658]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:678][659]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:694][660]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:710][661]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:726][662]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:742][663]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:758][664]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:775][665]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:791][666]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:807][667]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:823][668]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:839][669]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:855][670]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:871][671]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:888][672]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:904][673]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:920][674]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:936][675]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:952][676]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:968][677]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.20:984][678]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:000][679]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:017][680]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:033][681]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:049][682]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:065][683]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:081][684]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:097][685]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:113][686]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:130][687]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:146][688]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:162][689]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:178][690]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:194][691]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:210][692]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:226][693]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:242][694]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:259][695]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:275][696]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:291][697]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:307][698]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:323][699]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:339][700]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:355][701]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:372][702]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:388][703]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:404][704]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:420][705]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:436][706]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:452][707]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:468][708]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:484][709]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:501][710]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:517][711]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:533][712]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:549][713]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:565][714]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:581][715]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:597][716]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:613][717]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:630][718]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:646][719]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:662][720]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:678][721]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:694][722]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:710][723]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:726][724]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:742][725]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:758][726]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:775][727]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:791][728]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:807][729]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:823][730]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:839][731]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:855][732]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:871][733]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:888][734]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:904][735]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:920][736]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:936][737]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:952][738]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:968][739]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.21:984][740]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:000][741]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:017][742]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:033][743]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:049][744]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:065][745]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:081][746]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:097][747]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:113][748]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:129][749]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:146][750]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:162][751]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:178][752]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:194][753]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:210][754]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:226][755]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:242][756]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:259][757]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:275][758]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:291][759]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:307][760]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:323][761]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:339][762]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:355][763]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:372][764]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:388][765]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:404][766]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:420][767]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:436][768]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:452][769]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:468][770]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:484][771]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:501][772]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:517][773]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:533][774]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:549][775]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:565][776]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:581][777]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:597][778]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:613][779]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:630][780]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:646][781]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:662][782]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:678][783]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:694][784]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:710][785]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:726][786]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:742][787]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:759][788]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:775][789]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:791][790]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:807][791]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:823][792]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:839][793]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:855][794]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:871][795]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:888][796]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:904][797]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:920][798]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:936][799]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:953][800]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:969][801]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.22:985][802]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:001][803]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:017][804]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:033][805]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:049][806]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:065][807]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:082][808]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:098][809]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:114][810]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:130][811]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:146][812]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:162][813]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:178][814]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:194][815]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:211][816]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:227][817]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:243][818]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:259][819]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:275][820]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:291][821]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:307][822]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:323][823]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:340][824]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:356][825]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:372][826]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:388][827]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:404][828]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:420][829]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:436][830]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:453][831]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:469][832]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:485][833]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:501][834]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:517][835]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:533][836]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:549][837]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:565][838]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:581][839]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:598][840]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:614][841]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:630][842]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:646][843]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:662][844]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:678][845]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:694][846]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:710][847]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:727][848]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:743][849]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:759][850]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:775][851]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:791][852]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:807][853]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:823][854]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:839][855]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:856][856]LogBlueprintUserMessages: [GoodGuy_C_0] 1.0
+[2017.05.05-15.55.23:950][857]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2017.05.05-15.55.23:950][857]LogScriptCore:Warning: 
+[2017.05.05-15.55.23:951][857]LogEngine: All Windows Closed
+[2017.05.05-15.55.23:951][857]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.05.05-15.55.23:952][858]LogMoviePlayer: Shutting down movie player
+[2017.05.05-15.55.24:319][858]LogExit: Preparing to exit.
+[2017.05.05-15.55.25:264][858]LogExit: Game engine shut down
+[2017.05.05-15.55.25:375][858]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.05-15.55.25:375][858]LogExit: Object subsystem successfully closed.
+[2017.05.05-15.55.25:391][858]LogD3D11RHI: Shutdown
+[2017.05.05-15.55.25:391][858]LogD3D11RHI: CleanupD3DDevice
+[2017.05.05-15.55.25:419][858]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (122)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module SequenceRecorder (121)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module AutomationController (120)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module AutomationWorker (119)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module GameplayDebugger (118)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module AITestSuite (117)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module AIModule (116)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (115)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (114)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module Media (113)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (112)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module CharacterAI (111)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module SessionServices (110)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (109)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module Niagara (108)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module PortalServices (106)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module PortalRpc (105)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module MessagingRpc (104)
+[2017.05.05-15.55.25:423][858]LogModuleManager: Shutting down and abandoning module ProfilerService (103)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module TaskGraph (102)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module SlateRemote (101)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module SteamVRController (100)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module SteamVR (99)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (98)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module OculusLibrary (97)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module OculusInput (96)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (95)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module CableComponent (94)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (93)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module HTML5Networking (92)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module HotReload (89)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2017.05.05-15.55.25:529][858]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
+[2017.05.05-15.55.25:629][858]LogModuleManager: Shutting down and abandoning module TcpMessaging (82)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module SubstanceCore (81)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (80)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module WmfMedia (77)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module MediaAssets (76)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (75)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (74)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module VREditor (73)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (72)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module PropertyEditor (71)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (70)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module FunctionalTesting (69)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (68)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (66)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module MessageLog (65)
+[2017.05.05-15.55.26:107][858]LogModuleManager: Shutting down and abandoning module AssetTools (64)
+[2017.05.05-15.55.26:108][858]LogModuleManager: Shutting down and abandoning module UMGEditor (63)
+[2017.05.05-15.55.26:108][858]LogModuleManager: Shutting down and abandoning module UMG (62)
+[2017.05.05-15.55.26:108][858]LogModuleManager: Shutting down and abandoning module SlateReflector (61)
+[2017.05.05-15.55.26:108][858]LogModuleManager: Shutting down and abandoning module Slate (60)
+[2017.05.05-15.55.26:108][858]LogModuleManager: Shutting down and abandoning module EditorStyle (59)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module Messaging (58)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (57)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (56)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module XAudio2 (55)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module Networking (54)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module Core (53)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module KismetCompiler (52)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module PhysXFormats (51)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module MeshUtilities (50)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module AssetRegistry (49)
+[2017.05.05-15.55.26:109][858]LogModuleManager: Shutting down and abandoning module DerivedDataCache (48)
+[2017.05.05-15.55.26:263][858]LogDerivedDataCache: Shutdown
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (47)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module ImageWrapper (39)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (38)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (37)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (33)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (32)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (31)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (30)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module InputCore (28)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module Settings (27)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module GearVR (25)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.05.05-15.55.26:263][858]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.05.05-15.55.26:264][858]LogModuleManager: Shutting down and abandoning module Voice (21)
+[2017.05.05-15.55.26:264][858]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.05.05-15.55.26:264][858]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.05.05-15.55.26:264][858]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.05-15.55.26:264][858]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.05.05-15.55.26:285][858]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.05.05-15.55.26:286][858]LogExit: Exiting.
+[2017.05.05-15.55.26:288][858]Log file closed, 05/05/17 16:55:26
