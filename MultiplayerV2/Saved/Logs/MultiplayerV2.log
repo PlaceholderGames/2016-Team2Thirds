@@ -1,9 +1,9 @@
-﻿Log file open, 05/06/17 09:42:08
+﻿Log file open, 05/06/17 10:19:39
 LogInit:Display: Running engine for game: MultiplayerV2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-448715119) SRandInit(-448715119).
+LogInit:Display: RandInit(956019979) SRandInit(956019979).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.074176
+LogStats: Stats thread started at 0.074930
 LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -138,480 +138,968 @@ LogInit: Base directory: D:/Unreal/UE_4.13/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.06-09.42.08:878][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.06-09.42.08:878][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.06-09.42.09:809][  0]LogInit: Computer: MSI
-[2017.05.06-09.42.09:809][  0]LogInit: User: KieranClarke
-[2017.05.06-09.42.09:809][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.05.06-09.42.09:809][  0]LogInit: High frequency timer resolution =2.531251 MHz
-[2017.05.06-09.42.09:810][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.05.06-09.42.09:810][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.06-09.42.09:810][  0]LogMemory: Process Physical Memory: 258.52 MB used, 258.52 MB peak
-[2017.05.06-09.42.09:810][  0]LogMemory: Process Virtual Memory: 260.39 MB used, 260.39 MB peak
-[2017.05.06-09.42.09:810][  0]LogMemory: Physical Memory: 3285.31 MB used, 8070.60 MB total
-[2017.05.06-09.42.09:810][  0]LogMemory: Virtual Memory: 625.49 MB used, 134217728.00 MB total
-[2017.05.06-09.42.10:328][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2017.05.06-09.42.11:831][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.06-09.42.11:868][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2017.05.06-09.42.11:868][  0]LogD3D11RHI:       2018/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.05.06-09.42.11:876][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.05.06-09.42.11:876][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.05.06-09.42.11:877][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.06-09.42.11:877][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.06-09.42.11:877][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.06-09.42.11:881][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.06-09.42.11:882][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2017.05.06-09.42.11:882][  0]LogWindows: EnumDisplayDevices:
-[2017.05.06-09.42.11:882][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2017.05.06-09.42.11:882][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.05.06-09.42.11:882][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.05.06-09.42.11:882][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.05.06-09.42.11:882][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2017.05.06-09.42.11:882][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.05.06-09.42.11:882][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.05.06-09.42.11:882][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.06-09.42.11:901][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.06-09.42.11:913][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.05.06-09.42.11:914][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/6292/).
-[2017.05.06-09.42.11:914][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KIERAN~1/AppData/Local/Temp/UnrealShaderWorkingDir/3AFC5DB845994539D17F3CBBE14860F9/'.
-[2017.05.06-09.42.11:915][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.06-09.42.13:403][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.06-09.42.13:409][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.06-09.42.13:417][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.06-09.42.13:424][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.06-09.42.13:433][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.06-09.42.13:467][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.06-09.42.13:475][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.06-09.42.13:483][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.06-09.42.13:491][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.06-09.42.13:499][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.06-09.42.13:507][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.06-09.42.13:529][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.06-09.42.13:529][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.06-09.42.13:532][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.06-09.42.13:577][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.06-09.42.13:584][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.06-09.42.13:592][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.06-09.42.13:599][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.06-09.42.13:606][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.06-09.42.13:629][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.06-09.42.13:629][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.06-09.42.13:889][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.06-09.42.14:159][  0]LogDerivedDataCache: Loaded boot cache 0.27s 62MB C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.05.06-09.42.14:160][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.05.06-09.42.14:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.06-09.42.14:160][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.06-09.42.14:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.06-09.42.14:160][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.06-09.42.14:222][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.06-09.42.14:235][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.06-09.42.19:826][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.06-09.42.20:002][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.06-09.42.20:370][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.05.06-09.42.20:370][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.06-09.42.20:370][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.05.06-09.42.21:689][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.06-09.42.24:547][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2979046007
-[2017.05.06-09.42.24:707][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2017.05.06-09.42.26:172][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 1.439050 seconds
-[2017.05.06-09.42.26:199][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2017.05.06-09.42.26:199][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
-[2017.05.06-09.42.26:199][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.06-09.42.28:955][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.06-09.42.28:955][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.06-09.42.33:055][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2017.05.06-09.42.33:090][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.06-09.42.33:139][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.06-09.42.34:808][  0]SourceControl: Info Source control is disabled
-[2017.05.06-09.42.34:818][  0]SourceControl: Info Source control is disabled
-[2017.05.06-09.42.34:962][  0]SourceControl: Info Source control is disabled
-[2017.05.06-09.42.35:003][  0]SourceControl: Info Source control is disabled
-[2017.05.06-09.42.36:610][  0]LogEngine: Initializing Engine...
-[2017.05.06-09.42.36:629][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.06-09.42.37:491][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.06-09.42.37:707][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
-[2017.05.06-09.42.37:923][  0]LogInit: FAudioDevice initialized.
-[2017.05.06-09.42.37:972][  0]LogDerivedDataCache: Saved boot cache 0.05s 62MB C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.05.06-09.42.37:983][  0]LogInit: Texture streaming: Enabled
-[2017.05.06-09.42.38:282][  0]LogInit: Transaction tracking system initialized
-[2017.05.06-09.42.38:621][  0]BlueprintLog: New page: Editor Load
-[2017.05.06-09.42.41:118][  0]LocalizationService: Info Localization service is disabled
-[2017.05.06-09.42.42:385][  0]LogConsoleResponse:Display: 
-[2017.05.06-09.42.43:933][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/' took 0.03s
-[2017.05.06-09.42.43:933][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.06-09.42.43:933][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.06-09.42.45:059][  0]SourceControl: Info Source control is disabled
-[2017.05.06-09.42.45:089][  0]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.06-09.42.45:110][  0]LightingResults: New page: Lighting Build
-[2017.05.06-09.42.45:319][  0]MapCheck: New page: Map Check
-[2017.05.06-09.42.45:319][  0]LightingResults: New page: Lighting Build
-[2017.05.06-09.42.47:301][  0]LogAIModule: Creating AISystem for world MainMenu
-[2017.05.06-09.42.47:521][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.06-09.42.47:565][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.06-09.42.47:619][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.313ms to complete.
-[2017.05.06-09.42.47:619][  0]LogFileHelpers: Loading map 'MainMenu' took 2.533
-[2017.05.06-09.42.48:901][  0]LogCollectionManager: Loaded 0 collections in 0.003203 seconds
-[2017.05.06-09.42.49:033][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Collections/' took 0.01s
-[2017.05.06-09.42.49:033][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Developers/KieranClarke/Collections/' took 0.01s
-[2017.05.06-09.42.49:033][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Collections/' took 0.01s
-[2017.05.06-09.42.49:033][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2017.05.06-09.42.49:059][  0]LogContentBrowser: Native class hierarchy populated in 0.0245 seconds. Added 2156 classes and 421 folders.
-[2017.05.06-09.42.49:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.06-09.42.49:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.06-09.42.49:106][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 12 classes and 0 folders.
-[2017.05.06-09.42.49:132][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.05.06-09.42.49:548][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.05.06-09.42.49:615][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.05.06-09.42.50:068][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.06-09.42.50:167][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.05.06-09.42.50:264][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
-[2017.05.06-09.42.50:266][  0]LogLoad: (Engine Initialization) Total time: 43.63 seconds
-[2017.05.06-09.42.50:266][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.02 seconds
-[2017.05.06-09.42.50:271][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.05.06-09.42.50:271][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.05.06-09.42.50:297][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.06-09.42.50:309][  0]LogOcInput: OculusInput pre-init called
-[2017.05.06-09.42.50:490][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.05.06-09.42.51:281][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2017.05.06-09.42.52:187][  4]LogAssetRegistry: Asset discovery search completed in 27.5027 seconds
-[2017.05.06-09.42.52:187][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.05.06-09.42.52:187][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
-[2017.05.06-09.42.59:601][227]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
-[2017.05.06-09.52.18:973][538]BlueprintLog: New page: Compile BadGuyBP
-[2017.05.06-09.54.58:136][834]BlueprintLog: New page: Compile BadGuyBP
-[2017.05.06-09.55.08:411][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
-[2017.05.06-09.55.18:352][368]LogSavePackage: Save=9749.24ms
-[2017.05.06-09.55.18:352][368]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP399F8AAE4855B9253DCB649E2FD5FC2F.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
-[2017.05.06-09.55.18:403][368]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
-[2017.05.06-09.55.20:512][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2017.05.06-09.55.21:511][399]LogSavePackage: Save=938.71ms
-[2017.05.06-09.55.21:511][399]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuF00E3D6C49E614AD3A2AEC8473C9996A.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
-[2017.05.06-09.55.21:532][399]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
-[2017.05.06-09.55.21:669][399]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.05.06-09.57.30:757][365]BlueprintLog: New page: Compile BadGuyBP
-[2017.05.06-09.57.34:580][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
-[2017.05.06-09.57.48:410][418]LogSavePackage: Save=13797.73ms
-[2017.05.06-09.57.48:411][418]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP0857F7F7492F5B48314E6393E71EBC5C.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
-[2017.05.06-09.57.49:578][418]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
-[2017.05.06-09.57.49:630][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2017.05.06-09.57.50:517][418]LogSavePackage: Save=853.78ms
-[2017.05.06-09.57.50:518][418]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu2A57796647DA9DCB92BA8CB3BF24D0A3.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
-[2017.05.06-09.57.50:539][418]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
-[2017.05.06-09.57.50:572][418]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.05.06-10.03.35:386][859]BlueprintLog: New page: Compile BadGuyBP
-[2017.05.06-10.04.43:110][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
-[2017.05.06-10.04.55:508][696]LogSavePackage: Save=10231.02ms
-[2017.05.06-10.04.55:508][696]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBPD1BE559444560AE83E0E7595B95194F8.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
-[2017.05.06-10.04.55:560][696]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
-[2017.05.06-10.04.55:618][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2017.05.06-10.04.56:579][696]LogSavePackage: Save=892.26ms
-[2017.05.06-10.04.56:580][696]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuA0A2E19D48B9EC96CCC982B9520025AA.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
-[2017.05.06-10.04.56:605][696]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
-[2017.05.06-10.04.56:633][696]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.05.06-10.06.02:528][966]BlueprintLog: New page: Compile BadGuyBP
-[2017.05.06-10.06.22:133][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2017.05.06-10.06.56:270][ 53]BlueprintLog: New page: Compile BadGuyBP
-[2017.05.06-10.07.01:957][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
-[2017.05.06-10.07.11:456][270]LogSavePackage: Save=9462.67ms
-[2017.05.06-10.07.11:456][270]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBPDAF982CE4883F042CB9350A3317F4FBD.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
-[2017.05.06-10.07.11:504][270]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
-[2017.05.06-10.07.11:543][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2017.05.06-10.07.12:453][270]LogSavePackage: Save=777.24ms
-[2017.05.06-10.07.12:453][270]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu0D12473A4625315B65152BAC387EC0B1.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
-[2017.05.06-10.07.12:475][270]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
-[2017.05.06-10.07.12:507][270]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.05.06-10.09.00:666][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2017.05.06-10.09.01:581][ 18]LogSavePackage: Save=867.73ms
-[2017.05.06-10.09.01:581][ 18]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuE9844EBA429585A62EB27E8156033FBF.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
-[2017.05.06-10.09.01:603][ 18]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
-[2017.05.06-10.09.01:633][ 18]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.05.06-10.12.05:051][ 65]BlueprintLog: New page: Compile BadGuyBP
-[2017.05.06-10.12.20:407][844]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:6557).
-[2017.05.06-10.13.46:110][663]BlueprintLog: New page: Compile ActualFallingTrap
-[2017.05.06-10.13.56:683][792]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.05.06-10.14.12:778][712]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
-[2017.05.06-10.14.12:793][712]LogBlueprint:Warning: [Compiler LobbyPC] Warning [1926.17] Compile of LobbyPC successful, but with 1 Warning(s) [in 43 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.06-10.14.12:794][712]LogBlueprint:Warning: [Compiler LobbyPC] Warning [1926.17] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.06-10.14.12:794][712]LogBlueprint:Warning: [Compiler LobbyPC] Warning [1926.17] Compile of LobbyPC successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.06-10.14.12:876][712]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
-[2017.05.06-10.14.12:889][712]LogBlueprint:Warning: [Compiler LobbyPC] Warning [1926.26] Compile of LobbyPC successful, but with 1 Warning(s) [in 37 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.06-10.14.12:889][712]LogBlueprint:Warning: [Compiler LobbyPC] Warning [1926.26] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.06-10.14.12:891][712]LogBlueprint:Warning: [Compiler LobbyPC] Warning [1926.26] Compile of LobbyPC successful, but with 3 Warning(s) [in 1 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
-[2017.05.06-10.14.13:314][712]LogAIModule: Creating AISystem for world Lobby
-[2017.05.06-10.14.14:906][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
-[2017.05.06-10.14.24:488][712]LogSavePackage: Save=9436.68ms
-[2017.05.06-10.14.24:488][712]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBPE95A332E4D11C4B2B9279694089F04A9.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
-[2017.05.06-10.14.24:544][712]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
-[2017.05.06-10.14.28:325][712]LogSavePackage: Save=3621.19ms
-[2017.05.06-10.14.28:325][712]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrap7A4C85624B413A85CD3C80BB5CE6552D.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
-[2017.05.06-10.14.28:374][712]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
-[2017.05.06-10.14.28:376][712]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.06-10.14.28:376][712]LightingResults: New page: Lighting Build
-[2017.05.06-10.14.28:378][712]LoadErrors: New page: Loading map: Lobby.umap
-[2017.05.06-10.14.28:656][712]MapCheck: New page: Map Check
-[2017.05.06-10.14.28:656][712]LightingResults: New page: Lighting Build
-[2017.05.06-10.14.28:702][712]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.06-10.14.28:857][712]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.06-10.14.28:914][712]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.339ms to complete.
-[2017.05.06-10.14.28:915][712]LogFileHelpers: Loading map 'Lobby' took 0.540
-[2017.05.06-10.15.02:144][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.05.06-10.15.02:614][337]Cmd: QUIT_EDITOR
-[2017.05.06-10.15.02:756][337]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.05.06-10.15.02:799][337]LogExit: Preparing to exit.
-[2017.05.06-10.15.03:569][337]LogExit: Editor shut down
-[2017.05.06-10.15.03:571][337]LogExit: Transaction tracking system shut down
-[2017.05.06-10.15.03:872][337]LogObj: Freed 0b from 0 cluster array pools.
-[2017.05.06-10.15.03:873][337]LogExit: Object subsystem successfully closed.
-[2017.05.06-10.15.03:891][337]LogD3D11RHI: Shutdown
-[2017.05.06-10.15.03:891][337]LogD3D11RHI: CleanupD3DDevice
-[2017.05.06-10.15.04:050][337]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.05.06-10.15.04:211][337]LogModuleManager: Shutting down and abandoning module BlueprintGraph (239)
-[2017.05.06-10.15.04:211][337]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (238)
-[2017.05.06-10.15.04:231][337]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (237)
-[2017.05.06-10.15.04:234][337]LogModuleManager: Shutting down and abandoning module CrashTracker (236)
-[2017.05.06-10.15.04:235][337]LogModuleManager: Shutting down and abandoning module SceneOutliner (235)
-[2017.05.06-10.15.04:235][337]LogModuleManager: Shutting down and abandoning module WidgetCarousel (234)
-[2017.05.06-10.15.04:235][337]LogModuleManager: Shutting down and abandoning module AddContentDialog (233)
-[2017.05.06-10.15.04:235][337]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.13/FeaturePacks/' was aborted.
-[2017.05.06-10.15.04:245][337]LogModuleManager: Shutting down and abandoning module GameplayTags (232)
-[2017.05.06-10.15.04:245][337]LogModuleManager: Shutting down and abandoning module EditorWidgets (231)
-[2017.05.06-10.15.04:245][337]LogModuleManager: Shutting down and abandoning module CollectionManager (230)
-[2017.05.06-10.15.04:245][337]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Collections/' was aborted.
-[2017.05.06-10.15.04:245][337]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Developers/KieranClarke/Collections/' was aborted.
-[2017.05.06-10.15.04:245][337]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Collections/' was aborted.
-[2017.05.06-10.15.04:245][337]LogModuleManager: Shutting down and abandoning module StatsViewer (229)
-[2017.05.06-10.15.04:256][337]LogModuleManager: Shutting down and abandoning module FoliageEdit (228)
-[2017.05.06-10.15.04:256][337]LogModuleManager: Shutting down and abandoning module LandscapeEditor (227)
-[2017.05.06-10.15.04:263][337]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (226)
-[2017.05.06-10.15.04:263][337]LogModuleManager: Shutting down and abandoning module ActorPickerMode (225)
-[2017.05.06-10.15.04:263][337]LogModuleManager: Shutting down and abandoning module GeometryMode (224)
-[2017.05.06-10.15.04:263][337]LogModuleManager: Shutting down and abandoning module TextureAlignMode (223)
-[2017.05.06-10.15.04:263][337]LogModuleManager: Shutting down and abandoning module BspMode (222)
-[2017.05.06-10.15.04:264][337]LogModuleManager: Shutting down and abandoning module HardwareSurvey (221)
-[2017.05.06-10.15.04:264][337]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (220)
-[2017.05.06-10.15.04:264][337]LogModuleManager: Shutting down and abandoning module SequenceRecorder (219)
-[2017.05.06-10.15.04:264][337]LogModuleManager: Shutting down and abandoning module AutomationWorker (218)
-[2017.05.06-10.15.04:264][337]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (217)
-[2017.05.06-10.15.04:264][337]LogModuleManager: Shutting down and abandoning module PlacementMode (216)
-[2017.05.06-10.15.04:274][337]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (215)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (214)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (213)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (212)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (211)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module Media (210)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (209)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (208)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module CharacterAI (207)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module SmartSnapping (206)
-[2017.05.06-10.15.04:276][337]LogModuleManager: Shutting down and abandoning module SessionServices (205)
-[2017.05.06-10.15.04:277][337]LogModuleManager: Shutting down and abandoning module ViewportSnapping (204)
-[2017.05.06-10.15.04:277][337]LogModuleManager: Shutting down and abandoning module ViewportInteraction (203)
-[2017.05.06-10.15.04:277][337]LogModuleManager: Shutting down and abandoning module LogVisualizer (202)
-[2017.05.06-10.15.04:278][337]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (201)
-[2017.05.06-10.15.04:290][337]LogModuleManager: Shutting down and abandoning module IntroTutorials (200)
-[2017.05.06-10.15.04:300][337]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (199)
-[2017.05.06-10.15.04:300][337]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (198)
-[2017.05.06-10.15.04:300][337]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (197)
-[2017.05.06-10.15.04:300][337]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
-[2017.05.06-10.15.04:999][337]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
-[2017.05.06-10.15.05:000][337]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
-[2017.05.06-10.15.05:000][337]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
-[2017.05.06-10.15.05:000][337]LogModuleManager: Shutting down and abandoning module NiagaraEditor (192)
-[2017.05.06-10.15.05:040][337]LogModuleManager: Shutting down and abandoning module MergeActors (191)
-[2017.05.06-10.15.05:049][337]LogModuleManager: Shutting down and abandoning module SizeMap (190)
-[2017.05.06-10.15.05:049][337]LogModuleManager: Shutting down and abandoning module TreeMap (189)
-[2017.05.06-10.15.05:049][337]LogModuleManager: Shutting down and abandoning module ReferenceViewer (188)
-[2017.05.06-10.15.05:049][337]LogModuleManager: Shutting down and abandoning module LocalizationService (187)
-[2017.05.06-10.15.05:049][337]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (186)
-[2017.05.06-10.15.05:058][337]LogModuleManager: Shutting down and abandoning module HardwareTargeting (185)
-[2017.05.06-10.15.05:058][337]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (184)
-[2017.05.06-10.15.05:061][337]LogModuleManager: Shutting down and abandoning module UndoHistory (183)
-[2017.05.06-10.15.05:061][337]LogModuleManager: Shutting down and abandoning module UserFeedback (182)
-[2017.05.06-10.15.05:061][337]LogModuleManager: Shutting down and abandoning module XmlParser (181)
-[2017.05.06-10.15.05:061][337]LogModuleManager: Shutting down and abandoning module Blutility (180)
-[2017.05.06-10.15.05:061][337]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (179)
-[2017.05.06-10.15.05:070][337]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (178)
-[2017.05.06-10.15.05:070][337]LogModuleManager: Shutting down and abandoning module InputBindingEditor (177)
-[2017.05.06-10.15.05:071][337]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
-[2017.05.06-10.15.05:071][337]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
-[2017.05.06-10.15.05:078][337]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
-[2017.05.06-10.15.05:082][337]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
-[2017.05.06-10.15.05:090][337]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
-[2017.05.06-10.15.05:094][337]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
-[2017.05.06-10.15.05:094][337]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
-[2017.05.06-10.15.05:144][337]LogModuleManager: Shutting down and abandoning module AutomationController (169)
-[2017.05.06-10.15.05:144][337]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
-[2017.05.06-10.15.05:154][337]LogModuleManager: Shutting down and abandoning module Layers (167)
-[2017.05.06-10.15.05:158][337]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
-[2017.05.06-10.15.05:158][337]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
-[2017.05.06-10.15.05:158][337]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
-[2017.05.06-10.15.05:158][337]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
-[2017.05.06-10.15.05:158][337]LogModuleManager: Shutting down and abandoning module Persona (162)
-[2017.05.06-10.15.05:176][337]LogModuleManager: Shutting down and abandoning module Kismet (161)
-[2017.05.06-10.15.05:185][337]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
-[2017.05.06-10.15.05:186][337]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
-[2017.05.06-10.15.05:193][337]LogModuleManager: Shutting down and abandoning module Toolbox (158)
-[2017.05.06-10.15.05:193][337]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
-[2017.05.06-10.15.05:207][337]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
-[2017.05.06-10.15.05:207][337]LogModuleManager: Shutting down and abandoning module OutputLog (155)
-[2017.05.06-10.15.05:207][337]LogModuleManager: Shutting down and abandoning module GammaUI (154)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module Documentation (153)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module Niagara (152)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module PortalServices (149)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module AIModule (144)
-[2017.05.06-10.15.05:220][337]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
-[2017.05.06-10.15.05:462][337]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
-[2017.05.06-10.15.05:462][337]LogModuleManager: Shutting down and abandoning module SubstanceEditor (141)
-[2017.05.06-10.15.05:532][337]LogModuleManager: Shutting down and abandoning module SlateRemote (140)
-[2017.05.06-10.15.05:532][337]LogModuleManager: Shutting down and abandoning module SteamVRController (139)
-[2017.05.06-10.15.05:532][337]LogModuleManager: Shutting down and abandoning module SteamVR (138)
-[2017.05.06-10.15.05:532][337]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (137)
-[2017.05.06-10.15.05:533][337]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (136)
-[2017.05.06-10.15.05:533][337]LogModuleManager: Shutting down and abandoning module OculusLibrary (135)
-[2017.05.06-10.15.05:533][337]LogModuleManager: Shutting down and abandoning module OculusInput (134)
-[2017.05.06-10.15.05:533][337]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (133)
-[2017.05.06-10.15.05:533][337]LogModuleManager: Shutting down and abandoning module CableComponent (132)
-[2017.05.06-10.15.05:533][337]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (131)
-[2017.05.06-10.15.05:533][337]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (130)
-[2017.05.06-10.15.05:554][337]LogModuleManager: Shutting down and abandoning module HTML5Networking (129)
-[2017.05.06-10.15.05:554][337]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (128)
-[2017.05.06-10.15.05:554][337]LogModuleManager: Shutting down and abandoning module GeometryCache (127)
-[2017.05.06-10.15.05:554][337]LogModuleManager: Shutting down and abandoning module AlembicLibrary (126)
-[2017.05.06-10.15.05:554][337]LogModuleManager: Shutting down and abandoning module AlembicImporter (125)
-[2017.05.06-10.15.05:557][337]LogModuleManager: Shutting down and abandoning module SuperSearch (124)
-[2017.05.06-10.15.05:557][337]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (123)
-[2017.05.06-10.15.05:557][337]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (122)
-[2017.05.06-10.15.05:557][337]LogModuleManager: Shutting down and abandoning module PluginBrowser (121)
-[2017.05.06-10.15.05:558][337]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (120)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module EpicSurvey (119)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module DesktopPlatform (118)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (117)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module UObjectPlugin (116)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (115)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (114)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module SourceControl (113)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module GitSourceControl (112)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (111)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (110)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (109)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module MeshPaint (108)
-[2017.05.06-10.15.05:568][337]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (107)
-[2017.05.06-10.15.05:581][337]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
-[2017.05.06-10.15.05:581][337]LogModuleManager: Shutting down and abandoning module HotReload (105)
-[2017.05.06-10.15.05:582][337]LogModuleManager: Shutting down and abandoning module MainFrame (104)
-[2017.05.06-10.15.05:582][337]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
-[2017.05.06-10.15.05:583][337]LogModuleManager: Shutting down and abandoning module ContentBrowser (102)
-[2017.05.06-10.15.05:584][337]LogModuleManager: Shutting down and abandoning module Paper2DEditor (101)
-[2017.05.06-10.15.05:595][337]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
-[2017.05.06-10.15.05:696][337]LogModuleManager: Shutting down and abandoning module TcpMessaging (99)
-[2017.05.06-10.15.05:796][337]LogModuleManager: Shutting down and abandoning module SubstanceCore (98)
-[2017.05.06-10.15.05:796][337]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (97)
-[2017.05.06-10.15.05:796][337]LogModuleManager: Shutting down and abandoning module Paper2D (96)
-[2017.05.06-10.15.05:796][337]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (95)
-[2017.05.06-10.15.05:796][337]LogModuleManager: Shutting down and abandoning module WmfMedia (94)
-[2017.05.06-10.15.05:796][337]LogModuleManager: Shutting down and abandoning module MediaAssets (93)
-[2017.05.06-10.15.05:796][337]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (92)
-[2017.05.06-10.15.05:797][337]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (91)
-[2017.05.06-10.15.05:797][337]LogModuleManager: Shutting down and abandoning module VREditor (90)
-[2017.05.06-10.15.05:797][337]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (89)
-[2017.05.06-10.15.05:797][337]LogModuleManager: Shutting down and abandoning module PropertyEditor (88)
-[2017.05.06-10.15.05:797][337]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (87)
-[2017.05.06-10.15.05:797][337]LogModuleManager: Shutting down and abandoning module FunctionalTesting (86)
-[2017.05.06-10.15.05:797][337]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (85)
-[2017.05.06-10.15.05:797][337]LogModuleManager: Shutting down and abandoning module Sequencer (84)
-[2017.05.06-10.15.05:815][337]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (83)
-[2017.05.06-10.15.05:815][337]LogModuleManager: Shutting down and abandoning module MessageLog (82)
-[2017.05.06-10.15.05:815][337]LogModuleManager: Shutting down and abandoning module AssetTools (81)
-[2017.05.06-10.15.05:815][337]LogModuleManager: Shutting down and abandoning module UMGEditor (80)
-[2017.05.06-10.15.05:815][337]LogModuleManager: Shutting down and abandoning module UMG (79)
-[2017.05.06-10.15.05:815][337]LogModuleManager: Shutting down and abandoning module SlateReflector (78)
-[2017.05.06-10.15.05:815][337]LogModuleManager: Shutting down and abandoning module Slate (77)
-[2017.05.06-10.15.05:815][337]LogModuleManager: Shutting down and abandoning module EditorStyle (76)
-[2017.05.06-10.15.05:819][337]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (75)
-[2017.05.06-10.15.05:819][337]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
-[2017.05.06-10.15.05:819][337]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
-[2017.05.06-10.15.05:819][337]LogModuleManager: Shutting down and abandoning module Networking (72)
-[2017.05.06-10.15.05:819][337]LogModuleManager: Shutting down and abandoning module Core (71)
-[2017.05.06-10.15.05:819][337]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (70)
-[2017.05.06-10.15.05:819][337]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.05.06-10.15.05:820][337]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/' was aborted.
-[2017.05.06-10.15.05:820][337]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.05.06-10.15.05:824][337]LogModuleManager: Shutting down and abandoning module AssetRegistry (69)
-[2017.05.06-10.15.12:447][337]LogModuleManager: Shutting down and abandoning module KismetCompiler (68)
-[2017.05.06-10.15.12:447][337]LogModuleManager: Shutting down and abandoning module PhysXFormats (67)
-[2017.05.06-10.15.12:447][337]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.05.06-10.15.12:447][337]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.05.06-10.15.12:468][337]LogDerivedDataCache: Shutdown
-[2017.05.06-10.15.12:468][337]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.05.06-10.15.12:469][337]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module InputCore (28)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Settings (27)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module GearVR (25)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module Voice (21)
-[2017.05.06-10.15.12:470][337]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2017.05.06-10.15.12:470][337]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.05.06-10.15.12:471][337]LogOnline:Display: Unloading online subsystem: NULL
-[2017.05.06-10.15.12:471][337]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.05.06-10.15.12:471][337]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2017.05.06-10.15.12:471][337]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B711ECE46-4B7D-F161-DC88-40A44C12771F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=14919dbf485a9a18fb24948d069d9253%7C60da38c6d16241a5acdb9f3769ddff9a%7C671f62b7-fdbf-478e-ab5b-8701c7e210f4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.05.06-10.15.12:471][337]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B711ECE46-4B7D-F161-DC88-40A44C12771F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=14919dbf485a9a18fb24948d069d9253%7C60da38c6d16241a5acdb9f3769ddff9a%7C671f62b7-fdbf-478e-ab5b-8701c7e210f4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.05.06-10.15.12:476][337]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.05.06-10.15.12:476][337]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.05.06-10.15.12:476][337]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.05.06-10.15.12:476][337]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.05.06-10.15.12:476][337]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.05.06-10.15.12:485][337]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.05.06-10.15.12:487][337]LogExit: Exiting.
-[2017.05.06-10.15.12:493][337]Log file closed, 05/06/17 10:15:12
+[2017.05.06-10.19.39:923][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.06-10.19.39:923][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.06-10.19.39:985][  0]LogInit: Computer: MSI
+[2017.05.06-10.19.39:985][  0]LogInit: User: KieranClarke
+[2017.05.06-10.19.39:985][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.06-10.19.39:985][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2017.05.06-10.19.39:985][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.06-10.19.39:985][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-10.19.39:985][  0]LogMemory: Process Physical Memory: 258.56 MB used, 258.56 MB peak
+[2017.05.06-10.19.39:985][  0]LogMemory: Process Virtual Memory: 260.45 MB used, 260.45 MB peak
+[2017.05.06-10.19.39:985][  0]LogMemory: Physical Memory: 3888.29 MB used, 8070.60 MB total
+[2017.05.06-10.19.39:985][  0]LogMemory: Virtual Memory: 626.49 MB used, 134217728.00 MB total
+[2017.05.06-10.19.40:484][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.05.06-10.19.41:199][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.06-10.19.41:240][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.05.06-10.19.41:240][  0]LogD3D11RHI:       2018/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.06-10.19.41:252][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.05.06-10.19.41:253][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.06-10.19.41:257][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.06-10.19.41:257][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.06-10.19.41:257][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.06-10.19.41:263][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.06-10.19.41:263][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.05.06-10.19.41:263][  0]LogWindows: EnumDisplayDevices:
+[2017.05.06-10.19.41:263][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.05.06-10.19.41:264][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.05.06-10.19.41:264][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.05.06-10.19.41:265][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.06-10.19.41:265][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.05.06-10.19.41:265][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.06-10.19.41:265][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.06-10.19.41:265][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.06-10.19.41:291][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.06-10.19.41:310][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.06-10.19.41:311][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Intermediate/Shaders/WorkingDirectory/3488/).
+[2017.05.06-10.19.41:311][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KIERAN~1/AppData/Local/Temp/UnrealShaderWorkingDir/008FF7DB43C5A6E1F006ADBF1578E714/'.
+[2017.05.06-10.19.41:311][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.06-10.19.42:343][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.06-10.19.42:350][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.06-10.19.42:357][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.06-10.19.42:364][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.06-10.19.42:373][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.06-10.19.42:381][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.06-10.19.42:387][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.06-10.19.42:395][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.06-10.19.42:402][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.06-10.19.42:409][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.06-10.19.42:416][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.06-10.19.42:430][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.06-10.19.42:430][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.06-10.19.42:431][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.06-10.19.42:451][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.06-10.19.42:458][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.06-10.19.42:464][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.06-10.19.42:471][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.06-10.19.42:477][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.06-10.19.42:484][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.06-10.19.42:484][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.06-10.19.42:540][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.06-10.19.42:623][  0]LogDerivedDataCache: Loaded boot cache 0.08s 62MB C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.06-10.19.42:623][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.05.06-10.19.42:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.06-10.19.42:623][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.06-10.19.42:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.06-10.19.42:623][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.06-10.19.42:643][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.06-10.19.42:656][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.06-10.19.42:858][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.06-10.19.42:861][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.06-10.19.42:949][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.06-10.19.42:949][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.06-10.19.42:949][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.05.06-10.19.43:063][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.06-10.19.43:405][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: multiplayerv2, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2979046007
+[2017.05.06-10.19.43:443][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.05.06-10.19.45:421][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 1.977252 seconds
+[2017.05.06-10.19.45:429][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.05.06-10.19.45:429][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2017.05.06-10.19.45:429][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.06-10.19.45:638][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.06-10.19.45:638][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.06-10.19.46:278][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.05.06-10.19.46:286][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.06-10.19.46:306][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.06-10.19.46:689][  0]SourceControl: Info Source control is disabled
+[2017.05.06-10.19.46:691][  0]SourceControl: Info Source control is disabled
+[2017.05.06-10.19.46:696][  0]SourceControl: Info Source control is disabled
+[2017.05.06-10.19.46:703][  0]SourceControl: Info Source control is disabled
+[2017.05.06-10.19.46:994][  0]LogEngine: Initializing Engine...
+[2017.05.06-10.19.46:995][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.06-10.19.47:156][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.06-10.19.47:169][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.05.06-10.19.47:385][  0]LogInit: FAudioDevice initialized.
+[2017.05.06-10.19.47:428][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/Kieran Clarke/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.06-10.19.47:440][  0]LogInit: Texture streaming: Enabled
+[2017.05.06-10.19.47:462][  0]LogInit: Transaction tracking system initialized
+[2017.05.06-10.19.47:480][  0]BlueprintLog: New page: Editor Load
+[2017.05.06-10.19.47:663][  0]LocalizationService: Info Localization service is disabled
+[2017.05.06-10.19.47:922][  0]LogConsoleResponse:Display: 
+[2017.05.06-10.19.48:096][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.06-10.19.48:096][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.06-10.19.48:210][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/' took 0.08s
+[2017.05.06-10.19.48:210][  0]SourceControl: Info Source control is disabled
+[2017.05.06-10.19.48:210][  0]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-10.19.48:211][  0]LightingResults: New page: Lighting Build
+[2017.05.06-10.19.48:212][  0]MapCheck: New page: Map Check
+[2017.05.06-10.19.48:212][  0]LightingResults: New page: Lighting Build
+[2017.05.06-10.19.49:144][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.06-10.19.49:147][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-10.19.49:147][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-10.19.49:179][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.804ms to complete.
+[2017.05.06-10.19.49:179][  0]LogFileHelpers: Loading map 'MainMenu' took 0.969
+[2017.05.06-10.19.49:348][  0]LogCollectionManager: Loaded 0 collections in 0.023569 seconds
+[2017.05.06-10.19.49:392][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Collections/' took 0.01s
+[2017.05.06-10.19.49:392][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Developers/KieranClarke/Collections/' took 0.01s
+[2017.05.06-10.19.49:392][  0]LogFileCache: Scanning file cache for directory 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Collections/' took 0.01s
+[2017.05.06-10.19.49:392][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.05.06-10.19.49:411][  0]LogContentBrowser: Native class hierarchy populated in 0.0187 seconds. Added 2156 classes and 421 folders.
+[2017.05.06-10.19.49:414][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.06-10.19.49:414][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.06-10.19.49:415][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2017.05.06-10.19.49:417][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.06-10.19.49:458][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.06-10.19.49:463][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.06-10.19.49:478][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.06-10.19.49:488][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.06-10.19.49:516][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.06-10.19.49:516][  0]LogLoad: (Engine Initialization) Total time: 11.16 seconds
+[2017.05.06-10.19.49:516][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2017.05.06-10.19.49:516][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.06-10.19.49:516][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.06-10.19.49:537][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.06-10.19.49:538][  0]LogOcInput: OculusInput pre-init called
+[2017.05.06-10.19.49:559][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.06-10.19.49:778][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.05.06-10.19.50:008][  4]LogAssetRegistry: Asset discovery search completed in 6.5880 seconds
+[2017.05.06-10.19.50:009][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.05.06-10.19.50:009][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2017.05.06-10.20.00:396][529]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.05.06-10.20.00:407][529]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0022.05] Compile of LobbyPC successful, but with 1 Warning(s) [in 44 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.06-10.20.00:408][529]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0022.05] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.06-10.20.00:408][529]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0022.05] Compile of LobbyPC successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.06-10.20.00:492][529]LogBlueprint:Warning: [Compiler LobbyPC] Warning  K2Node_CallFunction_3175  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.05.06-10.20.00:503][529]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0022.14] Compile of LobbyPC successful, but with 1 Warning(s) [in 37 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.06-10.20.00:503][529]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0022.14] Compile of LobbyPC successful, but with 2 Warning(s) [in 0 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.06-10.20.00:505][529]LogBlueprint:Warning: [Compiler LobbyPC] Warning [0022.15] Compile of LobbyPC successful, but with 3 Warning(s) [in 2 ms] (/Game/Blueprints/Lobby/LobbyPC.LobbyPC)
+[2017.05.06-10.20.01:134][529]LogAIModule: Creating AISystem for world Lobby
+[2017.05.06-10.20.01:203][529]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-10.20.01:203][529]LightingResults: New page: Lighting Build
+[2017.05.06-10.20.01:204][529]LoadErrors: New page: Loading map: Lobby.umap
+[2017.05.06-10.20.01:204][529]MapCheck: New page: Map Check
+[2017.05.06-10.20.01:205][529]LightingResults: New page: Lighting Build
+[2017.05.06-10.20.01:221][529]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-10.20.01:364][529]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-10.20.01:417][529]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.219ms to complete.
+[2017.05.06-10.20.01:417][529]LogFileHelpers: Loading map 'Lobby' took 0.215
+[2017.05.06-10.20.24:919][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.20.32:825][892]LogSavePackage: Save=7764.28ms
+[2017.05.06-10.20.32:825][892]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby23999CB74910244E26B8CD8642D2DD1E.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.20.32:835][892]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.20.32:864][892]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.20.38:445][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.20.42:241][205]LogSavePackage: Save=3753.50ms
+[2017.05.06-10.20.42:242][205]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby702381E4473DD7C535B8578B0D1CFD51.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.20.42:263][205]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.20.42:289][205]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.20.49:174][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.20.52:982][531]LogSavePackage: Save=3768.39ms
+[2017.05.06-10.20.52:982][531]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyB8592A73412A195D88AEB9AB0E5D47C2.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.20.53:007][531]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.20.53:033][531]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.22.23:937][423]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.05.06-10.22.37:451][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-10.22.41:141][116]LogSavePackage: Save=3638.34ms
+[2017.05.06-10.22.41:141][116]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Lobby28FB9CDD40C834006C0A09A5E1586BD6.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap'
+[2017.05.06-10.22.41:210][116]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap
+[2017.05.06-10.22.41:379][116]LogFileHelpers: Saving map 'Lobby' took 3.987
+[2017.05.06-10.22.45:563][116]LogSavePackage: Save=4004.86ms
+[2017.05.06-10.22.45:563][116]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrapB24FF78245F93FF2F15A1EB3B14B6F4C.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.22.45:608][116]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.22.46:946][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.22.50:685][173]LogSavePackage: Save=3698.03ms
+[2017.05.06-10.22.50:685][173]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby65C5B7C147D507104D9A3EAB51F65763.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.22.50:712][173]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.22.50:737][173]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.23.51:295][581]LogSavePackage: Save=4573.65ms
+[2017.05.06-10.23.51:295][581]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrapEC023C904DC64FC33F065DBE5099E876.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.23.51:346][581]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.23.51:388][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.23.55:230][581]LogSavePackage: Save=3792.73ms
+[2017.05.06-10.23.55:230][581]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby62C5A6AC4CB400A0691811BD35973A1C.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.23.55:259][581]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.23.55:286][581]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.24.28:643][618]BlueprintLog: New page: Compile ActualFallingTrap
+[2017.05.06-10.24.37:369][659]LogSavePackage: Save=3498.17ms
+[2017.05.06-10.24.37:369][659]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrapB6A0D359459884B803C667BEBA57906C.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.24.37:427][659]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.24.37:474][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.24.41:329][659]LogSavePackage: Save=3815.94ms
+[2017.05.06-10.24.41:329][659]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby1671C6104CC85B2609BCAF9196A149E6.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.24.41:356][659]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.24.41:383][659]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.25.01:390][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.25.07:755][945]LogSavePackage: Save=5774.28ms
+[2017.05.06-10.25.07:755][945]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyB5D683F54AC33DD1D72814877452068F.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.25.07:782][945]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.25.07:811][945]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.26.43:338][233]LogSavePackage: Save=3462.39ms
+[2017.05.06-10.26.43:338][233]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrapB210632F448D7CC8A8A85180AA0C48C8.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.26.43:389][233]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.26.43:435][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.26.47:407][233]LogSavePackage: Save=3816.25ms
+[2017.05.06-10.26.47:407][233]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyF932B4BA42C80E6A77E1A69858B0E59C.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.26.47:434][233]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.26.47:460][233]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.27.19:865][704]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.27.27:023][844]LogSavePackage: Save=3476.29ms
+[2017.05.06-10.27.27:023][844]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrap13877D53499653D1BDECBF8FE602C1EE.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.27.27:087][844]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.27.27:138][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.27.36:142][844]LogSavePackage: Save=8953.67ms
+[2017.05.06-10.27.36:143][844]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby52D6FD994C01A47EC9FDFD9C3FDFBEEC.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.27.36:173][844]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.27.36:307][844]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.29.18:533][ 79]BlueprintLog: New page: Compile ActualFallingTrap
+[2017.05.06-10.30.07:972][475]LogSavePackage: Save=5379.95ms
+[2017.05.06-10.30.07:973][475]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrap46F3D18B4014953D477A78BF91457699.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.30.08:026][475]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.30.08:070][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.30.11:867][475]LogSavePackage: Save=3736.99ms
+[2017.05.06-10.30.11:867][475]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyD6299B6447D6573AD44AB8B36B286535.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.30.11:896][475]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.30.11:924][475]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.32.44:772][993]BlueprintLog: New page: Compile ActualFallingTrap
+[2017.05.06-10.32.52:886][ 45]LogSavePackage: Save=3964.06ms
+[2017.05.06-10.32.52:887][ 45]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrapAC139F994EA54651422AD08A83834598.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.32.52:941][ 45]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.32.53:003][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.32.56:849][ 45]LogSavePackage: Save=3682.59ms
+[2017.05.06-10.32.56:849][ 45]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby4ED6303B4E30C8E29978A8A100FF15A2.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.32.56:881][ 45]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.32.56:908][ 45]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.33.38:139][ 61]LogSavePackage: Save=3848.44ms
+[2017.05.06-10.33.38:139][ 61]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrap289C59F649BF72E4F85BB6818F2EBF76.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.33.38:209][ 61]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.33.38:276][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.33.42:146][ 61]LogSavePackage: Save=3821.85ms
+[2017.05.06-10.33.42:146][ 61]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby4DBD7C09435F69C022A6D6A6E7881848.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.33.42:172][ 61]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.33.42:204][ 61]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.41.15:927][567]LogSavePackage: Save=3976.75ms
+[2017.05.06-10.41.15:927][567]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrap81EBB0A348CA116AB4F16897FCE2EA9A.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-10.41.15:990][567]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-10.41.16:060][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.41.20:321][567]LogSavePackage: Save=4100.25ms
+[2017.05.06-10.41.20:321][567]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyE199AE2A400B35967F5BE094C852B814.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.41.20:351][567]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.41.20:378][567]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.42.21:743][567]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:11259).
+[2017.05.06-10.44.53:631][469]BlueprintLog: New page: Compile ActualRaisingTrap
+[2017.05.06-10.45.30:911][286]LogSavePackage: Save=3528.50ms
+[2017.05.06-10.45.30:911][286]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualRaisingTrap372B3E3C4168F4F451BA0E9A5AA1D031.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset'
+[2017.05.06-10.45.30:971][286]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset
+[2017.05.06-10.45.31:033][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.45.35:854][286]LogSavePackage: Save=4774.22ms
+[2017.05.06-10.45.35:855][286]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby32D5BCBF4C43186E13845ABA71FCAAB8.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.45.35:890][286]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.45.35:918][286]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.48.43:670][323]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-10.49.51:130][241]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-10.50.21:884][973]LogBlueprint:Warning: [Compiler ] Warning Pasted node  K2Node_CustomEvent_70   conflicted with  K2Node_CustomEvent_89  and was replaced as a Custom Event!
+[2017.05.06-10.50.21:923][973]BlueprintEditorCompileResults:Warning: Warning Pasted node  K2Node_CustomEvent_70   conflicted with  K2Node_CustomEvent_89  and was replaced as a Custom Event!
+[2017.05.06-10.51.19:813][374]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-10.51.19:926][374]LogBlueprint:Error: [Compiler BadGuyBP] Error Could not find a pin for the parameter InTrap of MC_DestroyActualTrap on  K2Node_CallFunction_1762
+[2017.05.06-10.51.19:926][374]LogBlueprint:Error: [Compiler BadGuyBP] Error Pin  NewParam  named NewParam doesn't match any parameters of function MC_DestroyActualTrap
+[2017.05.06-10.51.20:492][374]BlueprintEditorCompileResults:Error: Error Could not find a pin for the parameter InTrap of MC_DestroyActualTrap on  K2Node_CallFunction_1762
+[2017.05.06-10.51.20:493][374]BlueprintEditorCompileResults:Error: Error Pin  NewParam  named NewParam doesn't match any parameters of function MC_DestroyActualTrap
+[2017.05.06-10.51.20:493][374]LogBlueprint:Warning: [Compiler BadGuyBP] Warning [1902.13] Compile of BadGuyBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 679 ms] (/Game/BadGuyBP/BadGuyBP.BadGuyBP)
+[2017.05.06-10.51.51:775][228]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-10.52.06:432][ 37]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-10.54.01:484][802]BlueprintLog: New page: Compile ActualRaisingTrap
+[2017.05.06-10.54.22:274][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-10.54.32:644][906]LogSavePackage: Save=10213.21ms
+[2017.05.06-10.54.32:644][906]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP185373D0444F597D385DB588F4AE9AEB.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-10.54.32:690][906]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-10.54.36:549][906]LogSavePackage: Save=3694.35ms
+[2017.05.06-10.54.36:549][906]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualRaisingTrapB045C65D4FDE7FF703DF5F8A9E1FD2CC.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset'
+[2017.05.06-10.54.36:598][906]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset
+[2017.05.06-10.54.36:647][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.54.41:524][906]LogSavePackage: Save=4710.85ms
+[2017.05.06-10.54.41:524][906]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyCA4DF28549FA30992556CB9F7D3471DB.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.54.41:551][906]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.54.41:576][906]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.55.02:314][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.55.07:061][109]LogSavePackage: Save=4695.55ms
+[2017.05.06-10.55.07:061][109]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyA780883F4057D891FE2A67868EA74436.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.55.07:085][109]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.55.07:115][109]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.55.47:844][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.55.52:523][392]LogSavePackage: Save=4619.62ms
+[2017.05.06-10.55.52:523][392]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyA1FCD78443D3EB2DF5777380FC5657B9.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.55.52:555][392]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.55.52:586][392]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.56.43:682][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.56.52:749][102]LogSavePackage: Save=9017.35ms
+[2017.05.06-10.56.52:749][102]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyDC40326B400FE57DB72773AC30053A3E.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.56.52:777][102]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.56.52:805][102]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-10.57.24:063][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-10.57.28:864][775]LogSavePackage: Save=4745.50ms
+[2017.05.06-10.57.28:864][775]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby9184554842DE7A25B015B486CA34C7DD.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-10.57.28:892][775]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-10.57.28:918][775]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.01.42:472][ 31]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.02.24:176][447]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.02.42:993][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-11.02.47:852][517]LogSavePackage: Save=4678.49ms
+[2017.05.06-11.02.47:852][517]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Lobby10093631442ED1F127CF4A9F283EE24E.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap'
+[2017.05.06-11.02.47:904][517]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap
+[2017.05.06-11.02.48:089][517]LogFileHelpers: Saving map 'Lobby' took 5.160
+[2017.05.06-11.02.48:141][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-11.02.58:248][517]LogSavePackage: Save=9937.97ms
+[2017.05.06-11.02.58:248][517]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBPCD5D50024F190822F912E089806FA1D8.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-11.02.58:305][517]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-11.04.05:272][487]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.04.19:598][292]BlueprintLog: New page: Compile ActualRaisingTrap
+[2017.05.06-11.04.23:057][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-11.04.33:124][387]LogSavePackage: Save=9898.88ms
+[2017.05.06-11.04.33:124][387]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP5B335716403EB7FD65A4688013555AAA.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-11.04.33:173][387]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-11.04.37:099][387]LogSavePackage: Save=3755.12ms
+[2017.05.06-11.04.37:099][387]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualRaisingTrap842581D84CCF91A47A6A288EC2C5BDFE.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset'
+[2017.05.06-11.04.37:151][387]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset
+[2017.05.06-11.04.37:196][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.04.41:895][387]LogSavePackage: Save=4643.18ms
+[2017.05.06-11.04.41:895][387]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby09EF4F44447D55FDA24D678546146EE5.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-11.04.41:927][387]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-11.04.41:967][387]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.06.23:005][830]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.06.27:347][ 34]LogEditorTransaction: Undo Create Pin Link
+[2017.05.06-11.06.29:109][138]LogEditorTransaction: Undo Delete current selection
+[2017.05.06-11.07.06:431][348]BlueprintLog: New page: Compile ActualRaisingTrap
+[2017.05.06-11.07.10:992][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-11.07.20:968][515]LogSavePackage: Save=9919.64ms
+[2017.05.06-11.07.20:968][515]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP6FAFF48B472204CAB05A54BAC40C0AB3.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-11.07.21:022][515]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-11.07.24:845][515]LogSavePackage: Save=3716.67ms
+[2017.05.06-11.07.24:846][515]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualRaisingTrap4699DDDF48CDDCBE486B5A99B1DCFE61.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset'
+[2017.05.06-11.07.24:893][515]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset
+[2017.05.06-11.07.24:947][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.07.29:689][515]LogSavePackage: Save=4676.08ms
+[2017.05.06-11.07.29:690][515]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby4C67EEAB4156D413A03766A8DCB378A9.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-11.07.29:718][515]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-11.07.29:746][515]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.08.32:749][339]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.08.33:488][340]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.08.37:575][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-11.08.47:646][421]LogSavePackage: Save=9903.17ms
+[2017.05.06-11.08.47:646][421]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP0FE5716646C08E38AEA87482603D8714.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-11.08.47:702][421]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-11.08.47:757][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.08.53:313][421]LogSavePackage: Save=5305.01ms
+[2017.05.06-11.08.53:313][421]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby11497AF04242E2686B66C6829463A305.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-11.08.53:340][421]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-11.08.53:367][421]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.11.04:399][ 90]BlueprintLog: New page: Compile ActualRaisingTrap
+[2017.05.06-11.11.10:942][154]LogSavePackage: Save=3641.26ms
+[2017.05.06-11.11.10:942][154]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualRaisingTrap2D8FE57441733BC19BFC068FD10DE670.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset'
+[2017.05.06-11.11.11:000][154]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset
+[2017.05.06-11.11.11:059][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.11.15:822][154]LogSavePackage: Save=4703.95ms
+[2017.05.06-11.11.15:822][154]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobbyCD2254434E0E0BEDAF236A850607F535.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-11.11.15:845][154]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-11.11.15:871][154]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.12.26:047][532]BlueprintLog: New page: Compile ActualRaisingTrap
+[2017.05.06-11.14.51:003][ 47]BlueprintLog: New page: Compile MasterActualTraps
+[2017.05.06-11.14.51:301][ 47]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Cage' in BlueprintGeneratedClass 'REINST_ActualFallingTrap_C_493' (it may have been removed)
+[2017.05.06-11.14.51:356][ 47]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Cage' in BlueprintGeneratedClass 'REINST_ActualRaisingTrap_C_495' (it may have been removed)
+[2017.05.06-11.14.51:540][ 47]LogBlueprint:Error: [Compiler BadGuyBP] Error Could not find a function named "DestroyActualTrap" in 'BadGuyBP_C'.
+Make sure 'BadGuyBP_C' has been compiled for  K2Node_CallFunction_1763
+[2017.05.06-11.15.07:497][818]BlueprintLog: New page: Compile MasterActualTraps
+[2017.05.06-11.15.07:746][818]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Cage' in BlueprintGeneratedClass 'REINST_ActualFallingTrap_C_541' (it may have been removed)
+[2017.05.06-11.15.07:798][818]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'Cage' in BlueprintGeneratedClass 'REINST_ActualRaisingTrap_C_543' (it may have been removed)
+[2017.05.06-11.15.38:516][567]BlueprintLog: New page: Compile ActualRaisingTrap
+[2017.05.06-11.15.44:420][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-11.15.54:084][786]LogSavePackage: Save=9491.15ms
+[2017.05.06-11.15.54:084][786]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBPA8FC26E64F40FB99FA48A7B0A2130769.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-11.15.54:136][786]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-11.15.54:186][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/MasterActualTraps" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/MasterActualTraps.uasset" SILENT=true
+[2017.05.06-11.15.55:203][786]LogSavePackage: Save=914.68ms
+[2017.05.06-11.15.55:203][786]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/MasterActualTraps56738BC44A4F14EDF81FBD87FA46A90B.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/MasterActualTraps.uasset'
+[2017.05.06-11.15.55:261][786]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/MasterActualTraps.uasset
+[2017.05.06-11.15.59:033][786]LogSavePackage: Save=3622.79ms
+[2017.05.06-11.15.59:033][786]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualRaisingTrap1FC287E84B9E62083CDB03992296AD44.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset'
+[2017.05.06-11.15.59:083][786]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset
+[2017.05.06-11.15.59:130][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.16.03:890][786]LogSavePackage: Save=4584.23ms
+[2017.05.06-11.16.03:890][786]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby7484A95845BE8029631D3E8764E47BD8.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-11.16.03:917][786]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-11.16.03:943][786]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.18.12:386][693]BlueprintLog: New page: Compile ActualFallingTrap
+[2017.05.06-11.18.22:071][ 15]LogSavePackage: Save=3961.59ms
+[2017.05.06-11.18.22:071][ 15]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrap8ECEF61D47FE182A7F1FD1BD271823FF.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-11.18.22:120][ 15]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-11.19.17:246][  5]LogSavePackage: Save=3954.48ms
+[2017.05.06-11.19.17:246][  5]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrap0E470D90408EB1C6C909CDBD9EAF33D2.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-11.19.17:296][  5]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-11.19.20:949][  5]LogSavePackage: Save=3530.54ms
+[2017.05.06-11.19.20:949][  5]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualRaisingTrapB8118F9340D92EE5BEE714AF0E516CF5.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset'
+[2017.05.06-11.19.21:009][  5]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualRaisingTrap.uasset
+[2017.05.06-11.19.21:056][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.19.25:768][  5]LogSavePackage: Save=4645.98ms
+[2017.05.06-11.19.25:768][  5]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCLobby278F28944225E0F4D0AB5891D6511C7D.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap'
+[2017.05.06-11.19.25:790][  5]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCLobby.umap
+[2017.05.06-11.19.25:818][  5]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.20.13:002][296]BlueprintLog: New page: Compile ActualFallingTrap
+[2017.05.06-11.20.22:687][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-11.20.27:319][857]LogSavePackage: Save=4544.71ms
+[2017.05.06-11.20.27:319][857]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Lobby95D6B7E849D7ED33E1FC7A87D2655FF5.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap'
+[2017.05.06-11.20.27:364][857]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Lobby.umap
+[2017.05.06-11.20.27:535][857]LogFileHelpers: Saving map 'Lobby' took 4.918
+[2017.05.06-11.20.31:488][857]LogSavePackage: Save=3829.12ms
+[2017.05.06-11.20.31:488][857]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/ActualFallingTrap296306E84C340D29F061DB8E80AA3F79.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset'
+[2017.05.06-11.20.31:549][857]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/TrapBP/ActualTraps/ActualFallingTrap.uasset
+[2017.05.06-11.21.28:840][267]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.21.28:935][267]LogBlueprint:Error: [Compiler BadGuyBP] Error Could not find a function named "DestroyActualTrap" in 'BadGuyBP_C'.
+Make sure 'BadGuyBP_C' has been compiled for  K2Node_CallFunction_1763
+[2017.05.06-11.21.29:638][267]BlueprintEditorCompileResults:Error: Error Could not find a function named "DestroyActualTrap" in 'BadGuyBP_C'.
+Make sure 'BadGuyBP_C' has been compiled for  K2Node_CallFunction_1763
+[2017.05.06-11.21.29:638][267]LogBlueprint:Warning: [Compiler BadGuyBP] Warning [3711.28] Compile of BadGuyBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 797 ms] (/Game/BadGuyBP/BadGuyBP.BadGuyBP)
+[2017.05.06-11.22.01:299][134]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.23.49:299][528]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.24.23:390][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
+[2017.05.06-11.24.23:390][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
+[2017.05.06-11.24.23:390][494]LoadErrors:Error: Error /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark
+[2017.05.06-11.24.23:390][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
+[2017.05.06-11.24.23:390][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
+[2017.05.06-11.24.23:390][494]LoadErrors:Error: Error /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N
+[2017.05.06-11.24.23:390][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
+[2017.05.06-11.24.23:390][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
+[2017.05.06-11.24.23:390][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
+[2017.05.06-11.24.23:391][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.uasset.
+[2017.05.06-11.24.23:515][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
+[2017.05.06-11.24.23:516][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01.uasset.
+[2017.05.06-11.24.23:516][494]LoadErrors:Error: Error /Game/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01 : Can't find file for asset. /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf
+[2017.05.06-11.24.23:516][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
+[2017.05.06-11.24.23:516][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/NeededForMaps/StaticMesh/SM_ENV_Ice_Foliage_PineTree_01.uasset.
+[2017.05.06-11.24.23:566][494]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.06-11.24.23:567][494]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.06-11.24.23:567][494]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.06-11.24.23:571][494]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3885.21] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 9 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.24.23:572][494]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3885.21] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.24.23:572][494]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3885.21] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.24.23:870][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N'
+[2017.05.06-11.24.23:870][494]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N.T_Env_Ice_Tree_Bark_N Referenced by MaterialExpressionTextureSample_2
+[2017.05.06-11.24.23:870][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark_N' while loading NULL.
+[2017.05.06-11.24.23:871][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark'
+[2017.05.06-11.24.23:871][494]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark.T_Env_Ice_Tree_Bark Referenced by MaterialExpressionTextureSample_3
+[2017.05.06-11.24.23:871][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Textures/T_Env_Ice_Tree_Bark' while loading NULL.
+[2017.05.06-11.24.24:135][494]LogLinker:Warning: Can't find file '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf'
+[2017.05.06-11.24.24:136][494]LoadErrors: Info Failed to load /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf.M_ENV_Ice_Foliage_PineLeaf Referenced by SM_ENV_Ice_Foliage_PineTree_01
+[2017.05.06-11.24.24:136][494]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Foliage/Materials/M_ENV_Ice_Foliage_PineLeaf' while loading NULL.
+[2017.05.06-11.24.24:152][494]LogMaterial: Missing cached shader map for material skynebula, compiling. 
+[2017.05.06-11.24.24:154][494]LogMaterial:Warning: Failed to compile Material /Game/Textures/skynebula.skynebula for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.06-11.24.24:154][494]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Textures/Nebula_.Nebula_
+[2017.05.06-11.24.24:195][494]LogMaterial: Missing cached shader map for material M_Env_Ice_Tree_POI_Bark, compiling. 
+[2017.05.06-11.24.24:196][494]LogMaterial:Warning: Failed to compile Material /Game/NeededForMaps/Materials/M_Env_Ice_Tree_POI_Bark.M_Env_Ice_Tree_POI_Bark for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.06-11.24.24:196][494]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.05.06-11.24.24:810][494]LogAIModule: Creating AISystem for world Map_Shaun
+[2017.05.06-11.24.26:666][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-11.24.38:803][494]LogSavePackage: Save=11966.94ms
+[2017.05.06-11.24.38:803][494]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP9D2775464B05CA238B14C39462B359BF.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-11.24.40:073][494]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-11.24.40:078][494]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-11.24.40:079][494]LightingResults: New page: Lighting Build
+[2017.05.06-11.24.40:080][494]LoadErrors: New page: Loading map: Map_Shaun.umap
+[2017.05.06-11.24.40:083][494]MapCheck: New page: Map Check
+[2017.05.06-11.24.40:083][494]LightingResults: New page: Lighting Build
+[2017.05.06-11.24.40:494][494]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-11.24.40:931][494]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-11.24.41:008][494]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.339ms to complete.
+[2017.05.06-11.24.41:009][494]LogFileHelpers: Loading map 'Map_Shaun' took 0.936
+[2017.05.06-11.24.47:328][815]LogEditorViewport: Clicking on Actor (context menu): NebSky_C (NebSky)
+[2017.05.06-11.24.50:433][980]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape_grass_main)
+[2017.05.06-11.24.52:240][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Shaun" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMap_Shaun.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.25.07:107][ 51]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.06-11.25.07:108][ 51]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.06-11.25.07:108][ 51]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.06-11.25.07:513][ 51]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3929.15] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 1,194 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.07:513][ 51]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3929.15] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.07:513][ 51]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3929.15] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.07:513][ 51]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3929.15] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.07:514][ 51]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3929.16] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 5 Warning(s) [in 1 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.07:514][ 51]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3929.16] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.08:573][ 51]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.25.12:554][246]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.06-11.25.12:587][246]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-11.25.12:587][246]LightingResults: New page: Lighting Build
+[2017.05.06-11.25.12:588][246]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.05.06-11.25.12:616][246]MapCheck: New page: Map Check
+[2017.05.06-11.25.12:616][246]LightingResults: New page: Lighting Build
+[2017.05.06-11.25.12:720][246]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-11.25.13:213][246]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-11.25.13:299][246]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.209ms to complete.
+[2017.05.06-11.25.13:299][246]LogFileHelpers: Loading map 'MainMenu' took 0.713
+[2017.05.06-11.25.19:683][622]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.06-11.25.19:684][622]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.06-11.25.19:685][622]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.06-11.25.19:689][622]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3941.33] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 10 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.19:689][622]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3941.33] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.19:689][622]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [3941.33] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.25.20:302][622]LogAIModule: Creating AISystem for world Map_Shaun
+[2017.05.06-11.25.20:410][622]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-11.25.20:410][622]LightingResults: New page: Lighting Build
+[2017.05.06-11.25.20:411][622]LoadErrors: New page: Loading map: Map_Shaun.umap
+[2017.05.06-11.25.20:412][622]MapCheck: New page: Map Check
+[2017.05.06-11.25.20:412][622]LightingResults: New page: Lighting Build
+[2017.05.06-11.25.20:639][622]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-11.25.20:786][622]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-11.25.20:866][622]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.13ms to complete.
+[2017.05.06-11.25.20:867][622]LogFileHelpers: Loading map 'Map_Shaun' took 0.458
+[2017.05.06-11.25.33:662][345]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (engine sparks cue4)
+[2017.05.06-11.25.35:110][402]Cmd: DELETE
+[2017.05.06-11.25.35:110][402]Cmd: ACTOR DELETE
+[2017.05.06-11.25.37:451][402]LogEditorActor: Deleted Actor: AmbientSound
+[2017.05.06-11.25.37:478][402]LogEditorActor: Deleted 1 Actors (2.307 secs)
+[2017.05.06-11.25.41:214][608]LogEditorViewport: Clicking on Actor (LMB): Emitter (engine flame4)
+[2017.05.06-11.25.42:669][663]Cmd: DELETE
+[2017.05.06-11.25.42:669][663]Cmd: ACTOR DELETE
+[2017.05.06-11.25.44:072][663]LogEditorActor: Deleted Actor: Emitter
+[2017.05.06-11.25.44:100][663]LogEditorActor: Deleted 1 Actors (1.431 secs)
+[2017.05.06-11.25.46:586][805]LogEditorViewport: Clicking on Actor (LMB): PointLight (engine flame light4)
+[2017.05.06-11.25.47:906][858]Cmd: DELETE
+[2017.05.06-11.25.47:906][858]Cmd: ACTOR DELETE
+[2017.05.06-11.25.49:671][858]LogEditorActor: Deleted Actor: PointLight
+[2017.05.06-11.25.49:699][858]LogEditorActor: Deleted 1 Actors (1.793 secs)
+[2017.05.06-11.25.54:911][154]LogEditorViewport: Clicking on Actor (LMB): Emitter (crash site fire)
+[2017.05.06-11.26.09:105][998]Cmd: DELETE
+[2017.05.06-11.26.09:105][998]Cmd: ACTOR DELETE
+[2017.05.06-11.26.09:116][998]LogEditorActor: Deleted Actor: Emitter
+[2017.05.06-11.26.09:141][998]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.05.06-11.26.11:322][126]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2017.05.06-11.26.11:950][161]Cmd: DELETE
+[2017.05.06-11.26.11:950][161]Cmd: ACTOR DELETE
+[2017.05.06-11.26.11:959][161]LogEditorActor: Deleted Actor: PointLight
+[2017.05.06-11.26.11:986][161]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.05.06-11.26.13:278][236]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Fire_Sparks01_Cue6)
+[2017.05.06-11.26.13:625][254]Cmd: DELETE
+[2017.05.06-11.26.13:625][254]Cmd: ACTOR DELETE
+[2017.05.06-11.26.13:634][254]LogEditorActor: Deleted Actor: AmbientSound
+[2017.05.06-11.26.13:661][254]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.05.06-11.26.16:413][406]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2017.05.06-11.26.16:803][427]Cmd: DELETE
+[2017.05.06-11.26.16:803][427]Cmd: ACTOR DELETE
+[2017.05.06-11.26.16:811][427]LogEditorActor: Deleted Actor: PointLight
+[2017.05.06-11.26.16:840][427]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2017.05.06-11.26.18:202][506]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_grass_main)
+[2017.05.06-11.26.19:240][565]LogEditorViewport: Clicking on Actor (LMB): Emitter (crash site fire2)
+[2017.05.06-11.26.20:121][615]Cmd: DELETE
+[2017.05.06-11.26.20:121][615]Cmd: ACTOR DELETE
+[2017.05.06-11.26.20:129][615]LogEditorActor: Deleted Actor: Emitter
+[2017.05.06-11.26.20:156][615]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2017.05.06-11.26.29:247][151]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.06-11.26.31:385][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Shaun" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-11.26.32:304][151]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.06-11.26.32:305][151]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.06-11.26.32:305][151]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.06-11.26.32:717][151]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4014.36] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 1,227 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.26.32:718][151]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4014.36] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.26.32:718][151]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4014.36] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.26.32:718][151]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4014.36] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.26.32:719][151]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4014.36] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.26.32:719][151]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4014.36] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.31.28:671][151]LogSavePackage: Save=297190.59ms
+[2017.05.06-11.31.28:671][151]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Map_ShaunFA786C8A4B3E9632A97EF9A870B01E31.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap'
+[2017.05.06-11.31.29:359][151]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap
+[2017.05.06-11.31.30:273][151]LogFileHelpers: Saving map 'Map_Shaun' took 298.974
+[2017.05.06-11.31.30:275][151]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-11.31.30:275][151]LightingResults: New page: Lighting Build
+[2017.05.06-11.31.30:275][151]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.05.06-11.31.30:298][151]MapCheck: New page: Map Check
+[2017.05.06-11.31.30:298][151]LightingResults: New page: Lighting Build
+[2017.05.06-11.31.30:420][151]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-11.31.30:671][151]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-11.31.30:751][151]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.85ms to complete.
+[2017.05.06-11.31.30:751][151]LogFileHelpers: Loading map 'MainMenu' took 0.478
+[2017.05.06-11.31.39:961][697]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.06-11.31.39:962][697]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.06-11.31.39:962][697]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.06-11.31.39:967][697]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4321.61] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 9 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.31.39:967][697]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4321.61] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.31.39:967][697]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4321.61] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.31.40:582][697]LogAIModule: Creating AISystem for world Map_Shaun
+[2017.05.06-11.31.40:697][697]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-11.31.40:697][697]LightingResults: New page: Lighting Build
+[2017.05.06-11.31.40:697][697]LoadErrors: New page: Loading map: Map_Shaun.umap
+[2017.05.06-11.31.40:698][697]MapCheck: New page: Map Check
+[2017.05.06-11.31.40:698][697]LightingResults: New page: Lighting Build
+[2017.05.06-11.31.40:924][697]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-11.31.41:181][697]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-11.31.41:289][697]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.183ms to complete.
+[2017.05.06-11.31.41:289][697]LogFileHelpers: Loading map 'Map_Shaun' took 0.594
+[2017.05.06-11.31.45:818][936]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_grass_main)
+[2017.05.06-11.31.50:379][193]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint4)
+[2017.05.06-11.32.23:714][164]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.05.06-11.32.26:494][302]Cmd: DELETE
+[2017.05.06-11.32.26:494][302]Cmd: ACTOR DELETE
+[2017.05.06-11.32.26:506][302]LogEditorActor: Deleted Actor: PostProcessVolume
+[2017.05.06-11.32.26:532][302]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2017.05.06-11.32.49:273][656]LogEditorViewport: Clicking on Actor (LMB): Emitter (crash site fire4)
+[2017.05.06-11.32.50:072][701]Cmd: DELETE
+[2017.05.06-11.32.50:072][701]Cmd: ACTOR DELETE
+[2017.05.06-11.32.50:080][701]LogEditorActor: Deleted Actor: Emitter
+[2017.05.06-11.32.50:108][701]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.05.06-11.32.51:566][786]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2017.05.06-11.32.52:258][825]Cmd: DELETE
+[2017.05.06-11.32.52:258][825]Cmd: ACTOR DELETE
+[2017.05.06-11.32.52:269][825]LogEditorActor: Deleted Actor: PointLight
+[2017.05.06-11.32.52:295][825]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2017.05.06-11.32.54:760][970]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Fire_Sparks01_Cue11)
+[2017.05.06-11.32.55:576][ 16]Cmd: DELETE
+[2017.05.06-11.32.55:576][ 16]Cmd: ACTOR DELETE
+[2017.05.06-11.32.55:585][ 16]LogEditorActor: Deleted Actor: AmbientSound
+[2017.05.06-11.32.55:612][ 16]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.05.06-11.32.59:883][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_DeadTree175)
+[2017.05.06-11.33.01:155][337]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_rocky)
+[2017.05.06-11.33.01:229][338]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape_rocky)
+[2017.05.06-11.33.02:374][406]LogEditorViewport: Clicking on Actor (LMB): Emitter (Node)
+[2017.05.06-11.33.04:026][502]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape_rocky)
+[2017.05.06-11.33.05:236][572]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_rocky)
+[2017.05.06-11.33.06:065][619]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_rocky)
+[2017.05.06-11.33.07:423][699]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_PowerNode_C (TriggerBox_Blueprint_PowerNode2)
+[2017.05.06-11.33.09:027][792]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Node)
+[2017.05.06-11.33.26:392][796]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire5)
+[2017.05.06-11.33.34:654][275]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight11)
+[2017.05.06-11.33.35:455][321]Cmd: DELETE
+[2017.05.06-11.33.35:455][321]Cmd: ACTOR DELETE
+[2017.05.06-11.33.35:463][321]LogEditorActor: Deleted Actor: PointLight
+[2017.05.06-11.33.35:492][321]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2017.05.06-11.33.36:750][394]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire5)
+[2017.05.06-11.33.37:111][413]Cmd: DELETE
+[2017.05.06-11.33.37:111][413]Cmd: ACTOR DELETE
+[2017.05.06-11.33.37:119][413]LogEditorActor: Deleted Actor: Emitter
+[2017.05.06-11.33.37:150][413]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2017.05.06-11.33.38:508][492]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Fire_Sparks01_Cue9)
+[2017.05.06-11.33.38:949][516]Cmd: DELETE
+[2017.05.06-11.33.38:949][516]Cmd: ACTOR DELETE
+[2017.05.06-11.33.38:958][516]LogEditorActor: Deleted Actor: AmbientSound
+[2017.05.06-11.33.38:984][516]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2017.05.06-11.33.46:242][944]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_rocky)
+[2017.05.06-11.33.51:466][245]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_grass_main)
+[2017.05.06-11.33.55:052][455]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_rocky)
+[2017.05.06-11.34.01:901][857]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape_grass_main)
+[2017.05.06-11.34.45:184][436]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.35.37:242][481]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-11.35.43:492][561]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.35.48:839][863]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.06-11.35.50:305][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-11.35.59:860][863]LogSavePackage: Save=9367.41ms
+[2017.05.06-11.35.59:860][863]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP102D657744E6EA6DB59A5DA15FB4A1FA.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-11.36.00:004][863]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-11.36.00:088][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Shaun" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-11.36.09:789][863]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning Node  K2Node_Literal_7  is not referencing a valid level actor
+[2017.05.06-11.36.09:789][863]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_0
+[2017.05.06-11.36.09:790][863]LogBlueprint:Error: [Compiler PersistentLevel.Map_Shaun] Error Couldn't find object for bound event node  K2Node_ActorBoundEvent_40
+[2017.05.06-11.36.10:199][863]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4591.84] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 1 Warning(s) [in 1,217 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.36.10:199][863]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4591.84] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.36.10:199][863]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4591.84] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.36.10:200][863]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4591.84] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.36.10:201][863]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4591.84] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 5 Warning(s) [in 1 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.36.10:201][863]LogBlueprint:Warning: [Compiler PersistentLevel.Map_Shaun] Warning [4591.84] Compile of PersistentLevel.Map_Shaun failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/Map_Shaun.Map_Shaun:PersistentLevel.Map_Shaun)
+[2017.05.06-11.41.16:740][863]LogSavePackage: Save=307783.53ms
+[2017.05.06-11.41.16:740][863]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Map_ShaunA94E70174545CE6FB83A3084CEB99335.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap'
+[2017.05.06-11.41.16:835][863]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/Map_Shaun.umap
+[2017.05.06-11.41.17:010][863]LogFileHelpers: Saving map 'Map_Shaun' took 317.004
+[2017.05.06-11.41.17:011][863]Cmd: MAP LOAD FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-11.41.17:011][863]LightingResults: New page: Lighting Build
+[2017.05.06-11.41.17:012][863]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.05.06-11.41.17:040][863]MapCheck: New page: Map Check
+[2017.05.06-11.41.17:040][863]LightingResults: New page: Lighting Build
+[2017.05.06-11.41.17:193][863]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-11.41.17:346][863]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-11.41.17:437][863]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.707ms to complete.
+[2017.05.06-11.41.17:437][863]LogFileHelpers: Loading map 'MainMenu' took 0.427
+[2017.05.06-11.42.29:767][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.42.32:637][350]LogSavePackage: Save=2776.62ms
+[2017.05.06-11.42.32:637][350]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenu58899A27419C9702F722019A1E77998D.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2017.05.06-11.42.32:678][350]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2017.05.06-11.42.33:863][350]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.44.01:451][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.06-11.44.06:415][782]LogSavePackage: Save=4889.33ms
+[2017.05.06-11.44.06:415][782]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/UEDPCMainMenuB8033916493E705428A7B2B1CE6E0034.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2017.05.06-11.44.07:621][782]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2017.05.06-11.44.07:649][782]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-11.45.27:823][129]LogEditorViewport: Clicking Background
+[2017.05.06-11.47.50:982][595]LogEditorTransaction: Undo Move Node
+[2017.05.06-12.01.26:898][850]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-12.01.28:950][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadGuyBP/BadGuyBP" FILE="G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset" SILENT=true
+[2017.05.06-12.01.39:209][901]LogSavePackage: Save=10080.35ms
+[2017.05.06-12.01.39:209][901]LogSavePackage: Moving 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/BadGuyBP37F231214A566157B3633585F5C38724.tmp' to 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset'
+[2017.05.06-12.01.39:264][901]LogSavePackage:Display: Finished SavePackage G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/BadGuyBP/BadGuyBP.uasset
+[2017.05.06-12.01.58:925][ 16]BlueprintLog: New page: Compile BadGuyBP
+[2017.05.06-12.02.03:489][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.06-12.02.04:390][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.06-12.02.04:996][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.06-12.02.19:318][ 62]Cmd: QUIT_EDITOR
+[2017.05.06-12.02.19:429][ 62]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.06-12.02.19:502][ 62]LogExit: Preparing to exit.
+[2017.05.06-12.02.20:181][ 62]LogExit: Editor shut down
+[2017.05.06-12.02.20:183][ 62]LogExit: Transaction tracking system shut down
+[2017.05.06-12.02.20:593][ 62]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.06-12.02.20:594][ 62]LogExit: Object subsystem successfully closed.
+[2017.05.06-12.02.20:627][ 62]LogD3D11RHI: Shutdown
+[2017.05.06-12.02.20:627][ 62]LogD3D11RHI: CleanupD3DDevice
+[2017.05.06-12.02.20:822][ 62]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.06-12.02.20:832][ 62]LogModuleManager: Shutting down and abandoning module BlueprintGraph (239)
+[2017.05.06-12.02.20:832][ 62]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (238)
+[2017.05.06-12.02.20:832][ 62]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (237)
+[2017.05.06-12.02.20:832][ 62]LogModuleManager: Shutting down and abandoning module CrashTracker (236)
+[2017.05.06-12.02.20:832][ 62]LogModuleManager: Shutting down and abandoning module SceneOutliner (235)
+[2017.05.06-12.02.20:832][ 62]LogModuleManager: Shutting down and abandoning module WidgetCarousel (234)
+[2017.05.06-12.02.20:832][ 62]LogModuleManager: Shutting down and abandoning module AddContentDialog (233)
+[2017.05.06-12.02.20:832][ 62]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.13/FeaturePacks/' was aborted.
+[2017.05.06-12.02.20:838][ 62]LogModuleManager: Shutting down and abandoning module GameplayTags (232)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module EditorWidgets (231)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module CollectionManager (230)
+[2017.05.06-12.02.20:839][ 62]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Collections/' was aborted.
+[2017.05.06-12.02.20:839][ 62]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/Developers/KieranClarke/Collections/' was aborted.
+[2017.05.06-12.02.20:839][ 62]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Saved/Collections/' was aborted.
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module StatsViewer (229)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module FoliageEdit (228)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module LandscapeEditor (227)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (226)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module ActorPickerMode (225)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module GeometryMode (224)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module TextureAlignMode (223)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module BspMode (222)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module HardwareSurvey (221)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (220)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module SequenceRecorder (219)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module AutomationWorker (218)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (217)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module PlacementMode (216)
+[2017.05.06-12.02.20:839][ 62]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (215)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (214)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (213)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (212)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (211)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module Media (210)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (209)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (208)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module CharacterAI (207)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module SmartSnapping (206)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module SessionServices (205)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module ViewportSnapping (204)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module ViewportInteraction (203)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module LogVisualizer (202)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (201)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module IntroTutorials (200)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (199)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (198)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (197)
+[2017.05.06-12.02.20:840][ 62]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
+[2017.05.06-12.02.21:833][ 62]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module NiagaraEditor (192)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module MergeActors (191)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module SizeMap (190)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module TreeMap (189)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module ReferenceViewer (188)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module LocalizationService (187)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (186)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module HardwareTargeting (185)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (184)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module UndoHistory (183)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module UserFeedback (182)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module XmlParser (181)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module Blutility (180)
+[2017.05.06-12.02.21:834][ 62]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (179)
+[2017.05.06-12.02.21:835][ 62]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (178)
+[2017.05.06-12.02.21:835][ 62]LogModuleManager: Shutting down and abandoning module InputBindingEditor (177)
+[2017.05.06-12.02.21:835][ 62]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
+[2017.05.06-12.02.21:835][ 62]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
+[2017.05.06-12.02.21:836][ 62]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
+[2017.05.06-12.02.21:836][ 62]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
+[2017.05.06-12.02.21:836][ 62]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
+[2017.05.06-12.02.21:836][ 62]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
+[2017.05.06-12.02.21:836][ 62]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module AutomationController (169)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module Layers (167)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module Persona (162)
+[2017.05.06-12.02.21:880][ 62]LogModuleManager: Shutting down and abandoning module Kismet (161)
+[2017.05.06-12.02.21:892][ 62]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
+[2017.05.06-12.02.21:892][ 62]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
+[2017.05.06-12.02.21:892][ 62]LogModuleManager: Shutting down and abandoning module Toolbox (158)
+[2017.05.06-12.02.21:892][ 62]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
+[2017.05.06-12.02.21:892][ 62]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
+[2017.05.06-12.02.21:892][ 62]LogModuleManager: Shutting down and abandoning module OutputLog (155)
+[2017.05.06-12.02.21:892][ 62]LogModuleManager: Shutting down and abandoning module GammaUI (154)
+[2017.05.06-12.02.21:892][ 62]LogModuleManager: Shutting down and abandoning module Documentation (153)
+[2017.05.06-12.02.21:893][ 62]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2017.05.06-12.02.21:893][ 62]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
+[2017.05.06-12.02.21:893][ 62]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2017.05.06-12.02.21:893][ 62]LogModuleManager: Shutting down and abandoning module PortalServices (149)
+[2017.05.06-12.02.21:893][ 62]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
+[2017.05.06-12.02.21:893][ 62]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
+[2017.05.06-12.02.21:893][ 62]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
+[2017.05.06-12.02.21:894][ 62]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
+[2017.05.06-12.02.21:894][ 62]LogModuleManager: Shutting down and abandoning module AIModule (144)
+[2017.05.06-12.02.21:894][ 62]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
+[2017.05.06-12.02.21:899][ 62]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module SubstanceEditor (141)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module SlateRemote (140)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module SteamVRController (139)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module SteamVR (138)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (137)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (136)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module OculusLibrary (135)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module OculusInput (134)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (133)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module CableComponent (132)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (131)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (130)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module HTML5Networking (129)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (128)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module GeometryCache (127)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module AlembicLibrary (126)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module AlembicImporter (125)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module SuperSearch (124)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (123)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (122)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module PluginBrowser (121)
+[2017.05.06-12.02.21:900][ 62]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (120)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module EpicSurvey (119)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module DesktopPlatform (118)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (117)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module UObjectPlugin (116)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (115)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (114)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module SourceControl (113)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module GitSourceControl (112)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (111)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (110)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (109)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module MeshPaint (108)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (107)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module HotReload (105)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module MainFrame (104)
+[2017.05.06-12.02.21:901][ 62]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
+[2017.05.06-12.02.21:903][ 62]LogModuleManager: Shutting down and abandoning module ContentBrowser (102)
+[2017.05.06-12.02.21:904][ 62]LogModuleManager: Shutting down and abandoning module Paper2DEditor (101)
+[2017.05.06-12.02.21:905][ 62]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
+[2017.05.06-12.02.22:006][ 62]LogModuleManager: Shutting down and abandoning module TcpMessaging (99)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module SubstanceCore (98)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (97)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module Paper2D (96)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (95)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module WmfMedia (94)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module MediaAssets (93)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (92)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (91)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module VREditor (90)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (89)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module PropertyEditor (88)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (87)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module FunctionalTesting (86)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (85)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module Sequencer (84)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (83)
+[2017.05.06-12.02.22:106][ 62]LogModuleManager: Shutting down and abandoning module MessageLog (82)
+[2017.05.06-12.02.22:107][ 62]LogModuleManager: Shutting down and abandoning module AssetTools (81)
+[2017.05.06-12.02.22:107][ 62]LogModuleManager: Shutting down and abandoning module UMGEditor (80)
+[2017.05.06-12.02.22:107][ 62]LogModuleManager: Shutting down and abandoning module UMG (79)
+[2017.05.06-12.02.22:107][ 62]LogModuleManager: Shutting down and abandoning module SlateReflector (78)
+[2017.05.06-12.02.22:107][ 62]LogModuleManager: Shutting down and abandoning module Slate (77)
+[2017.05.06-12.02.22:107][ 62]LogModuleManager: Shutting down and abandoning module EditorStyle (76)
+[2017.05.06-12.02.22:109][ 62]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (75)
+[2017.05.06-12.02.22:109][ 62]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
+[2017.05.06-12.02.22:109][ 62]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
+[2017.05.06-12.02.22:109][ 62]LogModuleManager: Shutting down and abandoning module Networking (72)
+[2017.05.06-12.02.22:109][ 62]LogModuleManager: Shutting down and abandoning module Core (71)
+[2017.05.06-12.02.22:109][ 62]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (70)
+[2017.05.06-12.02.22:110][ 62]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.06-12.02.22:110][ 62]LogDirectoryWatcher: A directory notification for 'G:/University/GitHub/Game/Team2Thirds/MultiplayerV2/Content/' was aborted.
+[2017.05.06-12.02.22:111][ 62]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.06-12.02.22:114][ 62]LogModuleManager: Shutting down and abandoning module AssetRegistry (69)
+[2017.05.06-12.02.28:272][ 62]LogModuleManager: Shutting down and abandoning module KismetCompiler (68)
+[2017.05.06-12.02.28:272][ 62]LogModuleManager: Shutting down and abandoning module PhysXFormats (67)
+[2017.05.06-12.02.28:272][ 62]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.05.06-12.02.28:272][ 62]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.05.06-12.02.28:344][ 62]LogDerivedDataCache: Shutdown
+[2017.05.06-12.02.28:344][ 62]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.05.06-12.02.28:344][ 62]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.05.06-12.02.28:344][ 62]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.05.06-12.02.28:344][ 62]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.05.06-12.02.28:344][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.05.06-12.02.28:344][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.05.06-12.02.28:344][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.05.06-12.02.28:345][ 62]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[ 62]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module InputCore (28)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Settings (27)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module GearVR (25)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module Voice (21)
+[2017.05.06-12.02.28:346][ 62]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.05.06-12.02.28:346][ 62]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.05.06-12.02.28:347][ 62]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.06-12.02.28:347][ 62]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.05.06-12.02.28:347][ 62]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.06-12.02.28:347][ 62]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8079D965-4534-69EF-C6BC-F1A397CBA498%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=14919dbf485a9a18fb24948d069d9253%7C60da38c6d16241a5acdb9f3769ddff9a%7C671f62b7-fdbf-478e-ab5b-8701c7e210f4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.06-12.02.28:362][ 62]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.05.06-12.02.28:362][ 62]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.05.06-12.02.28:362][ 62]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.05.06-12.02.28:362][ 62]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.05.06-12.02.28:362][ 62]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.05.06-12.02.28:375][ 62]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.05.06-12.02.28:379][ 62]LogExit: Exiting.
+[2017.05.06-12.02.28:385][ 62]Log file closed, 05/06/17 12:02:28
